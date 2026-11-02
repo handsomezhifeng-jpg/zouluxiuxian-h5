@@ -1,0 +1,8 @@
+/* Lazy host: one independent, slot-scoped cave record beside the native save. */
+(()=>{let modulePromise,controller=null,request=0,error='',loading=false,context=null;const load=()=>modulePromise??=import('./cave/scene.js');
+function render(){return '<section class="cave-estate" aria-label="洞府经营"><div class="cave-loading">正在准备洞府地图与建筑…</div></section>';}
+async function mount(root,adapter,snapshot){const node=root.querySelector('.cave-estate');if(!node){controller?.detach();return;}const slot=snapshot.currentSlot,storage=adapter.runtime.storage;if(context?.slot!==slot||context?.storage!==storage){request++;controller?.destroy();controller=null;context={slot,storage};error='';loading=false;}
+if(controller){controller.attach(node);return;}if(loading)return;if(error){node.innerHTML='<div class="cave-loading">洞府载入失败，原记录已保留。<p></p><button data-cave-retry>重试</button></div>';node.querySelector('p').textContent=error;node.querySelector('button').onclick=()=>{error='';mount(root,adapter,snapshot);};return;}
+loading=true;const token=request;try{const mod=await load(),saved=await storage.getItem(`mobile-cave-estate-v1:${slot}`);if(token!==request)return;controller=mod.createController({storage,slot,saved,onMessage:text=>document.dispatchEvent(new CustomEvent('equipment-message',{detail:text}))});if(root.contains(node))controller.attach(node);}catch(e){error=e.message;if(token===request){loading=false;mount(root,adapter,snapshot);}}finally{if(token===request)loading=false;}}
+window.MobileCave={render,mount,detach(){controller?.detach();},async flush(){await controller?.save();},async reset(){request++;await controller?.shutdown();controller=null;context=null;},get controller(){return controller;}};
+})();

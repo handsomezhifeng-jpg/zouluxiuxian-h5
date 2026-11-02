@@ -1,0 +1,346 @@
+{
+  "cell": [
+    384,
+    384
+  ],
+  "sourceFps": 8,
+  "pivotMethod": "walking leg midpoint; stationary supporting shoe sole, manually inspected",
+  "frames": [
+    {
+      "rect": [
+        0,
+        0,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 5,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        384,
+        0,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 6,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        768,
+        0,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 7,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        1152,
+        0,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 8,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        1536,
+        0,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 9,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        1920,
+        0,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 10,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        0,
+        384,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 5,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        384,
+        384,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 6,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        768,
+        384,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 7,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        1152,
+        384,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 8,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        1536,
+        384,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 9,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        1920,
+        384,
+        384,
+        384
+      ],
+      "pivot": [
+        190,
+        356
+      ],
+      "sourceFrame": 10,
+      "action": "walk-right"
+    },
+    {
+      "rect": [
+        0,
+        768,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 33,
+      "action": "greet"
+    },
+    {
+      "rect": [
+        384,
+        768,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 35,
+      "action": "greet"
+    },
+    {
+      "rect": [
+        768,
+        768,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 39,
+      "action": "greet"
+    },
+    {
+      "rect": [
+        1152,
+        768,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 44,
+      "action": "greet"
+    },
+    {
+      "rect": [
+        1536,
+        768,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 53,
+      "action": "greet"
+    },
+    {
+      "rect": [
+        1920,
+        768,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 60,
+      "action": "greet"
+    },
+    {
+      "rect": [
+        0,
+        1152,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 60,
+      "action": "work"
+    },
+    {
+      "rect": [
+        384,
+        1152,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 62,
+      "action": "work"
+    },
+    {
+      "rect": [
+        768,
+        1152,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 65,
+      "action": "work"
+    },
+    {
+      "rect": [
+        1152,
+        1152,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 68,
+      "action": "work"
+    },
+    {
+      "rect": [
+        1536,
+        1152,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 74,
+      "action": "work"
+    },
+    {
+      "rect": [
+        1920,
+        1152,
+        384,
+        384
+      ],
+      "pivot": [
+        184,
+        357
+      ],
+      "sourceFrame": 78,
+      "action": "work"
+    }
+  ]
+}

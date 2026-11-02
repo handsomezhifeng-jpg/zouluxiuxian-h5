@@ -1,0 +1,51 @@
+/* Reference coordinates: 941 × 1672. Preserve complete source panels instead
+   of shrinking their corners or redrawing their interior ornaments. */
+body[data-ui-theme="silk"]{--silk-s:calc(min(100vw,750px)/941)}
+body[data-ui-theme="silk"] #screen.game-screen>.silk-cultivation{position:relative;background:#f9f2e7;overflow:hidden;font-synthesis:weight}
+body[data-ui-theme="silk"] .silk-profile{position:absolute;left:0;right:0;top:0;width:100%;height:calc(211 * var(--silk-s));margin:0;padding:0;border:0;background:url('assets/profile-sheet.png') center/100% 100% no-repeat}
+body[data-ui-theme="silk"] .silk-profile .moon-identity,body[data-ui-theme="silk"] .silk-profile .moon-player,body[data-ui-theme="silk"] .silk-profile .moon-life{display:contents}
+body[data-ui-theme="silk"] .silk-profile .silk-avatar{position:absolute;left:calc(22 * var(--silk-s));top:calc(8 * var(--silk-s));width:calc(198 * var(--silk-s))!important;height:calc(198 * var(--silk-s))!important;margin:0;border:0;border-radius:0;background:url('assets/avatar.png') center/100% 100% no-repeat}
+body[data-ui-theme="silk"] .silk-profile .moon-player>span{position:absolute;left:calc(245 * var(--silk-s));top:calc(44 * var(--silk-s));max-width:calc(285 * var(--silk-s));font:bold calc(60 * var(--silk-s))/1.15 KaiTi,serif;color:#30291e;letter-spacing:calc(2 * var(--silk-s));text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+body[data-ui-theme="silk"] .silk-profile .moon-strength{position:absolute;left:calc(331 * var(--silk-s));top:calc(124 * var(--silk-s));height:calc(55 * var(--silk-s));font:calc(43 * var(--silk-s))/1.2 'Times New Roman',KaiTi,serif;color:#8a5c1b;min-height:0}
+body[data-ui-theme="silk"] .silk-profile .moon-strength b{color:inherit;font:inherit;letter-spacing:0}
+body[data-ui-theme="silk"] .silk-profile .moon-life .silk-age-values{position:absolute;left:calc(645 * var(--silk-s));top:calc(54 * var(--silk-s));font:calc(35 * var(--silk-s))/1.25 'Times New Roman',KaiTi,serif;letter-spacing:0;color:#342a1d;white-space:nowrap}
+body[data-ui-theme="silk"] .silk-profile .silk-life-track{position:absolute;left:calc(563 * var(--silk-s));top:calc(106 * var(--silk-s));width:calc(249 * var(--silk-s));height:calc(18 * var(--silk-s));min-height:0;border:0;background:url('assets/progress-track.png') center/100% 100%;border-radius:20px}
+body[data-ui-theme="silk"] .silk-profile .moon-life button{position:absolute;left:calc(559 * var(--silk-s));top:calc(139 * var(--silk-s));width:calc(200 * var(--silk-s));height:calc(43 * var(--silk-s));min-height:0;text-align:left;font:700 calc(38 * var(--silk-s))/1.1 KaiTi,serif;white-space:nowrap}
+body[data-ui-theme="silk"] .silk-quest{display:block;position:absolute;left:0;right:0;top:calc(212 * var(--silk-s));width:100%;height:calc(101 * var(--silk-s));min-height:0;margin:0;padding:0;border:0;background:url('assets/quest-sheet.png') center/100% 100% no-repeat}
+body[data-ui-theme="silk"] .silk-quest-scroll,body[data-ui-theme="silk"] .silk-quest .moon-quest-arrow{display:none}
+body[data-ui-theme="silk"] .silk-quest>.quest-card{position:absolute;left:calc(155 * var(--silk-s));right:calc(94 * var(--silk-s));top:calc(21 * var(--silk-s));margin:0!important}
+body[data-ui-theme="silk"] .silk-quest .quest-brief>summary{height:calc(59 * var(--silk-s));min-height:0!important;gap:calc(15 * var(--silk-s));font:700 calc(38 * var(--silk-s))/1.4 KaiTi,serif!important;white-space:nowrap}
+body[data-ui-theme="silk"] .silk-quest .quest-inline-count{font:calc(39 * var(--silk-s))/1.3 'Times New Roman',KaiTi,serif!important;color:#4b3e2d!important}
+body[data-ui-theme="silk"] .silk-quest>p{position:absolute;left:calc(155 * var(--silk-s));top:calc(30 * var(--silk-s));font:calc(31 * var(--silk-s))/1.5 KaiTi,serif}
+body[data-ui-theme="silk"] .silk-scene{position:absolute;top:calc(311 * var(--silk-s));bottom:calc(347 * var(--silk-s));left:0;right:0;width:100%;min-height:0;background:#faf3e7 url('assets/scene-mist.png') center/100% 100% no-repeat}
+body[data-ui-theme="silk"] .silk-scene>img{width:100%;height:100%;object-fit:contain;object-position:center bottom;mask-image:none;-webkit-mask-image:none}
+body[data-ui-theme="silk"] .silk-practice{position:absolute;left:0;right:0;bottom:0;width:100%;height:calc(347 * var(--silk-s));margin:0;padding:0!important;border:0;background:url('assets/practice-sheet.png') center/100% 100% no-repeat;box-sizing:border-box}
+body[data-ui-theme="silk"] .silk-practice .silk-method-scroll{display:none}
+body[data-ui-theme="silk"] .silk-practice .moon-training-line{display:contents}
+body[data-ui-theme="silk"] .silk-practice .moon-training-line>span{position:absolute;left:calc(238 * var(--silk-s));top:calc(63 * var(--silk-s));width:calc(355 * var(--silk-s));height:calc(57 * var(--silk-s));font:calc(34 * var(--silk-s))/1.4 KaiTi,serif;white-space:nowrap;color:#352b20}
+body[data-ui-theme="silk"] .silk-practice .moon-training-line strong{font:bold calc(43 * var(--silk-s))/1.2 KaiTi,serif}
+body[data-ui-theme="silk"] .silk-practice .moon-training-line small{position:absolute;left:calc(679 * var(--silk-s));top:calc(67 * var(--silk-s));width:calc(205 * var(--silk-s));height:calc(50 * var(--silk-s));font:600 calc(37 * var(--silk-s))/1.3 KaiTi,serif;color:#352b20;white-space:nowrap}
+body[data-ui-theme="silk"] .silk-progress-row{position:absolute;left:0;right:0;top:calc(150 * var(--silk-s));height:calc(45 * var(--silk-s));margin:0;padding:0;display:block}
+body[data-ui-theme="silk"] .silk-progress-row>span{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden;white-space:nowrap}
+body[data-ui-theme="silk"] .silk-progress-row .moon-meter{position:absolute;left:calc(239 * var(--silk-s));top:calc(7 * var(--silk-s));width:calc(516 * var(--silk-s));height:calc(27 * var(--silk-s));min-height:0;margin:0}
+body[data-ui-theme="silk"] .silk-progress-row .moon-progress-label{position:absolute;left:calc(768 * var(--silk-s));top:0;width:calc(100 * var(--silk-s));min-width:0;height:calc(45 * var(--silk-s));font:calc(41 * var(--silk-s))/1.1 'Times New Roman',KaiTi,serif;color:#3b3024}
+body[data-ui-theme="silk"] .silk-practice .moon-actions{display:contents}
+body[data-ui-theme="silk"] .silk-practice .moon-actions .moon-primary{position:absolute;left:calc(114 * var(--silk-s));top:calc(213 * var(--silk-s));width:calc(407 * var(--silk-s));height:calc(109 * var(--silk-s));min-height:0;margin:0;padding:0;border:0;background:url('assets/button-gold.png') center/100% 100% no-repeat;font:700 calc(60 * var(--silk-s))/1 KaiTi,serif;color:#4e3516}
+body[data-ui-theme="silk"] .silk-practice .moon-actions .moon-primary[data-action="stop"]{font-size:calc(51 * var(--silk-s))}
+body[data-ui-theme="silk"] .silk-practice .moon-actions .moon-secondary{position:absolute;left:calc(548 * var(--silk-s));top:calc(223 * var(--silk-s));width:calc(284 * var(--silk-s));height:calc(94 * var(--silk-s));min-height:0;margin:0;padding:0;background:url('assets/button-ivory.png') center/100% 100% no-repeat;font:700 calc(44 * var(--silk-s))/1 KaiTi,serif;color:#3d3324}
+body[data-ui-theme="silk"] .silk-practice>.moon-notice{position:absolute;top:calc(7 * var(--silk-s));right:calc(58 * var(--silk-s));width:auto;margin:0;padding:calc(3 * var(--silk-s)) calc(10 * var(--silk-s));border:0;background:#f8efd9c9;font:calc(25 * var(--silk-s))/1.3 KaiTi,serif}
+/* Scheme A uses the approved raster artwork for frame, icons, labels and selection. */
+body[data-ui-theme="silk"] .app-shell .bottom-nav{position:relative;box-sizing:border-box;flex:none;width:100%;height:auto;aspect-ratio:1044/172;min-height:0;padding:0 1.5%!important;margin:0;border:0!important;border-image:none!important;border-radius:0;outline:0!important;background:url('assets/navigation-a-neutral.png') center/100% 100% no-repeat!important;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;overflow:hidden;box-shadow:none}
+body[data-ui-theme="silk"] .app-shell .bottom-nav button{position:relative;display:block;width:100%;height:100%;min-width:0;min-height:0;margin:0;padding:0;border:0!important;border-radius:0;background:transparent!important;box-shadow:none;opacity:1;cursor:pointer}
+body[data-ui-theme="silk"] .app-shell .bottom-nav button .silk-nav-icon{display:none}
+body[data-ui-theme="silk"] .app-shell .bottom-nav button>span{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden;white-space:nowrap}
+body[data-ui-theme="silk"] .app-shell .bottom-nav button::before,body[data-ui-theme="silk"] .app-shell .bottom-nav button::after{display:none!important}
+body[data-ui-theme="silk"] .app-shell .bottom-nav button:focus-visible{outline:2px solid #9c8048;outline-offset:-4px}
+body[data-ui-theme="silk"] .app-shell .bottom-nav:has(button.is-active[data-route="cultivation"]) {background-image:url("assets/navigation-a-selected-cultivation.png?v=gold2")!important}
+body[data-ui-theme="silk"] .app-shell .bottom-nav:has(button.is-active[data-route="character"]) {background-image:url("assets/navigation-a-selected-character.png?v=gold2")!important}
+body[data-ui-theme="silk"] .app-shell .bottom-nav:has(button.is-active[data-route="adventure"]) {background-image:url("assets/navigation-a-selected-adventure.png?v=gold2")!important}
+body[data-ui-theme="silk"] .app-shell .bottom-nav:has(button.is-active[data-route="inventory"]) {background-image:url("assets/navigation-a-selected-inventory.png?v=gold2")!important}
+body[data-ui-theme="silk"] .app-shell .bottom-nav:has(button.is-active[data-route="arts"]) {background-image:url("assets/navigation-a-selected-arts.png?v=gold2")!important}
+body[data-ui-theme="silk"] .app-shell .bottom-nav:has(button.is-active[data-action="menu"]) {background-image:url("assets/navigation-a-selected-settings.png?v=gold2")!important}
+@media(max-height:570px){body[data-ui-theme="silk"] .silk-profile{margin:0;border:0}.silk-profile .moon-identity{min-height:0!important}}
+body[data-ui-theme="silk"]:has(#menuOverlay:not([hidden])) .app-shell .bottom-nav{background-image:url("assets/navigation-a-selected-settings.png?v=gold2")!important}

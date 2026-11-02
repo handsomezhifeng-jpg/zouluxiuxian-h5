@@ -1,0 +1,16 @@
+/* A continuous ambient landscape fills the screen; the original character
+   remains undistorted and fades into that landscape at the artwork's edges. */
+body[data-ui-theme="silk"] .silk-scene{top:calc(211 * var(--silk-s));bottom:0;background:#faf5e9 url('assets/cultivation-landscape-plate.png') center/cover no-repeat;overflow:hidden}
+.silk-figure-slot{position:absolute;top:calc(100 * var(--silk-s));left:0;right:0;bottom:calc(347 * var(--silk-s));display:flex;align-items:flex-end;justify-content:center;pointer-events:none}
+.silk-figure-slot>img{display:block;flex:none;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;mask-image:linear-gradient(to right,transparent,#000 7%,#000 93%,transparent),linear-gradient(to bottom,transparent,#000 5%,#000 93%,transparent);mask-composite:intersect;-webkit-mask-image:linear-gradient(to right,transparent,#000 7%,#000 93%,transparent),linear-gradient(to bottom,transparent,#000 5%,#000 93%,transparent);-webkit-mask-composite:source-in}
+body[data-ui-theme="silk"] .moon-breakthrough{background:#faf3e3df;border-color:#b49a60;box-shadow:0 2px 9px #8a70452a;color:#8b692b;backdrop-filter:blur(3px)}
+body[data-ui-theme="silk"] .moon-breakthrough:focus-visible{outline:2px solid #ac8b4b;outline-offset:3px}
+body[data-ui-theme="silk"] .silk-practice{background:none;border:0;box-shadow:none;isolation:isolate}
+body[data-ui-theme="silk"] .silk-practice::before{content:'';position:absolute;inset:calc(-65 * var(--silk-s)) 0 0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,transparent 0%,#faf4e961 22%,#faf4e9ce 60%,#faf4e9ee 100%)}
+body[data-ui-theme="silk"] .silk-practice .silk-method-scroll{display:block;position:absolute;left:calc(86 * var(--silk-s));top:calc(19 * var(--silk-s));width:calc(134 * var(--silk-s));height:calc(125 * var(--silk-s));margin:0;object-fit:contain;mask-image:none;-webkit-mask-image:none}
+body[data-ui-theme="silk"] .silk-progress-row>span{position:absolute;left:calc(116 * var(--silk-s));top:calc(-1 * var(--silk-s));width:auto;height:auto;clip-path:none;overflow:visible;font:600 calc(31 * var(--silk-s))/1.2 KaiTi,serif;color:#403629;white-space:nowrap}
+/* Realm and breakthrough share the quiet space above the practice details. */
+body[data-ui-theme="silk"] .silk-realm-row{position:absolute;top:calc(-48 * var(--silk-s));left:calc(285 * var(--silk-s));right:calc(125 * var(--silk-s));height:calc(63 * var(--silk-s));display:flex;align-items:center;justify-content:center;gap:calc(28 * var(--silk-s));z-index:2;color:#514535;font:600 calc(37 * var(--silk-s))/1.2 KaiTi,serif;white-space:nowrap}
+body[data-ui-theme="silk"] .silk-realm-row .moon-breakthrough{position:static;flex:none;transform:none;width:calc(146 * var(--silk-s));height:calc(60 * var(--silk-s));min-width:0;min-height:0;margin:0;padding:0;border:0;border-radius:0;background:url('assets/button-ivory.png') center/100% 100% no-repeat;box-shadow:none;backdrop-filter:none;font:600 calc(34 * var(--silk-s))/1 KaiTi,serif;color:#896429}
+body[data-ui-theme="silk"] .silk-realm-row .moon-breakthrough:active:not(:disabled){transform:none;filter:brightness(.94)}
+body[data-ui-theme="silk"] .silk-realm-row .moon-breakthrough.has-confidence{animation:none;box-shadow:none;color:#9a681b}

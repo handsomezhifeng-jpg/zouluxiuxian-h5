@@ -1,0 +1,67 @@
+{
+  "tool": "built-in image_gen",
+  "common": "Production game animation atlas EXACT4columns x4rows=16 chronological frames of ONE SINGLE-HANDED sword attack, LARGE exaggerated DIFFERENT body and leg motion. SAME A2 chibi male reference: compact black bun narrow shoulder ponytail, simple white robe pale-blue collar/centerpanel navy sash blackguardsboots, large broadsteel jian, clean thicknavyoutline, simple shaded planes, 2.7heads, elevated3/4 facingright. EXACTLY ONE sword in RIGHT HAND ONLY, LEFT HAND OPEN EMPTY and clearly away from hilt. No phantom/duplicate swords; whole continuous blade visible outside head. Planted rear LEFT boot sole stays SAME position allframes, samebody scale, NO wholebody translation or jumping. Frontleg can lift/stretch and torso rotates dramatically around plantedrearboot. Entire character INCLUDING sword CENTRAL45% ofeachcell with huge EMPTY allsidegaps. Pure transparentalpha no environment/ground/shadow/text/motiontrail/effects. One swing not multiple, continuous monotonic blade rotation from anticipation to contact then distinct recovery; NOT a spear thrust. Need clear true inbetween limb poses.",
+  "designs": {
+    "k": "VERSION A: HUGE HORIZONTAL SWEEP at waist/chest height, NO overhead chop. Frames1neutral;2-4 deep sideways torso twist with blade drawn back to LEFT of body at waistheight and empty leftpalm balancingforward, FRONTleg stretches far to right;5-6 deepest windup chest turnedleft, blade still waistheight;7-10 one broad rightarm ARC from left across front to RIGHT SIDE at waistheight, shoulder/elbow rotates with blade not thrusts, waist twists dramatically and kneesdeep;11-12 finish sword far right arm sideways LEFTpalmbehind, whole silhouette broad and low;13-15 unwind drawfrontfoot back;16neutral. Keep head/body facing3/4 camera, rearfoot planted. Signature: very wide LOW lateral silhouette, broad horizontal arm spread.",
+    "l": "VERSION B: HIGH ONE-HANDED VERTICAL CLEAVING CHOP, clearly TALL to LOW. Frames1neutral;2-4 raise RIGHT knee VERY HIGH and right swordarm high above shoulder, empty leftpalm down/out for balance;5ONE peak rightarm extendedUP blade vertical ABOVEandRIGHT of head, frontknee raised;6frontfoot stamps FARforward blade startsdescend;7-10 drop rightarm in ONE powerful nearVERTICAL overhead-to-ground arc, torso bows deeply over frontknee, blade rotates down, neverstraight-arm thrust;11followthrough sword tip nearfrontboot groundlevel;12-15 rise and returnfrontfoot;16neutral. Rearfoot plantedfixed. Signature: TALL lifted-knee anticipation, DEEP downward crouch impact.",
+    "m": "VERSION C: EXTREME LOW-TO-HIGH RISING CUT, REVERSE of downwardchop. Frames1neutral;2-4 sink into VERY LOW widecrouch with RIGHT swordarm drawn down near RIGHT rearankle, blade points downleft, empty leftpalm raised balance;5lowest anticipation one rearbootfixed, torsoalmosthorizontal;6-10 drive up from bentknees WITHOUTjumping, rightarm swings sword in a HUGE upward arc from nearankle across front to HIGH UPPERRIGHT, blade angles monotonically rise, frontleg straightens;11peak upright leaningback slightly right swordarm raised high leftpalmbehind;12-15 lowerblade foldfrontleg returnneutral;16neutral. No overhead windup atstart. Signature: LOW compressed start to HIGH open finish, rising diagonal slash not thrust."
+  },
+  "variants": {
+    "k": {
+      "name": "横扫千军",
+      "activeSourceFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "l": {
+      "name": "力劈山岳",
+      "activeSourceFrames": [
+        "shared-clean-standing",
+        1,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        14,
+        15
+      ]
+    },
+    "m": {
+      "name": "逆风上撩",
+      "activeSourceFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "curation": "Excluded source-boundary overlap, hidden/short blades and repeated anticipation; per-frame manually bounded rear boot landmarks with subpixel sole refinement.",
+  "rootMotion": 0,
+  "otherActions": "Unchanged idle/run/cast/hit, PNG hashes checked.",
+  "qa": "qa-v14.cjs and asset-qa-v14.json; all active edges transparent and all attacks play once.",
+  "productionReplaced": false
+}

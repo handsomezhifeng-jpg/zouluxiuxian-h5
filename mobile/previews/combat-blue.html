@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>月白仙途 · 战斗交互预览</title><link rel="stylesheet" href="combat-blue.css"></head><body><main class="phone" data-version="a"><header class="hero"><div class="avatar"></div><div class="identity"><h1>云无尘</h1><div class="power">实力 <b>1,286</b></div><p>当前法门 · 吐纳</p></div><div class="right"><span class="life"><svg viewBox="0 0 32 28" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M3 17c6 1 8-5 13-6l6 1 2-7 4-2-3-1-3 2-2 8c-2 7-10 8-17 5Zm9 2-1 7m7-8 2 8M8 26h6m3 0h7"/></svg>寿元18/130年</span><button id="realm"><strong>炼气一境</strong><span>境界 ›</span></button></div></header><button class="quest" id="quest"><span class="scroll-icon"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 4h12c5 0 4 6 0 6l-6 14H5c-5 0-4-6 1-6h11M8 5 3 20m15-15-5 14M9 4c-4-3-7 1-4 4m12 16c5 1 8-4 4-6"/></svg></span><span>主线 · 初战野猪</span><b><span id="questCount">2</span>/5 ›</b></button><section class="battle-body"><div class="battle-art" role="img" aria-label="月夜湖畔，白衣剑修与野猪对峙"></div><div class="shade"></div><div class="battle-top"><div class="location"><span>凡界</span><h2>青山驿道</h2><span id="status">蓄势待发</span></div><div class="health-row"><div><div class="hp-label"><strong>云无尘</strong><span id="ownHp">2,000/2,000</span></div><div class="hp-track"><i class="own-fill"></i></div></div><div><div class="hp-label"><strong>乌鬃野猪</strong><span id="enemyHp">1,000/1,000</span></div><div class="hp-track"><i id="enemyFill"></i></div></div></div></div><div class="effects" id="effects" aria-hidden="true"></div><div class="battle-bottom"><section class="journal"><header><h2>历练见闻</h2><button id="allLogs">全部 ›</button></header><div id="recent"><p>月照青山，行至驿道，发现乌鬃野猪。</p><p>执剑凝神，静待交锋。</p></div></section><div class="action-area"><p><span class="breath-dot"></span><span id="actionHint">战胜后将继续历练</span><span id="wins">已胜 2 场</span></p><div class="buttons"><button id="fight" class="primary">开始历练</button><button id="leave" class="secondary">离开历练</button></div></div></div></section><nav class="bottom-nav" aria-label="主要功能">
+      <button  type="button" data-route="cultivation"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2c2 7 9 9 9 16a9 9 0 0 1-18 0c0-5 5-8 9-16Z"/><path d="M14 12c0 4 5 4 5 7a5 5 0 0 1-10 0c0-2 3-3 5-7Z"/></svg><span>修炼</span>
+      </button>
+      <button type="button" data-route="realm">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 22 7-11 4 6 4-11 7 16H3Z"/><path d="m16 12 2 2 2-2M5 25h18M5 5h5m-2.5-2.5v5"/></svg>
+        <span>境界</span>
+      </button>
+      <button type="button" data-route="character">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="9" r="4"/><path d="M6 24v-3a8 8 0 0 1 16 0v3M10 17l4 4 4-4M14 21v4"/></svg>
+        <span>人物</span>
+      </button>
+      <button type="button" class="is-active" data-route="adventure">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 24 22 5m-6 0h6v6M7 16l5 5M4 19l5 5M10 9l9 9M4 4l7 3-4 4-3-7Z"/></svg>
+        <span>历练</span>
+      </button>
+      <button type="button" data-route="inventory">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 10h16l2 14H4l2-14ZM10 10V7a4 4 0 0 1 8 0v3M10 17h8M14 14v6"/></svg>
+        <span>纳戒</span>
+      </button>
+      <button type="button" data-route="arts">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 7C10 4 5 5 3 6v17c4-2 8-2 11 0 3-2 7-2 11 0V6c-2-1-7-2-11 1ZM14 7v16M7 10l3 1m-3 4 3 1m8-5 3-1m-3 6 3-1"/></svg>
+        <span>功法</span>
+      </button>
+      <button type="button" data-action="menu" aria-label="设置"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m11 3 6 0 1 4 4 2 3 4-3 4-1 5-5 1-5 2-3-4-4-2 1-5-1-5 4-1Z"/><circle cx="14" cy="14" r="4"/></svg><span>设置</span></button>
+    </nav></main><div class="overlay" id="overlay" hidden><section class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"><header><h2 id="sheetTitle"></h2><button id="close">收起</button></header><div id="sheetContent"></div></section></div><div class="toast" id="toast" role="status"></div><script src="combat-blue.js"></script></body></html>

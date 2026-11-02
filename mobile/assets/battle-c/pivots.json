@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "sourceRect": [
+      28,
+      25,
+      427,
+      497
+    ],
+    "supportFootSource": [
+      195,
+      482
+    ],
+    "pivot": [
+      0.41854636591478694,
+      0.9682203389830508
+    ],
+    "runPivot": "horizontal midpoint of legs; fixed torso baseline",
+    "canvas": [
+      399,
+      472
+    ],
+    "animation": "fixed canvas deformable mesh; independent world motion"
+  },
+  "ally1": {
+    "sourceRect": [
+      554,
+      25,
+      960,
+      497
+    ],
+    "supportFootSource": [
+      672,
+      477
+    ],
+    "pivot": [
+      0.29064039408866993,
+      0.9576271186440678
+    ],
+    "runPivot": "horizontal midpoint of legs; fixed torso baseline",
+    "canvas": [
+      406,
+      472
+    ],
+    "animation": "fixed canvas deformable mesh; independent world motion"
+  },
+  "ally2": {
+    "sourceRect": [
+      1146,
+      28,
+      1406,
+      497
+    ],
+    "supportFootSource": [
+      1249,
+      475
+    ],
+    "pivot": [
+      0.39615384615384613,
+      0.9530916844349681
+    ],
+    "runPivot": "horizontal midpoint of legs; fixed torso baseline",
+    "canvas": [
+      260,
+      469
+    ],
+    "animation": "fixed canvas deformable mesh; independent world motion"
+  },
+  "enemy1": {
+    "sourceRect": [
+      20,
+      550,
+      544,
+      972
+    ],
+    "supportFootSource": [
+      342,
+      954
+    ],
+    "pivot": [
+      0.6145038167938931,
+      0.957345971563981
+    ],
+    "runPivot": "horizontal midpoint of legs; fixed torso baseline",
+    "canvas": [
+      524,
+      422
+    ],
+    "animation": "fixed canvas deformable mesh; independent world motion"
+  },
+  "enemy2": {
+    "sourceRect": [
+      510,
+      540,
+      993,
+      976
+    ],
+    "supportFootSource": [
+      946,
+      954
+    ],
+    "pivot": [
+      0.9026915113871635,
+      0.9495412844036697
+    ],
+    "runPivot": "horizontal midpoint of legs; fixed torso baseline",
+    "canvas": [
+      483,
+      436
+    ],
+    "animation": "fixed canvas deformable mesh; independent world motion"
+  },
+  "enemy3": {
+    "sourceRect": [
+      1027,
+      625,
+      1535,
+      973
+    ],
+    "supportFootSource": [
+      1257,
+      949
+    ],
+    "pivot": [
+      0.452755905511811,
+      0.9310344827586207
+    ],
+    "runPivot": "horizontal midpoint of legs; fixed torso baseline",
+    "canvas": [
+      508,
+      348
+    ],
+    "animation": "fixed canvas deformable mesh; independent world motion"
+  }
+}

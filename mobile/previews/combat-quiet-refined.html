@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>静境历练 · 第一版比例与可读性调整</title><link rel="stylesheet" href="combat-quiet.css"><link rel="stylesheet" href="combat-quiet-refined.css"></head><body><main class="phone" data-version="a"><section class="battle"><div class="art" role="img" aria-label="修士与野猪对峙，弱场景角色画面"></div><div class="shade"></div><header class="top-panel glass"><div class="place"><span>凡界 · 山野</span><span id="status">待战</span></div><div class="health enemy-health"><div class="health-label"><strong>乌鬃野猪</strong><span id="enemyHp">1,000 / 1,000</span></div><div class="track"><i id="enemyFill"></i></div></div><div class="health own-health"><div class="health-label"><strong>云无尘</strong><span>2,000 / 2,000</span></div><div class="track"><i></i></div></div></header><div id="effects" aria-hidden="true"></div><section class="bottom-panel glass"><div id="ownSlot"></div><div class="journal"><span class="journal-title">历练见闻</span><div id="recent"><p>山风渐息，与乌鬃野猪相遇。</p><p>执剑凝神，静待交锋。</p></div></div><button id="fight" class="start">开始历练</button></section></section><nav class="bottom-nav" aria-label="主要功能">
+      <button  type="button" data-route="cultivation"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2c2 7 9 9 9 16a9 9 0 0 1-18 0c0-5 5-8 9-16Z"/><path d="M14 12c0 4 5 4 5 7a5 5 0 0 1-10 0c0-2 3-3 5-7Z"/></svg><span>修炼</span>
+      </button>
+      <button type="button" data-route="realm">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 22 7-11 4 6 4-11 7 16H3Z"/><path d="m16 12 2 2 2-2M5 25h18M5 5h5m-2.5-2.5v5"/></svg>
+        <span>境界</span>
+      </button>
+      <button type="button" data-route="character">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="9" r="4"/><path d="M6 24v-3a8 8 0 0 1 16 0v3M10 17l4 4 4-4M14 21v4"/></svg>
+        <span>人物</span>
+      </button>
+      <button type="button" class="is-active" data-route="adventure">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 24 22 5m-6 0h6v6M7 16l5 5M4 19l5 5M10 9l9 9M4 4l7 3-4 4-3-7Z"/></svg>
+        <span>历练</span>
+      </button>
+      <button type="button" data-route="inventory">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 10h16l2 14H4l2-14ZM10 10V7a4 4 0 0 1 8 0v3M10 17h8M14 14v6"/></svg>
+        <span>纳戒</span>
+      </button>
+      <button type="button" data-route="arts">
+        <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 7C10 4 5 5 3 6v17c4-2 8-2 11 0 3-2 7-2 11 0V6c-2-1-7-2-11 1ZM14 7v16M7 10l3 1m-3 4 3 1m8-5 3-1m-3 6 3-1"/></svg>
+        <span>功法</span>
+      </button>
+      <button type="button" data-action="menu" aria-label="设置"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m11 3 6 0 1 4 4 2 3 4-3 4-1 5-5 1-5 2-3-4-4-2 1-5-1-5 4-1Z"/><circle cx="14" cy="14" r="4"/></svg><span>设置</span></button>
+    </nav></main><div class="toast" id="toast" role="status"></div><script src="combat-quiet.js"></script></body></html>

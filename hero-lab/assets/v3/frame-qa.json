@@ -1,0 +1,11 @@
+{
+  "frames": 64,
+  "perVariant": 32,
+  "sourceEdgeTouches": 0,
+  "outputEdgesClean": true,
+  "fixedCanvasPivot": [
+    208,
+    286
+  ],
+  "removedStrayPixels": 100
+}

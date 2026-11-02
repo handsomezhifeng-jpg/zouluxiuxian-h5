@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Fix and redesign ONLY the attack animation, reference defines character design. NEW EXACT4columns x4rows=16 chronological fullbody frames of ONE clear two-handed downward SWINGING CHOP. ONE sword total per frame, one continuous solid blade attached to one hilt, NEVER two sword tips either side of head, no phantom blade, no scabbard, no sword behind body crossing head. The sword must remain ENTIRELY visible OUTSIDE the head silhouette in every frame so blade count is unambiguous. A2 male chibi compact black ponytail, white robe bluecollar/center panel, darknavysash guardsboots, large broadsteel straight sword, thicknavyoutline, simplecolors. Samecamera elevated3/4 facingright, exactsamebodyscale. Rear LEFT boot planted samepoint allframes. Front knee lifts and plants wide, deep knee bend, NO overallbody root movement. SWING not STAB: both hands held close together on hilt, elbows BENT throughout strike, hilt moves close in front of torso, NOT straight arm extension at enemy. Blade orientations progress in single angular ARC:1neutral blade lowright;2hilt chest blade points upperright45deg;3blade upperright65deg;4blade nearly vertical upperright85deg fully visible BESIDE head;5blade verticalabove hands with highfrontknee;6frontfoot plantswide hilt beginsdrop blade upperright60deg;7blade upperright30deg;8blade right-horizontal with HANDS CLOSE TO CHEST;9blade lowright30deg and hands nearwaist;10blade lowright60deg hands nearhip deepknee bend;11followthrough low blade nearfrontshin;12hilt retracts towardwaist;13torso rises frontlegfoldsback;14footreturns;15neutral;16neutral. No repeated anticipation, no back-and-forth bladeangles. Visible cutting arc, never spear thrust. Entire sprite+sword inside CENTRAL45% of eachcell, hugeemptygaps, noedgecropping/overlap. True transparent alpha, NO environment/shadow/text/fx/trails. Clean edges.",
+  "activeSourceFrames": [
+    "shared-clean-standing",
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    13,
+    15
+  ],
+  "fourthPlaybackFrame": "i-attack-04.png: single vertical blade with both hands on one hilt; visually checked.",
+  "curation": "Straight-arm horizontal thrust and duplicate raised stance omitted. Shared clean standing replaces boundary-contact neutral.",
+  "rootMotion": 0,
+  "otherActions": "Idle/run/cast/hit files unchanged, hashes verified.",
+  "productionReplaced": false
+}

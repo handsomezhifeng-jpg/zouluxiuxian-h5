@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Production 16-frame sword SLASH animation atlas, EXACT4columns x4rows. Character identity/outfit EXACT as reference: small compact black halfup bun with narrow shoulder-length ponytail, plain white robe pale-blue crossed collar and centerpanel, plain darknavy sash tiny silverbuckle, blackguards boots, chibi2.7heads, LARGE broadsteel jian clearly larger than usual. Thick clean navyoutline and simple shadows. Same scale camera elevated3/4 facingright. Chronological DIFFERENT incremental poses of ONE clean sweeping sword slash, NOT thrust. Frames1-2 neutral sword lowered;3-5 draw sword up/back to leftshoulder with torso twisting and knees bend;6-7 sword reaches above/back shoulder;8-10 swing a LARGE visible diagonal arc across front toward lowerright, elbow extends sideways, torso rotates;11-12 complete followthrough sword past opposite hip;13-15 smoothly unwind and lower sword;16 same stance as1. Rear support boot remains at same coordinate in everyframe, allfoot soles at fixedground baseline. Visibly continuous intermediate arm/sword orientations. Weapon entire blade stays inside EACH cell; figures and sword occupy ONLY central50% ofcell with hugeEMPTY margins. Transparentalpha, NO text/labels/shadow/environment/particles/motiontrails/magic/no neighboringframe overlap. Preserve same reduced hair and large blade in everyframe.",
+  "attackFrames": 16,
+  "reused": "A2 refined hero run, cast, hit and stable idle",
+  "hitPivot": "Midpoint of both boot extents; validated in all four hit frames.",
+  "sourceEdgesClean": true,
+  "productionReplaced": false
+}

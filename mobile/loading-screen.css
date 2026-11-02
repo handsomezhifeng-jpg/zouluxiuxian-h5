@@ -1,0 +1,39 @@
+/* The loading scene shares the adopted moonlit cultivation palette. */
+body:has(.xian-loading){background:#101f30;color:#e5eff7}
+.app-shell:has(.xian-loading){background:#101f30}
+.app-shell:has(.xian-loading)>.app-header,.app-shell:has(.xian-loading)>.bottom-nav{display:none}
+.app-shell #screen:has(.xian-loading){padding:0;display:block;overflow:hidden;min-height:0;flex:1}
+.xian-loading{position:relative;isolation:isolate;width:100%;height:100%;min-height:320px;overflow:hidden;background:#101f30;color:#e5eff7;text-align:center}
+.xian-loading-art{position:absolute;z-index:-2;inset:0;background:url('assets/loading-mountains-v3-clean.png') center center/cover no-repeat}
+.xian-loading::before{content:'';position:absolute;z-index:-1;inset:0;background:linear-gradient(180deg,#07152526 0%,transparent 35%,transparent 68%,#091b2e55 82%,#091a2ca6 100%)}
+.xian-loading-brand{position:absolute;top:max(6%,env(safe-area-inset-top));left:0;right:0;padding:12px 20px;text-shadow:0 2px 18px #061627}
+.xian-loading-brand h1{margin:0;line-height:1}
+.xian-loading-title{display:block;width:86%;max-width:470px;height:auto;margin:0 auto;filter:drop-shadow(0 3px 8px #06162780)}
+.xian-loading-footer{position:absolute;bottom:max(5%,env(safe-area-inset-bottom));left:10%;right:10%;text-align:left}
+.xian-loading-heading{display:flex;justify-content:center;align-items:center;margin-bottom:12px;min-height:20px}
+.xian-loading-heading small{font:12px 'Microsoft YaHei',sans-serif;letter-spacing:1px;color:#d2e5ef}
+.xian-loading-track{position:relative;height:10px;overflow:hidden;border:1px solid #89adbf88;background:#081b2ccc;border-radius:5px;box-shadow:inset 0 1px 3px #0005}
+.xian-loading-track i{display:block;height:100%;background:linear-gradient(90deg,#4e839e,#b7e8ee);border-radius:3px}
+.xian-loading-track.is-indeterminate i{width:32%!important;animation:xian-loading-flow 2.6s ease-in-out infinite}
+.xian-loading-retry{padding:4px 16px;border:1px solid #9fc5d6;background:#28465c;color:#effaff;border-radius:3px;font-size:12px}
+@keyframes xian-loading-flow{0%{transform:translateX(-110%)}100%{transform:translateX(420%)}}
+@media(prefers-reduced-motion:reduce){.xian-loading-track.is-indeterminate i{animation:none;transform:translateX(100%)}}
+@media(max-height:520px){.xian-loading-brand{top:2%}.xian-loading-brand h1{font-size:30px;margin:4px 0}.xian-loading-footer{bottom:4%}}
+
+/* Warm silk loading: same adopted character, original calligraphic title. */
+body:has(.xian-loading),.app-shell:has(.xian-loading){background:#eee7d9;color:#324c4c}
+.xian-loading{background:#faf5e9;color:#324c4c}
+.xian-loading-art{background:#faf5e9 url('../ui/assets/cultivation-landscape-plate.png') center/cover no-repeat}
+.xian-loading::before{background:linear-gradient(180deg,#faf5e970,transparent 35%,#faf5e930 70%,#faf5e9 96%)}
+.xian-loading-figure{position:absolute;z-index:-1;left:0;top:31%;width:100%;height:auto;object-fit:contain;pointer-events:none;mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent),linear-gradient(180deg,transparent,#000 9%,#000 83%,transparent);mask-composite:intersect;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent),linear-gradient(180deg,transparent,#000 9%,#000 83%,transparent);-webkit-mask-composite:source-in}
+.xian-loading-brand{top:max(6%,env(safe-area-inset-top));text-shadow:none}
+.xian-loading-title{width:83%;max-width:580px;filter:brightness(0) saturate(100%) invert(24%) sepia(12%) saturate(1179%) hue-rotate(128deg) brightness(94%) contrast(88%);opacity:.95}
+.xian-loading-footer{bottom:max(6%,env(safe-area-inset-bottom));left:12%;right:12%}
+.xian-loading-heading small{font:16px/1.5 KaiTi,'STKaiti',serif;letter-spacing:2px;color:#374c49}
+.xian-loading-track{height:8px;border:1px solid #ad986c;background:#ddd4bd;border-radius:8px;box-shadow:none}
+.xian-loading-track i{background:linear-gradient(90deg,#476e73,#71969b);border-radius:7px;transition:width .3s linear}
+.xian-loading-retry{background:#f7f0df;color:#354f51;border-color:#a58f61;font:16px KaiTi,serif;min-height:36px}
+@media(max-height:520px){.xian-loading-brand{top:2%}.xian-loading-title{max-width:290px}.xian-loading-figure{top:23%;height:60%}.xian-loading-footer{bottom:5%}}
+
+/* Ink title uses its own brush texture and tonal variation. */
+.xian-loading-title{filter:none;opacity:1}

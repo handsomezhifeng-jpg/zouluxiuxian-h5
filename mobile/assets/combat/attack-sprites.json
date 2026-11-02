@@ -1,0 +1,23 @@
+{
+  "fighter": {
+    "file": "fighter-attack-v4.webp",
+    "frames": 5,
+    "frameWidth": 1024,
+    "frameHeight": 1024,
+    "duration": 430,
+    "contactOffset": 0.42,
+    "contactTip": [
+      0.974,
+      0.373
+    ],
+    "bytes": 3285758
+  },
+  "boar": {
+    "file": "boar-attack-v1.webp",
+    "frames": 8,
+    "frameWidth": 320,
+    "frameHeight": 320,
+    "duration": 430,
+    "bytes": 215838
+  }
+}

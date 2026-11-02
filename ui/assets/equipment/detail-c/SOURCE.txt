@@ -1,0 +1,4 @@
+Approved C source: exec-73e3f3f9-e343-4449-8625-d11d929833ba.png
+Cleanup only: exec-2816d46b-0dc7-474f-a7d1-5b91d876e0ee.png
+Built-in imagegen removed text, boots, stat symbols and stars; preserved approved materials and shapes. Components deterministically sliced with slice-detail-c.py.
+Shell bounds: 105,8,982,1426. Showcase:153,186,930,742. Attributes:154,803,931,1163. Button:234,1210,852,1331.

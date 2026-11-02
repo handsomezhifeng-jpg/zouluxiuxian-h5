@@ -1,0 +1,140 @@
+/* Approved C components, extracted from the cleaned reference. Coordinates share
+   the original 877 × 1418 canvas. Text and equipment remain real independent UI. */
+body[data-ui-theme="silk"] .equipment-detail.artifact-detail{width:min(96vw,600px,58dvh);height:auto;aspect-ratio:877/1418;max-height:none;max-width:none;padding:0;border:0;border-radius:0;background:transparent url('assets/equipment/detail-c/shell.png') center/100% 100% no-repeat;box-shadow:none;overflow:visible;color:#34271b;container-type:inline-size}
+.artifact-detail .artifact-detail-header{position:absolute;left:7%;right:7%;top:7.7%;height:7.4%;min-height:0;padding:0;border:0;z-index:6;display:flex;align-items:center;justify-content:center}
+.artifact-detail .artifact-detail-header:before,.artifact-detail .artifact-crest{display:none}
+.artifact-detail .artifact-detail-header h2{font:600 clamp(27px,7cqw,46px)/1.1 KaiTi,STKaiti,serif;letter-spacing:.06em;color:#67170e;text-shadow:0 1px #fff7df}
+.artifact-detail .artifact-detail-header button{top:-24%;right:-2.6%;width:9%;height:64%;background:none;border:0;box-shadow:none;border-radius:0;color:#ffedc1;font:400 clamp(23px,5cqw,34px)/1 Georgia;transform:rotate(-1deg)}
+.artifact-detail .artifact-showcase{position:absolute;left:5.473%;top:12.553%;width:88.598%;height:39.21%;margin:0;padding:0;border:0;border-radius:0;background:none;overflow:visible}
+.artifact-detail .artifact-showcase:before{inset:0;background:url('assets/equipment/detail-c/showcase.png') center/100% 100% no-repeat;opacity:1;filter:var(--c-scene-filter,none)}
+.artifact-detail .artifact-showcase:after{display:none}
+.artifact-detail[data-quality="0"]{--c-scene-filter:grayscale(.9) saturate(.25) brightness(1.02);--aura-opacity:.04;--ring-opacity:0}
+.artifact-detail[data-quality="1"]{--c-scene-filter:saturate(.65) brightness(1.2);--aura-opacity:.14;--ring-opacity:.12}
+.artifact-detail[data-quality="2"]{--c-scene-filter:hue-rotate(65deg) saturate(.6);--aura-opacity:.24;--ring-opacity:.22}
+.artifact-detail[data-quality="3"]{--c-scene-filter:hue-rotate(210deg) saturate(.55);--aura-opacity:.34;--ring-opacity:.3}
+.artifact-detail[data-quality="4"]{--c-scene-filter:none;--aura-opacity:.47;--ring-opacity:.4}
+.artifact-detail[data-quality="5"]{--c-scene-filter:none;--aura-opacity:.65;--ring-opacity:.55}
+.artifact-detail .artifact-aura{inset:4% 12% 13%;border-radius:50%}
+.artifact-detail .artifact-rings{inset:7% 13% 16%;overflow:hidden}
+.artifact-detail .artifact-hero{top:2%;height:87%;filter:drop-shadow(0 5px 4px #1e221d55)}
+.artifact-detail .artifact-star-row{position:absolute;left:12%;right:12%;top:47.1%;height:4.1%;margin:0;display:flex;align-items:center;justify-content:center;gap:1%;letter-spacing:0;z-index:7}
+.artifact-star-row i{width:7.7%;height:100%;display:block;background:url('assets/equipment/detail-c/star.png') center/contain no-repeat;color:transparent;font-size:0;flex:none}
+.artifact-detail .artifact-meta{position:absolute;left:6.5%;right:6.5%;top:52.5%;height:3.5%;margin:0;gap:1.4%;font:400 clamp(11px,2.8cqw,18px)/1.2 KaiTi,STKaiti,serif;color:#3f3020;flex-wrap:nowrap;white-space:nowrap}
+.artifact-detail .artifact-meta strong{font-size:clamp(14px,3.3cqw,22px)}
+.artifact-detail .artifact-meta span+span{border-color:#a17c46;padding-left:2%}
+.artifact-detail .artifact-affixes{position:absolute;left:5.588%;top:56.065%;width:88.598%;height:25.388%;padding:3% 4%;box-sizing:border-box;border:0;border-radius:0;background:url('assets/equipment/detail-c/attributes.png') center/100% 100% no-repeat;gap:0 8%;grid-template-rows:repeat(3,1fr);align-items:stretch}
+.artifact-detail .artifact-affixes p{font-size:clamp(13px,3.3cqw,22px);padding:0;border:0;gap:4%;white-space:nowrap;align-self:center}
+.artifact-detail .artifact-affixes strong{font:400 clamp(14px,4cqw,27px)/1.2 Georgia,serif;color:#07584b;letter-spacing:-.5px}
+.artifact-detail .artifact-affixes p:only-child{grid-row:2;font-size:clamp(16px,4cqw,26px)}
+.artifact-detail .artifact-stat-icon{width:clamp(21px,5.5cqw,37px);height:clamp(21px,5.5cqw,37px);font-size:clamp(12px,3cqw,20px);border-color:#af8848;background:#efe1bd;color:#79552b;box-shadow:inset 0 0 0 2px #fff7db88}
+.artifact-detail .artifact-roll-range{position:absolute;left:8%;right:8%;top:81.6%;height:3%;margin:0;font-size:clamp(11px,2.9cqw,18px);color:#72592f;display:grid;place-items:center}
+.artifact-detail .detail-error:not(:empty){position:absolute;top:79%;left:8%;right:8%;z-index:10;background:#fff3db;color:#a02a1b;font-size:14px}
+.artifact-detail .detail-submit{position:absolute;left:14.709%;top:84.767%;width:70.467%;height:8.533%;min-height:0;padding:0;border:0;border-radius:0;background:transparent url('assets/equipment/detail-c/wear-button.png') center/100% 100% no-repeat;box-shadow:none;color:#fff2c8;font:600 clamp(22px,5.6cqw,36px)/1.2 KaiTi,STKaiti,serif;letter-spacing:.1em;text-shadow:0 2px 2px #521409}
+.artifact-detail .detail-submit:disabled{filter:grayscale(.7);opacity:.75}
+.artifact-detail .artifact-stat-icon[data-stat="metalResist"],.artifact-detail .artifact-stat-icon[data-stat="waterResist"],.artifact-detail .artifact-stat-icon[data-stat="attack"],.artifact-detail .artifact-stat-icon[data-stat="fireResist"],.artifact-detail .artifact-stat-icon[data-stat="woodAttack"],.artifact-detail .artifact-stat-icon[data-stat="defense"]{font-size:0;border:0;box-shadow:none;background-color:transparent;background-size:contain;background-repeat:no-repeat}
+.artifact-stat-icon[data-stat="metalResist"]{background-image:url('assets/equipment/detail-c/stat-metalResist.png')}
+.artifact-stat-icon[data-stat="waterResist"]{background-image:url('assets/equipment/detail-c/stat-waterResist.png')}
+.artifact-stat-icon[data-stat="attack"]{background-image:url('assets/equipment/detail-c/stat-attack.png')}
+.artifact-stat-icon[data-stat="fireResist"]{background-image:url('assets/equipment/detail-c/stat-fireResist.png')}
+.artifact-stat-icon[data-stat="woodAttack"]{background-image:url('assets/equipment/detail-c/stat-woodAttack.png')}
+.artifact-stat-icon[data-stat="defense"]{background-image:url('assets/equipment/detail-c/stat-defense.png')}
+/* Rarity frame skins, reference-star arc and compact affix panel. */
+body[data-ui-theme="silk"] .equipment-detail.artifact-detail{--c-u:calc(min(96vw,600px,58dvh) / 877);--cut:0;--canvas-height:1418;aspect-ratio:877/var(--canvas-height);background:none}
+.artifact-detail:before{content:'';position:absolute;inset:0;pointer-events:none;border-style:solid;border-color:transparent;border-width:calc(795 * var(--c-u)) 0 calc(263 * var(--c-u));border-image:url('assets/equipment/detail-c/shell.png') 795 0 263 0 fill stretch;filter:var(--frame-filter,none);z-index:-1;box-sizing:border-box}
+.artifact-detail[data-quality="0"]{--frame-filter:grayscale(.95) brightness(1.08)}
+.artifact-detail[data-quality="1"]{--frame-filter:hue-rotate(92deg) saturate(.65)}
+.artifact-detail[data-quality="2"]{--frame-filter:hue-rotate(190deg) saturate(.75)}
+.artifact-detail[data-quality="3"]{--frame-filter:hue-rotate(262deg) saturate(.7)}
+.artifact-detail[data-quality="4"]{--frame-filter:hue-rotate(35deg) saturate(1.15)}
+.artifact-detail[data-quality="5"]{--frame-filter:none}
+.artifact-detail .artifact-detail-header{top:calc(109 * var(--c-u));height:calc(105 * var(--c-u))}
+.artifact-detail .artifact-showcase{top:calc(178 * var(--c-u));height:calc(556 * var(--c-u))}
+.artifact-detail .artifact-star-row{top:calc(632 * var(--c-u));height:calc(48 * var(--c-u));gap:calc(6 * var(--c-u))}
+.artifact-detail .artifact-star-row i{width:calc(48 * var(--c-u));height:calc(48 * var(--c-u))}
+.artifact-star-row i{transform:translateY(var(--arc,0px)) rotate(var(--tilt,0deg))}
+.artifact-detail .artifact-meta{top:calc(744 * var(--c-u));height:calc(50 * var(--c-u))}
+.artifact-detail .artifact-affixes{top:calc(795 * var(--c-u));height:calc((360 - var(--cut)) * var(--c-u));grid-template-rows:repeat(var(--affix-rows,3),1fr);background:#f8efdc;border:0;padding:2.5% 4%;isolation:isolate}
+.artifact-detail .artifact-affixes:before{content:'';position:absolute;inset:0;border:calc(30 * var(--c-u)) solid transparent;border-image:url('assets/equipment/detail-c/attributes-frame.png') 30 fill stretch;pointer-events:none;z-index:-1;filter:var(--frame-filter,none)}
+.artifact-detail[data-rows="1"]{--affix-rows:1}.artifact-detail[data-rows="2"]{--affix-rows:2}
+.artifact-detail .artifact-affixes p:only-child{grid-row:auto}
+.artifact-detail .artifact-affixes p{align-self:stretch;border-bottom:1px solid #bd9a4d44}
+.artifact-detail .artifact-affixes p:last-child,.artifact-detail .artifact-affixes p:nth-last-child(2){border-bottom:0}
+.artifact-detail .artifact-roll-range{top:calc((1157 - var(--cut)) * var(--c-u));height:calc(43 * var(--c-u))}
+.artifact-detail .detail-submit{top:calc((1202 - var(--cut)) * var(--c-u));height:calc(121 * var(--c-u))}
+.artifact-detail .detail-error:not(:empty){top:calc((1120 - var(--cut)) * var(--c-u))}
+.artifact-detail:after{content:'';position:absolute;left:4%;right:4%;top:10%;bottom:5%;background:#f8efdc;filter:var(--frame-filter,none);z-index:-2;pointer-events:none}
+.artifact-detail .artifact-affixes{background:transparent}
+.artifact-detail .artifact-affixes:before{background:none;clip-path:none;border-image-source:url('assets/equipment/detail-c/attributes-frame-clean.png')}
+.artifact-detail .artifact-affixes:after{content:'';position:absolute;inset:calc(12 * var(--c-u));border-radius:calc(18 * var(--c-u));background:#f8efdc;z-index:-2;pointer-events:none}
+
+/* Approved ink C: paper never receives the rarity filter. */
+.artifact-detail:before,.artifact-detail:after,.artifact-detail .artifact-affixes:before{filter:none}
+.artifact-rarity-rim{position:absolute;inset:0;z-index:0;pointer-events:none;box-sizing:border-box;border-style:solid;border-color:transparent;border-width:calc(795 * var(--c-u)) 0 calc(263 * var(--c-u));border-image:url('assets/equipment/detail-c/rim-lacquer.png') 795 0 263 0 fill stretch;filter:var(--frame-filter,none)}
+.artifact-detail .artifact-stat-icon,.artifact-detail .artifact-stat-icon[data-stat]{width:clamp(25px,6cqw,40px);height:clamp(25px,6cqw,40px);border:0;border-radius:0;box-shadow:none;background-color:transparent;background-repeat:no-repeat;background-position:center;background-size:contain;font-size:0;flex:none}
+.artifact-detail .artifact-detail-header{position:static;height:0;min-height:0;padding:0}
+.artifact-detail .artifact-detail-header h2{position:absolute;top:calc(94 * var(--c-u));left:15%;right:15%;height:calc(105 * var(--c-u));display:grid;place-items:center;z-index:6;margin:0}
+.artifact-detail .artifact-detail-header button{position:absolute;left:calc(807 * var(--c-u));top:calc(126 * var(--c-u));right:auto;width:calc(84 * var(--c-u));height:calc(84 * var(--c-u));transform:translate(-50%,-50%);font-size:0;z-index:8;display:block}
+.artifact-detail .artifact-detail-header button:before,.artifact-detail .artifact-detail-header button:after{content:'';position:absolute;left:50%;top:50%;width:42%;height:2px;border-radius:1px;background:#ffedc1;transform:translate(-50%,-50%) rotate(45deg)}
+.artifact-detail .artifact-detail-header button:after{transform:translate(-50%,-50%) rotate(-45deg)}
+.artifact-detail .artifact-stat-icon[data-stat="attack"]{background-image:url('assets/equipment/detail-c/ink/attack.png')}
+.artifact-detail .artifact-stat-icon[data-stat="defense"]{background-image:url('assets/equipment/detail-c/ink/defense.png')}
+.artifact-detail .artifact-stat-icon[data-stat="maxQi"]{background-image:url('assets/equipment/detail-c/ink/maxQi.png')}
+.artifact-detail .artifact-stat-icon[data-stat="speed"]{background-image:url('assets/equipment/detail-c/ink/speed.png')}
+.artifact-detail .artifact-stat-icon[data-stat="crit"]{background-image:url('assets/equipment/detail-c/ink/crit.png')}
+.artifact-detail .artifact-stat-icon[data-stat="dodge"]{background-image:url('assets/equipment/detail-c/ink/dodge.png')}
+.artifact-detail .artifact-stat-icon[data-stat="critResist"]{background-image:url('assets/equipment/detail-c/ink/critResist.png')}
+.artifact-detail .artifact-stat-icon[data-stat="lifesteal"]{background-image:url('assets/equipment/detail-c/ink/lifesteal.png')}
+.artifact-detail .artifact-stat-icon[data-stat="metalAttack"]{background-image:url('assets/equipment/detail-c/ink/metalAttack.png')}
+.artifact-detail .artifact-stat-icon[data-stat="waterAttack"]{background-image:url('assets/equipment/detail-c/ink/waterAttack.png')}
+.artifact-detail .artifact-stat-icon[data-stat="fireAttack"]{background-image:url('assets/equipment/detail-c/ink/fireAttack.png')}
+.artifact-detail .artifact-stat-icon[data-stat="fireResist"]{background-image:url('assets/equipment/detail-c/ink/fireResist.png')}
+.artifact-detail .artifact-stat-icon[data-stat="woodResist"]{background-image:url('assets/equipment/detail-c/ink/woodResist.png')}
+.artifact-detail .artifact-stat-icon[data-stat="earthResist"]{background-image:url('assets/equipment/detail-c/ink/earthResist.png')}
+.artifact-detail .artifact-stat-icon[data-stat="metalResist"]{background-image:url('assets/equipment/detail-c/ink/metalResist.png')}
+.artifact-detail .artifact-stat-icon[data-stat="earthAttack"]{background-image:url('assets/equipment/detail-c/ink/earthAttack.png')}
+.artifact-detail .artifact-stat-icon[data-stat="waterResist"]{background-image:url('assets/equipment/detail-c/ink/waterResist.png')}
+.artifact-detail .artifact-stat-icon[data-stat="woodAttack"]{background-image:url('assets/equipment/detail-c/ink/woodAttack.png')}
+.artifact-detail .artifact-stat-icon[data-stat="accuracy"]{background-image:url('assets/equipment/detail-c/ink/accuracy.png')}
+/* Equipment title and single action follow the shared warm-silk UI. */
+.artifact-detail[data-quality="4"]{--frame-filter:sepia(1) saturate(7) hue-rotate(-18deg) brightness(1.6)}
+.artifact-detail .artifact-detail-header h2{display:flex;justify-content:center;align-items:center;gap:.35em;color:var(--detail-accent);font-size:clamp(26px,6.6cqw,44px)}
+.artifact-detail .artifact-detail-header h2 small{font:400 .52em/1.3 KaiTi,STKaiti,serif;letter-spacing:.05em}
+.artifact-detail .artifact-meta{font-size:clamp(14px,3.5cqw,22px)}
+.artifact-detail .artifact-meta .carry-allowed{color:#24713e}
+.artifact-detail .artifact-meta .requirement-failed{color:#af2925}
+.artifact-detail .detail-submit{top:calc((1172 - var(--cut)) * var(--c-u));left:22%;width:56%;height:calc(125 * var(--c-u));background:transparent url('assets/button-gold.png') center/100% 100% no-repeat;color:#4e3516;font-size:clamp(25px,6cqw,40px);text-shadow:none;letter-spacing:.25em;text-indent:.25em}
+.artifact-detail:before{border-image-source:url('assets/equipment/detail-c/shell-no-action.png')}
+.artifact-detail .detail-submit{background-image:url('assets/button-gold-clean-v2.png')}
+.artifact-rarity-rim{border-image-source:url('assets/equipment/detail-c/rim-lacquer-v2.png')}
+/* Legible warm-background title; all nine stars remain on the pedestal fascia. */
+.artifact-detail[data-quality="4"] .artifact-detail-header h2{color:#77400e;text-shadow:none}
+.artifact-detail .artifact-star-row{left:24%;right:24%;top:calc(675 * var(--c-u));height:calc(42 * var(--c-u));gap:1.1%;align-items:center}
+.artifact-detail .artifact-star-row i{width:8.5%;height:100%;max-width:calc(43 * var(--c-u))}
+/* Approved B artwork: six independent slices, never hue-filter the artwork. */
+.artifact-detail:before{border-image-source:url('assets/equipment/detail-c/shell-b-clean-affixes.png')}
+.artifact-detail .artifact-showcase{top:calc(190 * var(--c-u));height:calc(544 * var(--c-u))}
+.artifact-detail .artifact-showcase:before{background-image:var(--showcase-b);background-size:100% 100%;filter:none;clip-path:none}
+.artifact-detail[data-quality="0"]{--showcase-b:url('assets/equipment/showcase-b/quality-0.png')}
+.artifact-detail[data-quality="1"]{--showcase-b:url('assets/equipment/showcase-b/quality-1.png')}
+.artifact-detail[data-quality="2"]{--showcase-b:url('assets/equipment/showcase-b/quality-2.png')}
+.artifact-detail[data-quality="3"]{--showcase-b:url('assets/equipment/showcase-b/quality-3.png')}
+.artifact-detail[data-quality="4"]{--showcase-b:url('assets/equipment/showcase-b/quality-4-abstract.png')}
+.artifact-detail[data-quality="5"]{--showcase-b:url('assets/equipment/showcase-b/quality-5-abstract.png')}
+.artifact-detail .artifact-aura,.artifact-detail .artifact-rings,.artifact-detail .artifact-particles{display:none}
+.artifact-detail .artifact-hero{top:1%;height:83%}
+.artifact-detail .artifact-star-row{top:calc(677 * var(--c-u));height:calc(35 * var(--c-u))}
+/* Independent native-resolution item PNGs keep their own aspect and colors. */
+.artifact-detail .artifact-hero:has(.equipment-hd-sprite){aspect-ratio:1}
+.equipment-hd-sprite{image-rendering:auto;mix-blend-mode:normal!important}
+/* Dim only the ornate scene perimeter; the item stays above this masked layer. */
+.artifact-detail[data-quality="4"]{--showcase-shade:rgba(22,13,7,.76)}
+.artifact-detail[data-quality="5"]{--showcase-shade:rgba(22,8,10,.82)}
+.artifact-detail[data-quality="4"] .artifact-showcase:after,
+.artifact-detail[data-quality="5"] .artifact-showcase:after{
+  content:"";display:block;position:absolute;inset:0;z-index:1;
+  border:0;border-radius:0;pointer-events:none;
+  background:radial-gradient(ellipse at 50% 62%,transparent 24%,rgba(18,11,8,.12) 43%,var(--showcase-shade) 100%);
+  -webkit-mask:var(--showcase-b) center/100% 100% no-repeat;
+  mask:var(--showcase-b) center/100% 100% no-repeat;
+}
+

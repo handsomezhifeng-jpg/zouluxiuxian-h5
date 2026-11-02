@@ -1,0 +1,225 @@
+/* Design size: 750 × 1334. At 375 CSS px, 1u = 1px (2× artwork). */
+:root { --u: min(.266666667vw, 2px); --bottom-height: calc(56 * var(--u)); }
+body { font-size:calc(14 * var(--u)); line-height:1.5; }
+.app-shell { width:min(100%,750px); }
+.app-header { gap:calc(5 * var(--u)); padding:calc(7 * var(--u) + env(safe-area-inset-top,0px)) calc(14 * var(--u)) calc(6 * var(--u)); }
+.brand { gap:calc(8 * var(--u)); }
+.brand-seal { width:calc(27 * var(--u)); height:calc(32 * var(--u)); font-size:calc(22 * var(--u)); }
+.brand-title { font-size:calc(21 * var(--u)); letter-spacing:calc(1 * var(--u)); }
+.brand-subtitle { display:none; }
+.header-tools { gap:calc(7 * var(--u)); }
+.icon-button { width:calc(36 * var(--u)); min-width:calc(36 * var(--u)); height:calc(36 * var(--u)); padding:calc(8 * var(--u)); }
+.icon-button svg { width:calc(19 * var(--u)); height:calc(19 * var(--u)); }
+#pauseToggle { font-size:calc(16 * var(--u)); }
+.app-header .connection-line { position:absolute; right:calc(60 * var(--u)); top:calc(24 * var(--u) + env(safe-area-inset-top,0px)); margin:0; max-width:calc(115 * var(--u)); }
+#connectionStatus { font-size:calc(8 * var(--u)); letter-spacing:0; }
+#connectionStatus::before { width:calc(4 * var(--u)); height:calc(4 * var(--u)); }
+.bottom-nav { position:relative; left:auto; bottom:auto; transform:none; width:100%; flex-shrink:0; min-height:var(--bottom-height); padding:calc(4 * var(--u)) calc(6 * var(--u)) calc(4 * var(--u) + env(safe-area-inset-bottom,0px)); }
+.bottom-nav button { gap:calc(3 * var(--u)); min-height:calc(46 * var(--u)); padding:calc(3 * var(--u)); font-size:calc(10 * var(--u)); letter-spacing:0; }
+.bottom-nav svg { width:calc(21 * var(--u)); height:calc(21 * var(--u)); }
+.bottom-nav button.is-active::after { top:calc(-5 * var(--u)); width:calc(20 * var(--u)); }
+#screen { padding:calc(10 * var(--u)) calc(12 * var(--u)); }
+#screen > * + * { margin-top:calc(8 * var(--u)); }
+#screen.game-screen { display:flex; flex-direction:column; overflow:hidden; gap:calc(7 * var(--u)); }
+#screen.game-screen > * { margin:0; flex-shrink:0; }
+.hero { padding:calc(14 * var(--u)); border-radius:calc(4 * var(--u)) calc(4 * var(--u)) calc(14 * var(--u)) calc(4 * var(--u)); }
+.status-hero { display:grid; grid-template-columns:1fr auto; gap:calc(3 * var(--u)) calc(10 * var(--u)); padding:calc(10 * var(--u)) calc(13 * var(--u)); }
+.status-hero > .eyebrow { order:2; align-self:center; text-align:right; font-size:calc(9 * var(--u)); letter-spacing:0; }
+.status-hero > .realm-name { order:1; margin:0; font-size:calc(23 * var(--u)); line-height:1.25; letter-spacing:calc(1 * var(--u)); justify-content:flex-start; gap:calc(7 * var(--u)); white-space:nowrap; }
+.status-hero > p { order:3; margin:0; font-size:calc(10 * var(--u)); line-height:1.5; }
+.status-hero > .resource-row { order:4; grid-column:1 / -1; padding:calc(5 * var(--u)) 0 0; margin:0; gap:calc(6 * var(--u)); font-size:calc(10 * var(--u)); }
+.status-hero .resource-row strong,.status-hero .resource-row small { font-size:calc(10 * var(--u)); }
+.status-hero .chip { font-family:"Microsoft YaHei",sans-serif; font-size:calc(8 * var(--u)); padding:calc(2 * var(--u)) calc(5 * var(--u)); letter-spacing:0; }
+.eyebrow { font-size:calc(10 * var(--u)); letter-spacing:calc(1 * var(--u)); }
+.quest-card { padding:0; border-left-width:calc(3 * var(--u)); position:relative; z-index:5; }
+.game-screen > .quest-card { padding:0; }
+.quest-card > .quest-brief { margin:0; padding:0; border:0; }
+.quest-brief { font-size:calc(11 * var(--u)); }
+.quest-brief > summary { padding:calc(6 * var(--u)) calc(10 * var(--u)); color:var(--green); cursor:pointer; min-height:calc(30 * var(--u)); }
+.quest-card .quest-brief > summary { font-size:calc(11 * var(--u)); }
+.quest-brief > summary::marker { color:var(--gold); }
+.quest-brief-copy { position:absolute; top:100%; left:calc(-3 * var(--u)); right:0; padding:calc(12 * var(--u)); max-height:min(55dvh,calc(320 * var(--u))); overflow:auto; background:var(--paper-light); border:1px solid var(--gold-light); box-shadow:0 10px 20px #19382c20; }
+.quest-brief-copy > .eyebrow { display:none; }
+.quest-objective { padding-top:0; }
+.quest-objective p { font-size:calc(12 * var(--u)); margin:calc(6 * var(--u)) 0; }
+.quest-objective h3 { font-size:calc(14 * var(--u)); }
+.quest-card details details { margin-top:calc(8 * var(--u)); padding-top:calc(6 * var(--u)); }
+.page-tabs { display:flex; align-items:stretch; gap:calc(4 * var(--u)); min-height:calc(36 * var(--u)); border-bottom:1px solid var(--line); }
+.page-tab { position:relative; flex:1; min-width:0; border:0; padding:calc(7 * var(--u)) calc(3 * var(--u)); color:var(--ink-soft); background:transparent; font-size:calc(12 * var(--u)); white-space:nowrap; }
+.page-tab[aria-selected="true"] { color:var(--green-dark); font-weight:600; background:#e4e9db; border-radius:calc(4 * var(--u)) calc(4 * var(--u)) 0 0; }
+.page-tab[aria-selected="true"]::after { content:""; position:absolute; bottom:0; left:25%; right:25%; height:calc(2 * var(--u)); background:var(--gold); }
+#screen > .page-deck { flex:1; min-height:0; overflow:hidden; display:flex; }
+.page-panel { flex:1; min-width:0; min-height:0; overflow:auto; overscroll-behavior:contain; display:flex; flex-direction:column; gap:calc(8 * var(--u)); scrollbar-width:thin; }
+.page-panel > * { flex-shrink:0; margin:0; }
+.page-panel > .list-card,.page-panel > .panel-scroll { flex:1; min-height:0; }
+.paper-card { padding:calc(12 * var(--u)); border-radius:calc(5 * var(--u)); box-shadow:none; }
+.paper-card > * + * { margin-top:calc(8 * var(--u)); }
+.section-heading { gap:calc(6 * var(--u)); margin-bottom:calc(8 * var(--u)); }
+.section-heading h2,.section-heading h3 { font-size:calc(14 * var(--u)); letter-spacing:0; }
+.section-heading h2::before,.section-heading h3::before { width:calc(3 * var(--u)); height:calc(11 * var(--u)); margin-right:calc(6 * var(--u)); }
+.section-heading > span,.section-heading > small { font-size:calc(10 * var(--u)); }
+.section-heading button { min-height:calc(36 * var(--u)); padding:calc(3 * var(--u)) calc(8 * var(--u)); font-size:calc(11 * var(--u)); }
+.page-panel h2:not(.practice-name) { font-size:calc(15 * var(--u)); }
+.page-panel h3 { font-size:calc(13 * var(--u)); }
+.stats-grid { gap:calc(10 * var(--u)) calc(7 * var(--u)); }
+.stat > span,.stat > small,.stat .label { font-size:calc(10 * var(--u)); line-height:1.4; }
+.stat > strong,.stat > b,.stat .value { margin-top:calc(3 * var(--u)); font-size:calc(16 * var(--u)); line-height:1.3; }
+.muted { font-size:calc(11 * var(--u)); line-height:1.6; }
+.small { font-size:calc(10 * var(--u)); }
+.chip { padding:calc(2 * var(--u)) calc(6 * var(--u)); font-size:calc(9 * var(--u)); line-height:1.5; letter-spacing:0; }
+button.chip { min-height:calc(34 * var(--u)); padding:calc(5 * var(--u)) calc(10 * var(--u)); }
+.primary-button,.secondary-button { min-height:calc(40 * var(--u)); padding:calc(8 * var(--u)) calc(12 * var(--u)); gap:calc(5 * var(--u)); border-radius:calc(4 * var(--u)); font-size:calc(12 * var(--u)); letter-spacing:0; }
+.action-row { gap:calc(7 * var(--u)); }
+.action-row > button { min-width:0; }
+.practice-card { padding:calc(12 * var(--u)); }
+.practice-symbol { width:calc(66 * var(--u)); height:calc(66 * var(--u)); margin:calc(16 * var(--u)) auto; font-size:calc(37 * var(--u)); }
+.practice-name { margin:calc(8 * var(--u)) 0 calc(5 * var(--u)); font-size:calc(20 * var(--u)); letter-spacing:calc(1 * var(--u)); }
+.practice-card .action-row { margin-top:calc(12 * var(--u)); }
+.method-meta { font-size:calc(10 * var(--u)); gap:calc(4 * var(--u)) calc(9 * var(--u)); line-height:1.5; }
+.progress-track { height:calc(5 * var(--u)); }
+.method-list,.collection-list,.market-list,.enemy-list { gap:calc(7 * var(--u)); }
+.list-card { display:flex; flex-direction:column; overflow:hidden; }
+.list-card > :not(.panel-scroll) { flex-shrink:0; }
+.list-card > .panel-scroll { flex:1; min-height:0; }
+.panel-scroll { overflow:auto; overscroll-behavior:contain; scrollbar-width:thin; align-content:start; }
+.method-card { padding:calc(11 * var(--u)); border-radius:calc(4 * var(--u)); }
+.method-title { font-size:calc(14 * var(--u)); gap:calc(7 * var(--u)); margin-bottom:calc(5 * var(--u)); }
+.method-number { font-size:calc(11 * var(--u)); }
+.method-card .action-row { margin-top:calc(7 * var(--u)); }
+.collection-item { grid-template-columns:calc(34 * var(--u)) minmax(0,1fr) minmax(calc(30 * var(--u)),calc(60 * var(--u))); padding:calc(10 * var(--u)); gap:calc(8 * var(--u)); }
+.collection-emblem { width:calc(32 * var(--u)); height:calc(36 * var(--u)); font-size:calc(21 * var(--u)); }
+.collection-copy h3 { font-size:calc(13 * var(--u)); line-height:1.5; }
+.collection-meta { gap:calc(3 * var(--u)) calc(5 * var(--u)); margin-top:calc(3 * var(--u)); font-size:calc(10 * var(--u)); }
+.collection-meta .chip { font-size:calc(9 * var(--u)); padding:calc(1 * var(--u)) calc(4 * var(--u)); }
+.collection-copy p { margin-top:calc(4 * var(--u)); font-size:calc(10 * var(--u)); line-height:1.5; }
+.game-screen .collection-copy p { display:none; }
+.collection-count { max-width:calc(60 * var(--u)); font-size:calc(12 * var(--u)); }
+[data-layout-route="inventory"] .collection-list { grid-template-columns:repeat(3,minmax(0,1fr)); }
+[data-layout-route="inventory"] .collection-item { position:relative; display:flex; flex-direction:column; align-items:center; gap:calc(4 * var(--u)); padding:calc(8 * var(--u)) calc(5 * var(--u)); text-align:center; }
+[data-layout-route="inventory"] .collection-copy h3 { font-size:calc(12 * var(--u)); letter-spacing:0; }
+[data-layout-route="inventory"] .collection-meta { display:none; }
+[data-layout-route="inventory"] .collection-count { position:absolute; top:calc(5 * var(--u)); right:calc(5 * var(--u)); max-width:none; text-align:center; padding:calc(1 * var(--u)) calc(3 * var(--u)); background:var(--paper-light); border-radius:calc(3 * var(--u)); font-size:calc(10 * var(--u)); line-height:1.2; }
+[data-layout-route="arts"] .collection-list { grid-template-columns:repeat(2,minmax(0,1fr)); }
+[data-layout-route="arts"] .collection-item { grid-template-columns:calc(28 * var(--u)) minmax(0,1fr) calc(8 * var(--u)); gap:calc(6 * var(--u)); padding:calc(10 * var(--u)) calc(7 * var(--u)); }
+[data-layout-route="arts"] .collection-emblem { width:calc(28 * var(--u)); height:calc(32 * var(--u)); font-size:calc(20 * var(--u)); }
+.filter-strip { gap:calc(5 * var(--u)); padding:0 0 calc(6 * var(--u)); scrollbar-width:none; }
+.region-grid { gap:calc(4 * var(--u)); }
+.adventure-card > .section-heading { display:none; }
+.adventure-card { padding:calc(8 * var(--u)); }
+.adventure-card > .region-grid { margin:0; }
+.region-option { min-height:calc(45 * var(--u)); padding:calc(5 * var(--u)) calc(2 * var(--u)); }
+.region-option strong { font-size:calc(16 * var(--u)); }
+.region-option small { margin-top:calc(2 * var(--u)); font-size:calc(8 * var(--u)); }
+.combat-meter { margin:calc(10 * var(--u)) 0; }
+.combat-meter > div:first-child { gap:calc(7 * var(--u)); margin-bottom:calc(4 * var(--u)); font-size:calc(11 * var(--u)); }
+.combat-meter strong { font-size:calc(11 * var(--u)); }
+.combat-meter .progress-track { height:calc(6 * var(--u)); }
+.battle-kills { padding:calc(4 * var(--u)) 0; font-size:calc(10 * var(--u)); }
+.battle-kills strong { font-size:calc(16 * var(--u)); }
+.combat-note { font-size:calc(10 * var(--u)); }
+.battle-card { padding:calc(8 * var(--u)); }
+.battle-card > * + * { margin-top:calc(6 * var(--u)); }
+.battle-card > .section-heading { margin-bottom:calc(4 * var(--u)); }
+.battle-card .combat-note { line-height:1.4; }
+.battle-card .combat-meter { margin:calc(8 * var(--u)) 0; }
+.drop-preview { padding-top:calc(7 * var(--u)); }
+.battle-card .drop-preview { padding-top:calc(5 * var(--u)); }
+.drop-preview > span,.drop-preview small { font-size:calc(9 * var(--u)); }
+.drop-preview p { font-size:calc(11 * var(--u)); margin:calc(3 * var(--u)) 0; line-height:1.5; }
+.enemy-option { min-height:calc(54 * var(--u)); grid-template-columns:calc(30 * var(--u)) minmax(0,1fr) calc(12 * var(--u)); gap:calc(8 * var(--u)); padding:calc(9 * var(--u)); }
+.enemy-option strong { font-size:calc(13 * var(--u)); }
+.enemy-option small { margin-top:calc(3 * var(--u)); font-size:calc(10 * var(--u)); }
+.enemy-mark { width:calc(28 * var(--u)); height:calc(32 * var(--u)); font-size:calc(19 * var(--u)); }
+.battle-log li { padding:calc(7 * var(--u)) 0; font-size:calc(11 * var(--u)); line-height:1.6; }
+.market-item { grid-template-columns:calc(32 * var(--u)) minmax(0,1fr) calc(58 * var(--u)); gap:calc(8 * var(--u)); padding:calc(10 * var(--u)); }
+.market-copy strong { font-size:calc(13 * var(--u)); }
+.market-copy small { font-size:calc(10 * var(--u)); margin-top:calc(3 * var(--u)); }
+.market-price { font-size:calc(14 * var(--u)); }
+.market-price small { font-size:calc(9 * var(--u)); margin-top:calc(3 * var(--u)); }
+.system-tabs { gap:calc(7 * var(--u)); }
+.system-tabs button { min-height:calc(34 * var(--u)); font-size:calc(12 * var(--u)); letter-spacing:0; }
+.ingredient-list { margin:calc(8 * var(--u)) 0; }
+.ingredient-list li { gap:calc(7 * var(--u)); padding:calc(6 * var(--u)) 0; font-size:calc(12 * var(--u)); }
+.detail-metrics { gap:calc(6 * var(--u)) calc(14 * var(--u)); margin:calc(9 * var(--u)) 0; font-size:calc(11 * var(--u)); }
+.setting-choices { gap:calc(7 * var(--u)); margin:calc(10 * var(--u)) 0; }
+.setting-choice { min-height:calc(40 * var(--u)); padding:calc(7 * var(--u)) calc(4 * var(--u)); font-size:calc(12 * var(--u)); }
+.equipment-slot { grid-template-columns:calc(32 * var(--u)) minmax(0,1fr) auto; gap:calc(8 * var(--u)); padding:calc(9 * var(--u)) 0; }
+.equipment-type,.equipment-slot button { font-size:calc(11 * var(--u)); }
+.equipment-slot h3 { font-size:calc(13 * var(--u)); }
+.equipment-slot p { font-size:calc(10 * var(--u)); margin-top:calc(4 * var(--u)); line-height:1.5; }
+.equipment-list { gap:calc(6 * var(--u)); }
+.expedition-single-column { grid-template-columns:1fr; }
+[data-layout-route="fate-stones"] [data-panel-id="slots"] .enemy-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); }
+[data-layout-route="fate-stones"] [data-panel-id="slots"] .enemy-option { min-height:calc(52 * var(--u)); }
+[data-layout-route="fate-stones"] [data-panel-id="totals"] .stats-grid { margin-top:calc(12 * var(--u)); }
+[data-layout-route="character"] [data-panel-id="attributes"] .stats-grid { gap:calc(9 * var(--u)); }
+.aptitude-list { margin-top:calc(8 * var(--u)); }
+.aptitude-row { gap:calc(8 * var(--u)); padding:calc(8 * var(--u)) 0; }
+.aptitude-row strong { font-size:calc(12 * var(--u)); }
+.aptitude-row span,.aptitude-row small { margin-top:calc(3 * var(--u)); font-size:calc(10 * var(--u)); line-height:1.5; }
+.rebirth-action { margin-top:calc(8 * var(--u)); }
+.realm-warning { margin-top:calc(9 * var(--u)); font-size:calc(11 * var(--u)); line-height:1.6; }
+.preview-result { padding:calc(8 * var(--u)) 0; }
+.preview-summary > p:first-of-type,.preview-summary > p:nth-of-type(2) { display:none; }
+.preview-result span { font-size:calc(11 * var(--u)); }
+.preview-result strong { margin-top:calc(5 * var(--u)); font-size:calc(18 * var(--u)); }
+.preview-heading { font-size:calc(14 * var(--u)); }
+.inheritance-list { margin:calc(9 * var(--u)) 0 0; }
+.inheritance-list > div { padding:calc(9 * var(--u)) 0; }
+.inheritance-list dt { font-size:calc(13 * var(--u)); }
+.inheritance-list dd { margin:calc(5 * var(--u)) 0 0; font-size:calc(11 * var(--u)); }
+.inheritance-list small { font-size:calc(10 * var(--u)); margin-top:calc(4 * var(--u)); }
+.preview-notes { padding-left:calc(17 * var(--u)); margin:calc(9 * var(--u)) 0 0; font-size:calc(11 * var(--u)); }
+.preview-notes li { margin:calc(7 * var(--u)) 0; line-height:1.6; }
+.journey-stage { padding:calc(12 * var(--u)) 0 calc(14 * var(--u)) calc(15 * var(--u)); }
+.journey-stage::before { top:calc(20 * var(--u)); }
+.journey-stage h3 { font-size:calc(14 * var(--u)); }
+.journey-stage .chip { font-size:calc(10 * var(--u)); }
+.journey-stage p { font-size:calc(11 * var(--u)); margin:calc(6 * var(--u)) 0; }
+.requirement-list { margin:calc(8 * var(--u)) 0; }
+.requirement-list li { font-size:calc(10 * var(--u)); padding:calc(5 * var(--u)) 0; }
+.construction-queue { margin:calc(8 * var(--u)) 0; }
+.construction-queue li { gap:calc(7 * var(--u)); padding:calc(9 * var(--u)) 0; }
+.construction-queue strong { font-size:calc(13 * var(--u)); }
+.construction-queue small { margin-top:calc(4 * var(--u)); font-size:calc(10 * var(--u)); }
+.empty-state { padding:calc(20 * var(--u)) calc(12 * var(--u)); font-size:calc(12 * var(--u)); }
+.empty-state strong { font-size:calc(15 * var(--u)); }
+.empty-state p { margin-top:calc(6 * var(--u)); font-size:calc(11 * var(--u)); line-height:1.6; }
+.dialogue-overlay { padding:calc(14 * var(--u)); }
+.dialogue-card { width:min(100%,calc(347 * var(--u))); max-height:calc(100dvh - 28 * var(--u) - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px)); padding:calc(18 * var(--u)); font-size:calc(13 * var(--u)); }
+.dialogue-card h2 { margin:calc(8 * var(--u)) 0 calc(12 * var(--u)); font-size:calc(24 * var(--u)); line-height:1.4; }
+.dialogue-card p { margin:0 0 calc(12 * var(--u)); font-size:calc(13 * var(--u)); line-height:1.7; }
+.detail-card .detail-copy p { font-size:calc(12 * var(--u)); line-height:1.7; }
+.menu-actions { gap:calc(8 * var(--u)); margin-top:calc(12 * var(--u)); }
+#menuOverlay .dialogue-card { width:min(100%,calc(351 * var(--u))); }
+#menuOverlay h2 { font-size:calc(23 * var(--u)); }
+#menuOverlay p { font-size:calc(10 * var(--u)); }
+#menuOverlay .menu-actions { grid-template-columns:repeat(3,minmax(0,1fr)); gap:calc(7 * var(--u)); }
+#menuOverlay .menu-actions button { min-height:calc(52 * var(--u)); padding:calc(7 * var(--u)) calc(4 * var(--u)); font-size:calc(11 * var(--u)); }
+#menuOverlay [data-action="close-menu"] { grid-column:1/-1; min-height:calc(38 * var(--u)); }
+#qaCheckpointExport { margin-top:calc(8 * var(--u)); font-size:calc(10 * var(--u)); }
+#rebirthReviewOverlay .detail-card,#fateReviewOverlay .detail-card { max-height:calc(100dvh - 28 * var(--u)); }
+#rebirthReviewOverlay .action-row,#fateReviewOverlay .action-row { position:sticky; bottom:calc(-18 * var(--u)); margin:calc(12 * var(--u)) calc(-18 * var(--u)) 0; padding:calc(10 * var(--u)) calc(18 * var(--u)); background:var(--paper-light); box-shadow:0 -5px 12px #293d3410; z-index:1; }
+#rebirthReviewOverlay details { margin:calc(10 * var(--u)) 0; }
+#rebirthReviewOverlay summary,#fateReviewOverlay summary { font-size:calc(12 * var(--u)); }
+.sell-panel { padding-top:calc(10 * var(--u)); }
+.sell-price,.sell-panel label { font-size:calc(11 * var(--u)); margin-bottom:calc(6 * var(--u)); }
+.sell-controls { gap:calc(8 * var(--u)); }
+.sell-controls input,.quantity-input { padding:calc(8 * var(--u)); min-height:calc(40 * var(--u)); font-size:calc(16 * var(--u)); }
+.sell-controls button { width:calc(80 * var(--u)); }
+.sell-panel small { font-size:calc(10 * var(--u)); }
+.input-label { font-size:calc(11 * var(--u)); margin:calc(8 * var(--u)) 0; }
+#toast { bottom:calc(var(--bottom-height) + 10 * var(--u) + env(safe-area-inset-bottom,0px)); max-width:min(calc(100% - 24px),calc(345 * var(--u))); padding:calc(9 * var(--u)) calc(14 * var(--u)); font-size:calc(11 * var(--u)); }
+.landing { min-height:calc(415 * var(--u)); padding:calc(24 * var(--u)); }
+.landing .realm-name { font-size:calc(35 * var(--u)); }
+.landing-seal { width:calc(74 * var(--u)); height:calc(74 * var(--u)); font-size:calc(43 * var(--u)); margin-top:calc(20 * var(--u)); }
+.landing .primary-button { width:calc(185 * var(--u)); margin-top:calc(21 * var(--u)); }
+#screen.choosing-slots > .landing { display:none; }
+#screen.choosing-slots { display:flex; flex-direction:column; overflow:hidden; }
+#screen.choosing-slots > .paper-card { flex:1; min-height:0; margin:0; display:flex; flex-direction:column; }
+#screen.choosing-slots .method-list { flex:1; min-height:0; overflow:auto; }
+@media (min-width:751px) { .app-shell { border:1px solid #e9e1cf20; } }
+@media (max-height:620px) and (max-width:450px) {
+  .status-hero { padding-top:calc(7 * var(--u)); padding-bottom:calc(7 * var(--u)); }
+  .practice-symbol { width:calc(48 * var(--u)); height:calc(48 * var(--u)); font-size:calc(29 * var(--u)); margin:calc(10 * var(--u)) auto; }
+}

@@ -1,0 +1,15 @@
+/* Face-dominant three-quarter portrait of the white-robed cultivation character. */
+.moon-avatar,.cultivator-portrait,.player-name-avatar{background:#19364c url('assets/player-avatar-three-quarter.png') 50% 48%/115% auto no-repeat;border:1px solid #a4c5d36b;border-radius:50%;box-shadow:none;outline:none}
+.player-name-overlay{position:fixed;inset:0;z-index:1800;display:flex;align-items:center;justify-content:center;padding:24px;background:#061321c9;color:#e5eff7;font-family:'Microsoft YaHei',sans-serif;overflow:auto}
+.player-name-card{width:min(100%,340px);max-height:calc(100dvh - 48px);overflow:auto;padding:25px 24px 22px;background:#142b40;border:1px solid #7695ac66;border-radius:8px;text-align:center;box-shadow:0 18px 65px #0004}
+.player-name-avatar{width:64px;height:64px;margin:0 auto 15px}
+.player-name-card h2{margin:0;font:26px/1.5 KaiTi,serif;letter-spacing:3px;color:#edf6fc}
+.player-name-card>p{margin:6px 0 20px;font-size:13px;color:#c0d4e2}
+.player-name-card label{display:block;text-align:left;margin-bottom:7px;font-size:13px;color:#d7e7f2}
+.player-name-card input{display:block;width:100%;padding:11px 12px;border:1px solid #7399b3;background:#0b1e30;border-radius:4px;color:#f1f8fc;font-size:17px;text-align:center;outline-offset:3px}
+.player-name-card input::placeholder{color:#809bb0;font-size:14px}
+.player-name-card small{display:block;margin:8px 0;color:#a6bfd1;font-size:11px;text-align:left}
+.player-name-card .player-name-error{min-height:19px;margin:5px 0 10px;color:#f4b7ad;font-size:12px}
+.player-name-card button{width:100%;padding:11px;border:1px solid #badce6;border-radius:4px;background:#d3e8ee;color:#173247;font:18px KaiTi,serif}
+.moon-player>span{display:block;max-width:calc(135 * var(--u));overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.audio-settings{margin:14px 0;padding:10px 14px;border:1px solid #7896a866;border-radius:5px}.audio-settings legend{padding:0 6px}.audio-settings label{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:35px;font-size:14px}.audio-settings input[type=range]{width:52%;accent-color:#6bafc7}.audio-settings input[type=checkbox]{width:18px;height:18px;accent-color:#6bafc7}

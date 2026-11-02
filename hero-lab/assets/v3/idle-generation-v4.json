@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Create production idle animation sprite atlas: EXACT 4 columns x4 rows =16 chronological frames, square sheet. ONE same simplified Chinese male cultivator from reference, white outer robe, pale blue collar/central skirt panel, plain dark navy sash, black wrist guards and boots, black long ponytail white tie, 2.7 heads chibi. Thick clean navy outline, few large shadow shapes, no embroidery. All sixteen are one seamless SUBTLE IDLE BREATHING cycle: frames1-4 gradually inhale,5-8 reach full inhale,9-12 gradually exhale,13-16 return to frame1. Very small continuous incremental chest/shoulder changes, hair tips and sleeve hem sway smoothly. No raised arms, no hit poses, no locomotion, no outfit/body proportion morphing, no big jumps. Both feet stay planted in exactly same place, boots and hip width consistent, sword lowered beside right leg in every frame. Same camera three-quarter facing right, size and baseline identical in every cell. Each complete sprite including sword inside central55% of its cell, ample EMPTY gaps and padding on ALL sides. Transparent alpha background, no shadow/floor/effects/text/labels. Clean isolated neutral antialiased edges, no fragments or neighboring cell overlap.",
+  "framesPerVariant": 16,
+  "runPivot": "Midpoint between outer extents of both legs/boots; vertical reference at sole baseline.",
+  "idlePivot": "Two-leg midpoint with planted boot baseline",
+  "unchanged": "Attack and cast support-sole pivots; game saves and production hero unchanged."
+}

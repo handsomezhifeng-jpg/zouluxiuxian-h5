@@ -1,0 +1,123 @@
+/* Reference theme: ink jade, gold fillets, rice paper; all controls remain live. */
+:root { --green:#004c3e; --green-dark:#003a30; --gold:#b18a3d; --gold-light:#e7cb80; --ink:#102f2c; --bottom-height:calc(65 * var(--u)); font-family:"STKaiti","KaiTi","Noto Serif CJK SC","Microsoft YaHei",serif; }
+.app-shell { background:#f4f0df; }
+.app-shell:has(.game-screen) .app-header { display:none; }
+#screen.game-screen { padding:calc(5 * var(--u)); gap:calc(6 * var(--u)); background:radial-gradient(#a48e5b0c .7px,transparent .7px) 0 0/4px 4px,#f6f1df; }
+.paper-card,.method-card { border:1px solid #b49a61; outline:1px solid #d6c69d; outline-offset:-5px; background-color:#faf7ec; border-radius:calc(6 * var(--u)); }
+.primary-button { background:linear-gradient(110deg,#005243,#002f29); border:1px solid #d9b753; outline:1px solid #b58b39; outline-offset:calc(-4 * var(--u)); color:#fff8df; box-shadow:inset 0 0 0 3px #002e27,0 2px 3px #173d3020; border-radius:calc(6 * var(--u)); }
+.secondary-button { border-color:#b9a36c; color:#16483c; background:#f8f5e9; }
+.bottom-nav { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); background:linear-gradient(110deg,#004839,#002c25); border:2px solid #dbb950; border-radius:calc(7 * var(--u)); color:#fff7dd; outline:1px solid #b68932; outline-offset:-6px; margin:0; }
+.bottom-nav button { color:#eee8ce; position:relative; background:none; font-family:inherit; font-size:calc(13 * var(--u)); }
+.bottom-nav button+button::before { content:""; position:absolute; left:0; top:22%; bottom:22%; width:1px; background:#c9b46c70; }
+.bottom-nav button.is-active { color:#ffda65; background:transparent; }
+.bottom-nav button.is-active::after { display:none; }
+.bottom-nav svg { width:calc(24 * var(--u)); height:calc(24 * var(--u)); stroke-width:1.4; }
+.status-hero.jade-hero { display:block; position:relative; padding:calc(11 * var(--u)) calc(13 * var(--u)); min-height:calc(163 * var(--u)); background:linear-gradient(90deg,#003e33ea,#003b32a0),url('assets/ink-mountains.webp') center/cover,#00392e; border:2px solid #e2c063; border-radius:calc(8 * var(--u)); outline:1px solid #c6a255; outline-offset:-6px; color:#fff7df; overflow:hidden; }
+.jade-hero::before,.jade-hero::after { display:none; }
+.jade-top { display:grid; grid-template-columns:calc(75 * var(--u)) 1fr 1.2fr; align-items:center; gap:calc(8 * var(--u)); }
+.cultivator-portrait { width:calc(75 * var(--u)); height:calc(75 * var(--u)); border-radius:50%; border:2px solid #dfbd68; outline:1px solid #fff2c8; outline-offset:-5px; background:url('assets/cultivator.webp') center 39%/cover,#f2eddb; box-shadow:0 3px 10px #001d26; }
+.jade-realm .realm-name { font-size:calc(19 * var(--u)); font-family:inherit; font-weight:700; letter-spacing:calc(1 * var(--u)); white-space:nowrap; margin:0 0 calc(5 * var(--u)); text-shadow:0 2px 2px #001d20; }
+.jade-activity { color:#d7c795; font-size:calc(9 * var(--u)); }
+.jade-health { min-width:0; font-size:calc(11 * var(--u)); white-space:nowrap; }
+.jade-health strong { font-weight:500; }
+.jade-health .progress-track { margin-top:calc(5 * var(--u)); height:calc(8 * var(--u)); border:1px solid #f5d986; padding:1px; background:#512326; box-shadow:0 0 0 1px #061e1b; }
+.jade-health .progress-fill { background:linear-gradient(#ff6464,#df092c 55%,#8c0522); }
+.jade-stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); margin-top:calc(10 * var(--u)); }
+.jade-stats > div { display:flex; flex-direction:column; align-items:center; gap:0; border-right:1px solid #d6c17f80; }
+.jade-stats > div:last-child { border:0; }
+.jade-stats i { font-style:normal; color:#e8cc7f; font-size:calc(21 * var(--u)); line-height:1.1; }
+.jade-stats > div > span { font-size:calc(11 * var(--u)); }
+.jade-stats strong { font-size:calc(15 * var(--u)); font-weight:500; white-space:nowrap; }
+.jade-stats small { font-size:calc(10 * var(--u)); }
+.game-screen > .quest-card { background:linear-gradient(100deg,#004334,#00362f); border:1px solid #bd9b43; outline:none; color:#fff5d6; border-radius:calc(4 * var(--u)); }
+.quest-card .quest-brief > summary { color:#f3dfa0; font-size:calc(13 * var(--u)); padding:calc(6 * var(--u)) calc(12 * var(--u)); }
+.quest-brief-copy { color:var(--ink); }
+.quest-card summary::marker { color:#e4be59; }
+[data-layout-route="cultivation"] .page-panel { overflow:hidden; gap:calc(6 * var(--u)); }
+[data-layout-route="cultivation"] .jade-practice { flex:0 0 auto; padding:calc(10 * var(--u)); background-image:url('assets/ink-mountains.webp'); background-size:70% auto; background-position:right top; background-repeat:no-repeat; }
+.practice-intro { display:flex; align-items:center; gap:calc(9 * var(--u)); }
+.jade-practice .practice-symbol { width:calc(62 * var(--u)); height:calc(62 * var(--u)); min-width:calc(62 * var(--u)); margin:0; font-size:calc(40 * var(--u)); background:#ebe7d7; border:1px solid #b79b58; outline:1px solid #b79b58; outline-offset:-6px; }
+.practice-info { flex:1; min-width:0; }
+.practice-heading { display:flex; align-items:center; gap:calc(7 * var(--u)); }
+.jade-practice .practice-name { font-family:inherit; margin:0; font-size:calc(24 * var(--u)); white-space:nowrap; }
+.method-badge { background:#004b3a; color:#f7dc85; border:1px solid #b5943c; border-radius:calc(8 * var(--u)); padding:0 calc(6 * var(--u)); font-size:calc(9 * var(--u)); white-space:nowrap; }
+.practice-cap { margin-left:auto; font-size:calc(10 * var(--u)); white-space:nowrap; }
+.practice-time { margin:calc(3 * var(--u)) 0; font-size:calc(12 * var(--u)); }
+.method-level-track { position:relative; border:1px solid #96917e; border-radius:calc(3 * var(--u)); height:calc(14 * var(--u)); background:#cfcdc0; overflow:hidden; }
+.method-level-track > div { height:100%; min-width:0; background:linear-gradient(90deg,#027edf,#514d76); }
+.method-level-track > span { position:absolute; inset:0; text-align:center; color:#17394b; font-size:calc(10 * var(--u)); line-height:calc(13 * var(--u)); text-shadow:0 1px #ffffffa0; }
+.method-gains { width:100%; border-collapse:separate; border-spacing:0; font-size:calc(13 * var(--u)); border:1px solid #d7ccb0; border-radius:calc(4 * var(--u)); overflow:hidden; margin-top:calc(9 * var(--u)); }
+.method-gains th,.method-gains td { padding:calc(3 * var(--u)) calc(9 * var(--u)); text-align:center; font-weight:500; border-right:1px solid #d0c6ac; }
+.method-gains th:last-child,.method-gains td:last-child { border-right:0; }
+.method-gains thead { background:#e6dfca; font-size:calc(11 * var(--u)); }
+.method-gains tbody tr:nth-child(even) { background:#e6e3d440; }
+.method-gains tbody th { text-align:left; width:44%; }
+.method-gains i { font-style:normal; display:inline-block; width:calc(24 * var(--u)); color:#315e50; }
+.method-gains .next-gain { color:#ca7d13; }
+.practice-live { display:flex; justify-content:space-between; color:#68715d; font-size:calc(9 * var(--u)); margin-top:calc(6 * var(--u)); }
+.jade-practice > .progress-track { height:calc(4 * var(--u)); margin-top:calc(2 * var(--u)); }
+.jade-practice .action-row { margin-top:calc(7 * var(--u)); }
+.jade-practice .primary-button { min-height:calc(36 * var(--u)); font-size:calc(19 * var(--u)); width:100%; }
+.jade-method-list.panel-scroll { flex:1; min-height:0; display:flex; flex-direction:column; overflow:auto; gap:calc(5 * var(--u)); }
+.jade-method-list .method-card { display:flex; align-items:center; gap:calc(10 * var(--u)); padding:calc(7 * var(--u)) calc(10 * var(--u)); min-height:calc(53 * var(--u)); flex-shrink:0; background-image:url('assets/ink-mountains.webp'); background-size:60% auto; background-position:right center; background-repeat:no-repeat; opacity:1; }
+.method-seal { width:calc(36 * var(--u)); height:calc(36 * var(--u)); display:grid; place-items:center; border-radius:50%; background:#4e5140; color:#d9bd7b; border:1px solid #b99d5f; outline:1px solid #b99d5f; outline-offset:3px; font-size:calc(24 * var(--u)); }
+.method-copy { flex:1; }
+.jade-method-list .method-copy h3 { font-size:calc(18 * var(--u)); font-family:inherit; margin:0; }
+.method-copy p { font-size:calc(10 * var(--u)); margin:0; }
+.lock-label { font-size:calc(9 * var(--u)); color:#817d67; }
+.more-methods { font-size:calc(11 * var(--u)); color:#8f7742; text-align:center; line-height:1.1; }
+.page-tab[aria-selected="true"] { background:#e4dec7; color:#004634; }
+.dialogue-card,.menu-card { border:2px solid #ba9a4c; background:#f8f3e4; }
+@media(max-width:380px) { .practice-cap { font-size:calc(9 * var(--u)); } .jade-realm .realm-name { font-size:calc(17 * var(--u)); } }
+.status-hero.jade-hero { min-height:0; padding:calc(8 * var(--u)) calc(12 * var(--u)); background:linear-gradient(90deg,#003e33e0,#003b3260),url('assets/ink-mountains.webp') center/cover,#00392e; }
+.jade-top { grid-template-columns:calc(67 * var(--u)) 1fr 1.2fr; }
+.cultivator-portrait { width:calc(67 * var(--u)); height:calc(67 * var(--u)); }
+.jade-stats { margin-top:calc(6 * var(--u)); line-height:1.3; }
+.jade-stats i { display:block; width:calc(24 * var(--u)); height:calc(25 * var(--u)); }
+.jade-stats i svg { width:100%; height:100%; }
+.jade-stats strong { font-size:calc(14 * var(--u)); }
+.quest-card .quest-brief > summary { min-height:0; padding:calc(4 * var(--u)) calc(12 * var(--u)); }
+[data-layout-route="cultivation"] .jade-practice { padding:calc(8 * var(--u)); }
+.jade-practice .practice-symbol { width:calc(53 * var(--u)); min-width:calc(53 * var(--u)); height:calc(53 * var(--u)); font-size:calc(35 * var(--u)); }
+.jade-practice .practice-name { line-height:1.15; font-size:calc(22 * var(--u)); }
+.jade-practice .practice-time { line-height:1.3; font-size:calc(11 * var(--u)); margin:calc(3 * var(--u)) 0; text-align:left; }
+.method-gains { font-size:calc(12 * var(--u)); line-height:1.2; margin-top:calc(7 * var(--u)); }
+.method-gains th,.method-gains td { padding:calc(3 * var(--u)) calc(8 * var(--u)); }
+.method-gains thead { font-size:calc(10 * var(--u)); }
+.practice-live { line-height:1.2; font-size:calc(9 * var(--u)); margin-top:calc(5 * var(--u)); }
+.jade-practice .action-row { margin-top:calc(6 * var(--u)); }
+.jade-practice .action-row .primary-button { min-height:calc(34 * var(--u)); height:calc(34 * var(--u)); padding:calc(4 * var(--u)); line-height:1.2; }
+.method-seal svg { width:calc(23 * var(--u)); height:calc(23 * var(--u)); }
+.bottom-nav { min-height:calc(58 * var(--u)); padding-top:calc(3 * var(--u)); padding-bottom:calc(3 * var(--u) + env(safe-area-inset-bottom,0px)); }
+.quest-inline-meter { display:inline-block; width:26%; height:calc(6 * var(--u)); margin:0 calc(10 * var(--u)); border:1px solid #97ac8390; border-radius:12px; overflow:hidden; vertical-align:middle; background:#002c25; }
+.quest-inline-meter > span { display:block; height:100%; background:#e8ca70; }
+.quest-inline-count { float:right; color:#fff9dd; font-size:calc(12 * var(--u)); }
+
+.status-hero.jade-hero { background:linear-gradient(90deg,#004031,#003e32),url('assets/ink-mountains.webp') center/cover; background-blend-mode:multiply; }
+
+/* Compact character header: approximately 15% less height at the design viewport. */
+.status-hero.jade-hero { padding:calc(6.5 * var(--u)) calc(12 * var(--u)); }
+.jade-top { grid-template-columns:calc(55 * var(--u)) 1fr 1.2fr; }
+.cultivator-portrait { width:calc(55 * var(--u)); height:calc(55 * var(--u)); }
+.jade-date { font-size:calc(11 * var(--u)); white-space:nowrap; }
+.jade-health { font-size:calc(10 * var(--u)); }
+.jade-stats { margin-top:calc(5 * var(--u)); }
+.jade-stats i { width:calc(21 * var(--u)); height:calc(22 * var(--u)); }
+.jade-stats > div > span { font-size:calc(10 * var(--u)); }
+.jade-stats strong { font-size:calc(12 * var(--u)); }
+.jade-stats small { font-size:calc(9 * var(--u)); }
+
+.hero-tribulation { display:block; margin:calc(5 * var(--u)) 0 0 auto; min-height:calc(22 * var(--u)); min-width:calc(66 * var(--u)); padding:calc(2 * var(--u)) calc(10 * var(--u)); border:1px solid #93865e; border-radius:calc(4 * var(--u)); background:#073d32; color:#c4c4a4; font-size:calc(12 * var(--u)); line-height:1.3; font-family:inherit; }
+.hero-tribulation.is-ready { color:#fff3b6; border-color:#f2cd62; background:linear-gradient(135deg,#98732c,#59481d); box-shadow:0 0 calc(7 * var(--u)) #e1bb5145,inset 0 0 0 2px #fff0a61c; }
+.hero-tribulation:focus-visible { outline:2px solid #ffe58b; outline-offset:3px; }
+
+.realm-last-result { font-size:calc(11 * var(--u)); padding:calc(6 * var(--u)) calc(8 * var(--u)); background:#dce6cf; border-radius:4px; color:#20513d; }
+.realm-last-result.is-failed { background:#f0e2d7; color:#914b32; }
+
+/* Body copy must scale with the portrait canvas; keep decorative headings separate. */
+.muted { font-size:calc(13 * var(--u)); color:#4e5e52; line-height:1.65; }
+.quest-objective p,.quest-objective .muted { font-size:calc(14 * var(--u)); line-height:1.65; }
+.quest-objective .muted { font-family:"Microsoft YaHei","PingFang SC",sans-serif; color:#465b4e; }
+.quest-objective h3 { font-size:calc(16 * var(--u)); }
+.quest-objective .secondary-button { font-size:calc(14 * var(--u)); }
+.small,.combat-note,.enemy-option small,.equipment-slot p,.inheritance-list small,.requirement-list li,.construction-queue small,.market-copy small,.aptitude-row small { font-size:calc(12 * var(--u)); line-height:1.6; }

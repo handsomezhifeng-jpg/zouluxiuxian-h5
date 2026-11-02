@@ -1,0 +1,15 @@
+
+.strength-options{position:fixed;left:18px;top:24px;z-index:20;display:grid;gap:10px;width:190px}.strength-options button{font:14px 'Microsoft YaHei',sans-serif;border:1px solid #b5aa8d;border-radius:5px;background:#faf5e9;color:#415349;padding:12px 15px;text-align:left;cursor:pointer}.strength-options button[aria-pressed=true]{background:#35564e;color:#fffaec;border-color:#35564e}
+.silk-character .character-floating-power .character-power>b{transform:none;font-style:normal;font-synthesis:none;letter-spacing:0;font-variant-numeric:lining-nums tabular-nums;color:#2a423e;text-shadow:none;line-height:1}
+body[data-strength-style=a] .silk-character .character-power>b{font-family:Georgia,'Times New Roman',serif;font-size:calc(40 * var(--u));font-weight:400;letter-spacing:calc(.5 * var(--u))}
+body[data-strength-style=a] .silk-character .character-power>span{font-size:calc(17 * var(--u));color:#596951;letter-spacing:calc(3 * var(--u))}
+body[data-strength-style=a] .silk-character .character-power{gap:calc(12 * var(--u));padding-bottom:calc(7 * var(--u))}
+body[data-strength-style=b] .silk-character .character-power{align-items:baseline;gap:calc(10 * var(--u));padding-bottom:calc(8 * var(--u))}
+body[data-strength-style=b] .silk-character .character-power>b{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:calc(37 * var(--u));font-weight:500}
+body[data-strength-style=b] .silk-character .character-power>span{writing-mode:horizontal-tb;font-family:StrengthXingkai,serif;letter-spacing:calc(1 * var(--u));font-size:calc(20 * var(--u));color:#4a5d50}
+body[data-strength-style=b] .silk-character .character-power:after{display:none}
+body[data-strength-style=c] .silk-character .character-power{flex-direction:column;align-items:center;gap:calc(3 * var(--u));padding:calc(7 * var(--u)) calc(12 * var(--u));border-left:1px solid #89947d66}
+body[data-strength-style=c] .silk-character .character-power>b{font-family:'Times New Roman',Georgia,serif;font-size:calc(39 * var(--u));font-weight:400;letter-spacing:calc(1 * var(--u))}
+body[data-strength-style=c] .silk-character .character-power>span{writing-mode:horizontal-tb;font-family:StrengthXingkai,serif;font-size:calc(18 * var(--u));letter-spacing:calc(5 * var(--u));color:#61715d}
+body[data-strength-style=c] .silk-character .character-power:after{display:none}
+@media(max-width:1120px){.strength-options{top:0;left:0;right:0;width:auto;height:44px;background:#f4eedfe8;display:flex;justify-content:center;align-items:center;gap:7px;backdrop-filter:blur(5px)}.strength-options button{font-size:12px;padding:6px 12px}.app-shell{margin-top:44px;height:calc(100dvh - 44px)}.silk-character{--u:min(2px,calc(100vw /375),calc((100dvh - 44px)/667))}}

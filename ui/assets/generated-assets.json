@@ -1,0 +1,12 @@
+{
+  "cultivation-landscape-plate.png": {
+    "origin": "imagegen",
+    "authorization": "User permitted generating UI components on 2026-10-18",
+    "purpose": "Character-free ambient landscape, covers remaining viewport and blends with the original illustration"
+  },
+  "method-scroll-transparent.png": {
+    "origin": "imagegen",
+    "authorization": "User permitted generating UI components on 2026-10-18",
+    "purpose": "Transparent standalone scroll icon; replaces a rectangular screenshot crop"
+  }
+}

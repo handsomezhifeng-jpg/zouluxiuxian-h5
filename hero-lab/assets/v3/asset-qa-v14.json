@@ -1,0 +1,20 @@
+{
+  "variants": [
+    {
+      "variant": "k",
+      "frames": 13,
+      "edgesClean": true
+    },
+    {
+      "variant": "l",
+      "frames": 10,
+      "edgesClean": true
+    },
+    {
+      "variant": "m",
+      "frames": 13,
+      "edgesClean": true
+    }
+  ],
+  "otherActionsUnchanged": true
+}

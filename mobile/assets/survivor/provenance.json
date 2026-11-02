@@ -1,0 +1,30 @@
+{
+  "source": "C:\\Users\\zhfzhang\\.codex\\generated_images\\01a143fa-3963-78d3-94a8-34b2c1454fdc\\exec-b54cd719-fc52-4ded-bbc9-0efa01faa2b8.png",
+  "crops": {
+    "hero": [
+      410,
+      687,
+      550,
+      827
+    ],
+    "blade": [
+      175,
+      217,
+      280,
+      304
+    ],
+    "golem": [
+      557,
+      102,
+      717,
+      227
+    ],
+    "caster": [
+      407,
+      1114,
+      539,
+      1235
+    ]
+  },
+  "notes": "Original approved pixels. Blue backdrop removed; transparent margins. UI labels render independently."
+}

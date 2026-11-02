@@ -1,0 +1,66 @@
+/* Scrolling world only: the confirmed header and bottom controls stay fixed. */
+.t-map-wrap{left:0;right:0;top:9%;bottom:11.3%;overflow:hidden;pointer-events:auto;touch-action:none;background:#d8d9ca;isolation:isolate}
+.t-map-wrap:before{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,#97a99b18,transparent 16% 84%,#97a99b18),url('assets/tactical/floor.webp') center/48cqw 48cqw;opacity:.95;pointer-events:none}
+.t-board{left:0;top:0;width:var(--t-world-width,1125px);height:var(--t-world-height,3000px);transform-origin:0 0;will-change:transform;contain:layout style;overflow:visible;border:0;box-shadow:none;background:linear-gradient(#eff1df12,#71877615),url('assets/tactical/floor.webp') 0 0/calc(var(--t-cell,90px)*4) calc(var(--t-cell,90px)*4);pointer-events:auto}
+.t-board:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#859b7b1a,transparent 12% 88%,#7f937620),linear-gradient(#82947918,transparent 6% 94%,#82947918);pointer-events:none}
+.t-terrain{position:absolute;inset:0;pointer-events:none;z-index:3}
+.t-rock{position:absolute;width:calc(100% / var(--t-cols)*1.06);height:calc(100% / var(--t-rows)*1.06);transform:translate(-3%,-3%);pointer-events:none;filter:drop-shadow(0 2px 2px #38473b25)}
+.t-rock svg,.t-rock img{width:100%;height:100%;object-fit:contain}
+.t-grass{position:absolute;width:calc(100% / var(--t-cols)*.7);height:calc(100% / var(--t-rows)*.5);pointer-events:none;opacity:.27}
+.t-unit,.t-unit[data-art=caster]{width:calc(100% / var(--t-cols)*.86);height:calc(100% / var(--t-rows)*.86);margin:0;transform:translate(-50%,-100%);transition:opacity .3s!important}
+.t-unit.boss{width:calc(100% / var(--t-cols)*1.80);height:calc(100% / var(--t-rows)*1.80)}
+.t-unit img,.t-unit[data-art=golem] img,.t-unit .t-pose,.t-unit[data-art=golem] .t-pose{left:0;bottom:6%;top:auto;right:auto;width:100%;height:94%;max-width:100%;max-height:100%;transform:none!important;transform-origin:50% 94%;filter:drop-shadow(0 1px 1px #3b45372b)}
+.t-unit .t-pose{background-size:400% 400%}
+.t-health{left:12%;width:76%;bottom:0;height:4.5%;min-height:2px;max-height:none;border-width:1px;border-radius:2px}
+.t-unit.selected .t-ground{height:7%;left:15%;right:15%;outline:0;background:#dfd08b65;box-shadow:0 0 5px #dfd08b44}
+.t-ground{left:18%;right:18%;bottom:5%;height:7%;background:#465f3d22}
+.t-status{font-size:calc(var(--t-cell)*.13);bottom:12%;right:0}
+.t-path polyline{stroke-width:5;stroke-dasharray:2 15;opacity:.72}
+.t-tile.t-selected{background:#c5e3c124;box-shadow:inset 0 0 0 1px #f8edb98c}
+.t-tile.t-reach{background:#c6dfc018;box-shadow:inset 0 0 0 1px #e1ebd149}
+.t-camera-follow{position:absolute;right:3%;bottom:3%;z-index:89;border:1px solid #c5af7a;border-radius:4px;padding:.5em .8em;color:#f8efda;background:#43574bef;font:clamp(12px,2.3cqw,17px) KaiTi,serif;box-shadow:0 1px 5px #233b3330}
+.t-camera-follow[hidden]{display:none}
+.t-map-wrap>.t-result{z-index:95}
+.t-impact{width:calc(100% / var(--t-cols));border-width:1px}.t-impact.array{width:calc(200% / var(--t-cols))}
+.t-projectile{width:calc(100% / var(--t-cols)*.11);height:calc(100% / var(--t-rows)*.27)}
+.t-area-cell{width:calc(100% / var(--t-cols));height:calc(100% / var(--t-rows))}
+/* Faction cues remain readable on the pale ink battlefield. */
+.t-health{height:7%;min-height:4px;left:5%;width:90%;border:1px solid #664439;border-radius:3px;background:#362c29;box-shadow:0 1px 2px #18242180,inset 0 1px #fff5;overflow:visible}
+.t-health i{border-radius:2px;background:linear-gradient(#ffd2a0,#ee865f 45%,#c64b3e);box-shadow:inset 0 1px #ffe6cb90}
+.t-unit.t-hero .t-health i{background:linear-gradient(#baf5ed,#4abeb0 45%,#278e88)}
+.t-unit[data-faction=ally] .t-health{border-color:#245e66;box-shadow:0 0 0 1px #c9f3e5a0,0 2px 3px #193b3e65}
+.t-health em{border-radius:2px;background:#c6eaffb0}
+.t-unit[data-faction=ally] .t-health b,.t-unit.boss .t-health b{display:block;bottom:calc(100% + 3px);font:600 calc(var(--t-cell)*.13)/1.3 'Microsoft YaHei',sans-serif;color:#effff8;text-shadow:0 1px 2px #142e32,1px 0 2px #142e32}
+.t-unit.boss .t-health b{color:#fff1d0;text-shadow:0 1px 2px #642922}
+.t-unit[data-faction=ally] .t-ground{left:8%;right:8%;bottom:7%;height:15%;background:#54beae35;border:1.5px solid #52ad9caf;box-shadow:0 0 5px #9be5d44a}
+.t-unit[data-faction=enemy] .t-ground{background:#9a4f3922;border-bottom:1.5px solid #b26b4b85}
+.t-unit[data-faction=ally] img,.t-unit[data-faction=ally] .t-pose{filter:drop-shadow(0 0 1px #c5fff5) drop-shadow(0 2px 2px #235e5666)}
+.t-rock{filter:drop-shadow(2px 4px 2px #38473b45)}
+.t-grass{opacity:.43}
+.t-stone-detail{position:absolute;width:calc(100% / var(--t-cols)*.8);height:calc(100% / var(--t-rows)*.7);opacity:.32;pointer-events:none}
+/* Reference proportions: a compact opening group, flat under-foot health strips. */
+.t-health{left:9%;width:82%;height:6%;min-height:3px;border:1px solid #443c32;border-radius:1px;background:#28322e;box-shadow:0 1px 1px #e4d6b54d;overflow:visible}
+.t-health i{border-radius:0;background:linear-gradient(#ffbb7c 0 30%,#f69350 32% 80%,#db713d 82%);box-shadow:inset 0 1px #ffe0b9}
+.t-unit[data-faction=ally] .t-health{border-color:#354944;box-shadow:0 1px 1px #d4dfc466}
+.t-unit.t-hero .t-health i{background:linear-gradient(#c9e985 0 30%,#abc659 32% 80%,#8fa943 82%);box-shadow:inset 0 1px #edf5b4}
+.t-unit.t-hero:not([data-unit=hero]) .t-health i{background:linear-gradient(#a2dbf3 0 30%,#63acd5 32% 80%,#458ab8 82%)}
+.t-unit[data-faction=ally] .t-health b{bottom:auto;top:calc(100% + 3px);font-size:calc(var(--t-cell)*.14);font-weight:400;color:#fff8de;text-shadow:0 1px 2px #263832}
+.t-unit.boss .t-health b{display:none}
+.t-unit[data-faction=ally] .t-ground{border:0;box-shadow:none;background:#465f3d22;left:18%;right:18%;height:7%}
+.t-unit[data-faction=enemy] .t-ground{border:0}
+.t-loot-layer{position:absolute;inset:0;z-index:8;pointer-events:none}
+.t-scene-loot{position:absolute;width:calc(100% / var(--t-cols)*.55);height:calc(100% / var(--t-rows)*.55);transform:translate(-50%,-100%);color:var(--loot-color);isolation:isolate}
+.t-scene-loot svg{position:absolute;inset:0;width:100%;height:100%;filter:drop-shadow(0 2px 1px #27372b90);z-index:2;animation:t-loot-land .45s ease-out}
+.t-loot-beam{position:absolute;bottom:25%;left:38%;width:24%;height:240%;background:linear-gradient(0deg,var(--loot-color),transparent);clip-path:polygon(48% 0,65% 0,100% 100%,0 100%);filter:drop-shadow(0 0 3px currentColor);opacity:.85;animation:t-loot-light 2s ease-in-out infinite}
+.t-loot-halo{position:absolute;left:-25%;bottom:-10%;width:150%;height:35%;border-radius:50%;background:radial-gradient(ellipse,var(--loot-color),transparent 68%);opacity:.5}
+.t-scene-loot b{position:absolute;left:12%;top:8%;width:4px;height:4px;border-radius:50%;background:#fff;box-shadow:22px -12px 3px var(--loot-color),12px 10px 2px var(--loot-color),-4px 19px 3px var(--loot-color);animation:t-loot-light 1.6s ease-in-out infinite alternate}
+@keyframes t-loot-light{50%{opacity:.4;transform:translateY(-3px)}}
+@keyframes t-loot-land{0%{transform:translateY(-65%) scale(.7)}60%{transform:translateY(5%)}100%{transform:none}}
+@media(prefers-reduced-motion:reduce){.t-scene-loot *{animation:none!important}}
+.t-unit:not(.boss),.t-unit[data-art=caster]:not(.boss){width:calc(100% / var(--t-cols)*.98);height:calc(100% / var(--t-rows)*.98)}
+
+/* Real-time mode has no initiative queue or tactical range hints. */
+.survivor-mode .t-queue{visibility:hidden;pointer-events:none}.survivor-mode .t-reach,.survivor-mode .t-selected{box-shadow:none!important;background:transparent!important}.survivor-mode .t-path{opacity:.2}
+
+.survivor-mode .t-state{font-size:16px;white-space:normal;line-height:1.3}.survivor-mode .t-order-label{display:none}
+

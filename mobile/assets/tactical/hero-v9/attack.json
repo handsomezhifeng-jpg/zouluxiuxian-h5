@@ -1,0 +1,282 @@
+{
+  "frames": [
+    {
+      "src": "g-attack-00.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        146.2358,
+        291.4716
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        115,
+        16,
+        297,
+        294
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    },
+    {
+      "src": "g-attack-01.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        118.0,
+        291.0
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        81,
+        19,
+        255,
+        291
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    },
+    {
+      "src": "g-attack-02.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        132.7358,
+        291.0
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        88,
+        17,
+        272,
+        291
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    },
+    {
+      "src": "g-attack-03.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        159.0,
+        289.4716
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        60,
+        25,
+        317,
+        291
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 3
+    },
+    {
+      "src": "g-attack-05.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        101.7358,
+        265.0
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        60,
+        5,
+        272,
+        266
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    },
+    {
+      "src": "g-attack-06.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        80.0,
+        262.4716
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        63,
+        21,
+        293,
+        265
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    },
+    {
+      "src": "g-attack-07.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        62.0,
+        259.4716
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        45,
+        26,
+        386,
+        261
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    },
+    {
+      "src": "g-attack-09.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        17.1562,
+        227.4148
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        1,
+        12,
+        362,
+        233
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 2
+    },
+    {
+      "src": "g-attack-10.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        20.3551,
+        227.4148
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        4,
+        16,
+        344,
+        233
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    },
+    {
+      "src": "g-attack-11.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        39.0057,
+        231.8864
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        24,
+        5,
+        243,
+        239
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    },
+    {
+      "src": "g-attack-12.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        135.7358,
+        264.0
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        110,
+        4,
+        300,
+        264
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 1
+    },
+    {
+      "src": "g-attack-14.png",
+      "pivot": [
+        208,
+        286
+      ],
+      "referenceHeight": 176,
+      "sourcePivot": [
+        127.7642,
+        264.4716
+      ],
+      "pivotMode": "rear-foot-manual",
+      "sourceFeet": [],
+      "sourceBounds": [
+        99,
+        5,
+        258,
+        267
+      ],
+      "sourceScale": 0.654275092936803,
+      "edgeTouch": false,
+      "removedPixels": 0
+    }
+  ],
+  "duration": 720,
+  "source": "approved v9-aligned; original middle travel, endpoints aligned"
+}

@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "NEW 16-frame ONE decisive STEP-IN DIAGONAL SWORD CHOP game animation. EXACT4columns x4rows, chronological left-to-right top-to-bottom. Same reference A2 chibi male with COMPACT short black ponytail, white robe blue collar centerpanel, navy sash, black guards boots, LARGE broadsteel jian, clean thick outline, simple shadows. Same camera/scale in all frames. CRITICAL: NO repeated sword-behind-head wiggle, NO back-and-forth arm motion. Sword orientation progresses in ONE direction through the cut. Exactly this timing:1 neutral swordlow;2 elbow bends drawing sword toward shoulder;3 blade rises beside shoulder;4 blade just behind crown ONCE at anticipation peak (only this ONE frame at rear position);5 front RIGHT leg begins STEP forward, sword begins descend;6 front leg extends forward sword diagonal midway high;7 front foot lands forward knee bent, blade crosses chest midway;8 torso drives forward blade nearhorizontal;9 impact blade diagonal lowright, long grounded lunge;10 full followthrough blade lowerright;11 hold followthrough with tiny weightsettle;12 elbow begins retract;13 torso rises slightly;14 sword lowers beside leg;15 relaxed forward stance;16 same relaxed forward stance. The front foot must visibly move forward during frames5-8 while rear boot remains fixed as anatomical pivot, stance lengthens, gives weight and force. Every entire character INCLUDING large sword within CENTRAL50% of each cell, huge transparent padding, no cropped sword/hair, no neighboring overlap. True transparent alpha, NO ground/shadows/particles/word/labels/trails. Need genuine smooth intermediate limb/sword poses, not multiple repetitions of anticipation.",
+  "activeSourceFrames": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14
+  ],
+  "curation": "Removed repeated/reversing anticipation, redundant neutral poses and source-boundary frame8.",
+  "rootMotion": "Independent horizontal smoothstep, 20% character height, weight transfer 20%-53% phase. Holds final position and hands off to idle without reset.",
+  "pivot": "Rear boot sole manually scoped/measured and explicitly saved in pivot-annotations.json.",
+  "unchanged": "Idle/run/cast/hit frames unchanged; other-action hashes checked.",
+  "productionReplaced": false
+}

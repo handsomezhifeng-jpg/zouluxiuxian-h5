@@ -1,0 +1,603 @@
+{
+  "source": "G:\\aikaifa\\zouluxiuxian\\mobile-port\\app\\ui\\source\\B-silk-ink-clean-v3.png",
+  "source_size": [
+    941,
+    1672
+  ],
+  "assets": {
+    "cultivation-scene.png": {
+      "source_box": [
+        0,
+        311,
+        941,
+        1125
+      ],
+      "size": [
+        941,
+        814
+      ],
+      "operation": "crop"
+    },
+    "avatar.png": {
+      "source_box": [
+        22,
+        8,
+        220,
+        206
+      ],
+      "size": [
+        198,
+        198
+      ],
+      "operation": "crop"
+    },
+    "paper.png": {
+      "source_box": [
+        415,
+        48,
+        510,
+        96
+      ],
+      "size": [
+        95,
+        48
+      ],
+      "operation": "crop"
+    },
+    "scene-mist.png": {
+      "source_box": [
+        200,
+        312,
+        780,
+        354
+      ],
+      "size": [
+        580,
+        42
+      ],
+      "operation": "crop"
+    },
+    "quest-frame.png": {
+      "source_box": [
+        22,
+        226,
+        921,
+        308
+      ],
+      "size": [
+        899,
+        82
+      ],
+      "operation": "crop"
+    },
+    "practice-frame.png": {
+      "source_box": [
+        14,
+        1130,
+        925,
+        1476
+      ],
+      "size": [
+        911,
+        346
+      ],
+      "operation": "crop"
+    },
+    "navigation-frame.png": {
+      "source_box": [
+        0,
+        1472,
+        941,
+        1672
+      ],
+      "size": [
+        941,
+        200
+      ],
+      "operation": "crop"
+    },
+    "quest-scroll.png": {
+      "source_box": [
+        75,
+        235,
+        139,
+        297
+      ],
+      "size": [
+        64,
+        62
+      ],
+      "operation": "crop"
+    },
+    "method-scroll.png": {
+      "source_box": [
+        89,
+        1148,
+        190,
+        1258
+      ],
+      "size": [
+        101,
+        110
+      ],
+      "operation": "crop"
+    },
+    "_frame-corner-top.png": {
+      "source_box": [
+        883,
+        20,
+        925,
+        62
+      ],
+      "size": [
+        42,
+        42
+      ],
+      "operation": "crop"
+    },
+    "_frame-corner-bottom.png": {
+      "source_box": [
+        883,
+        156,
+        925,
+        198
+      ],
+      "size": [
+        42,
+        42
+      ],
+      "operation": "crop"
+    },
+    "panel-frame.png": {
+      "operation": "source corner and edge assembly; transparent center",
+      "slice": 42
+    },
+    "button-gold.png": {
+      "source_box": [
+        114,
+        1338,
+        521,
+        1447
+      ],
+      "operation": "complete original panel; deterministic local pixel repair of dynamic glyphs; preserve original texture and ornaments",
+      "patches": [
+        [
+          [
+            247,
+            1348,
+            381,
+            1423
+          ],
+          [
+            383,
+            1358,
+            434,
+            1416
+          ]
+        ]
+      ]
+    },
+    "button-ivory.png": {
+      "source_box": [
+        548,
+        1348,
+        832,
+        1442
+      ],
+      "operation": "complete original panel; deterministic local pixel repair of dynamic glyphs; preserve original texture and ornaments",
+      "patches": [
+        [
+          [
+            590,
+            1362,
+            785,
+            1418
+          ],
+          [
+            575,
+            1361,
+            592,
+            1419
+          ]
+        ]
+      ]
+    },
+    "_track-right.png": {
+      "source_box": [
+        561,
+        1282,
+        755,
+        1310
+      ],
+      "size": [
+        194,
+        28
+      ],
+      "operation": "crop"
+    },
+    "progress-track.png": {
+      "operation": "source empty trough and mirrored end cap",
+      "source_box": [
+        561,
+        1282,
+        755,
+        1310
+      ]
+    },
+    "progress-fill.png": {
+      "source_box": [
+        267,
+        1289,
+        480,
+        1303
+      ],
+      "size": [
+        213,
+        14
+      ],
+      "operation": "crop"
+    },
+    "nav-cultivation.png": {
+      "source_box": [
+        20,
+        1493,
+        136,
+        1596
+      ],
+      "size": [
+        116,
+        103
+      ],
+      "operation": "crop"
+    },
+    "nav-realm.png": {
+      "source_box": [
+        155,
+        1493,
+        271,
+        1596
+      ],
+      "size": [
+        116,
+        103
+      ],
+      "operation": "crop"
+    },
+    "nav-character.png": {
+      "source_box": [
+        287,
+        1493,
+        403,
+        1596
+      ],
+      "size": [
+        116,
+        103
+      ],
+      "operation": "crop"
+    },
+    "nav-adventure.png": {
+      "source_box": [
+        422,
+        1493,
+        538,
+        1596
+      ],
+      "size": [
+        116,
+        103
+      ],
+      "operation": "crop"
+    },
+    "nav-inventory.png": {
+      "source_box": [
+        554,
+        1493,
+        670,
+        1596
+      ],
+      "size": [
+        116,
+        103
+      ],
+      "operation": "crop"
+    },
+    "nav-arts.png": {
+      "source_box": [
+        687,
+        1493,
+        803,
+        1596
+      ],
+      "size": [
+        116,
+        103
+      ],
+      "operation": "crop"
+    },
+    "nav-settings.png": {
+      "source_box": [
+        817,
+        1493,
+        933,
+        1596
+      ],
+      "size": [
+        116,
+        103
+      ],
+      "operation": "crop"
+    },
+    "profile-sheet.png": {
+      "source_box": [
+        0,
+        0,
+        941,
+        211
+      ],
+      "operation": "complete original panel; deterministic local pixel repair of dynamic glyphs; preserve original texture and ornaments",
+      "patches": [
+        [
+          [
+            239,
+            48,
+            394,
+            116
+          ],
+          [
+            420,
+            40,
+            525,
+            94
+          ]
+        ],
+        [
+          [
+            329,
+            120,
+            441,
+            178
+          ],
+          [
+            420,
+            40,
+            525,
+            94
+          ]
+        ],
+        [
+          [
+            642,
+            48,
+            793,
+            96
+          ],
+          [
+            420,
+            40,
+            525,
+            94
+          ]
+        ],
+        [
+          [
+            557,
+            101,
+            815,
+            129
+          ],
+          [
+            420,
+            40,
+            525,
+            94
+          ]
+        ],
+        [
+          [
+            555,
+            134,
+            711,
+            181
+          ],
+          [
+            420,
+            40,
+            525,
+            94
+          ]
+        ]
+      ]
+    },
+    "quest-sheet.png": {
+      "source_box": [
+        0,
+        212,
+        941,
+        313
+      ],
+      "operation": "complete original panel; deterministic local pixel repair of dynamic glyphs; preserve original texture and ornaments",
+      "patches": [
+        [
+          [
+            153,
+            237,
+            453,
+            290
+          ],
+          [
+            465,
+            239,
+            705,
+            289
+          ]
+        ],
+        [
+          [
+            765,
+            240,
+            845,
+            290
+          ],
+          [
+            675,
+            240,
+            754,
+            290
+          ]
+        ]
+      ]
+    },
+    "practice-sheet.png": {
+      "source_box": [
+        0,
+        1125,
+        941,
+        1472
+      ],
+      "operation": "complete original panel; deterministic local pixel repair of dynamic glyphs; preserve original texture and ornaments",
+      "patches": [
+        [
+          [
+            233,
+            1180,
+            536,
+            1234
+          ],
+          [
+            544,
+            1178,
+            665,
+            1232
+          ]
+        ],
+        [
+          [
+            675,
+            1180,
+            845,
+            1235
+          ],
+          [
+            544,
+            1178,
+            665,
+            1232
+          ]
+        ],
+        [
+          [
+            763,
+            1273,
+            846,
+            1320
+          ],
+          [
+            840,
+            1271,
+            889,
+            1320
+          ]
+        ]
+      ]
+    },
+    "nav-sheet.png": {
+      "source_box": [
+        0,
+        1472,
+        941,
+        1672
+      ],
+      "operation": "complete original panel; deterministic local pixel repair of dynamic glyphs; preserve original texture and ornaments",
+      "patches": [
+        [
+          [
+            17,
+            1478,
+            924,
+            1644
+          ],
+          [
+            425,
+            42,
+            521,
+            97
+          ]
+        ]
+      ]
+    },
+    "nav-cultivation-tile.png": {
+      "source_box": [
+        17,
+        1478,
+        147,
+        1644
+      ],
+      "operation": "unaltered icon and caption tile"
+    },
+    "nav-realm-tile.png": {
+      "source_box": [
+        147,
+        1478,
+        278,
+        1644
+      ],
+      "operation": "unaltered icon and caption tile"
+    },
+    "nav-character-tile.png": {
+      "source_box": [
+        278,
+        1478,
+        408,
+        1644
+      ],
+      "operation": "unaltered icon and caption tile"
+    },
+    "nav-adventure-tile.png": {
+      "source_box": [
+        408,
+        1478,
+        538,
+        1644
+      ],
+      "operation": "unaltered icon and caption tile"
+    },
+    "nav-inventory-tile.png": {
+      "source_box": [
+        538,
+        1478,
+        668,
+        1644
+      ],
+      "operation": "unaltered icon and caption tile"
+    },
+    "nav-arts-tile.png": {
+      "source_box": [
+        668,
+        1478,
+        799,
+        1644
+      ],
+      "operation": "unaltered icon and caption tile"
+    },
+    "nav-settings-tile.png": {
+      "source_box": [
+        799,
+        1478,
+        929,
+        1644
+      ],
+      "operation": "unaltered icon and caption tile"
+    },
+    "cultivation-landscape-plate.png": {
+      "origin": "imagegen",
+      "authorization": "User permitted generating UI components on 2026-10-18",
+      "purpose": "Character-free ambient landscape, covers remaining viewport and blends with the original illustration"
+    },
+    "method-scroll-transparent.png": {
+      "origin": "imagegen",
+      "authorization": "User permitted generating UI components on 2026-10-18",
+      "purpose": "Transparent standalone scroll icon; replaces a rectangular screenshot crop"
+    }
+  }
+}

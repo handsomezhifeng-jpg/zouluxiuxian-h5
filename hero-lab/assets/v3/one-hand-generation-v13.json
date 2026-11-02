@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "NEW production 16frame ONE-HANDED SWORD SLASH animation atlas EXACT4columns x4rows, chronological. Reference defines SAME A2 chibi youngmale: compact small black bun/short narrow ponytail, simplewhite robe palebluecollar/centerpanel navy sash blackguardsboots, broadsteel jian, clean thicknavy outline, same scale elevated3/4 facingright. RIGHT HAND ONLY grips the ONE sword in EVERY frame. LEFT HAND ALWAYS EMPTY, OPEN and clearly separated from sword hilt, used for balance. Never twohand grip, NEVER second sword, scabbard or phantom blade. ONE continuous curved downward SWING, NOT a thrust: bent rightelbow draws blade up beside rightshoulder, rightarm rotates in an arc then folds down toward oppositehip. Left openpalm balances outward. Rear LEFT boot PLANTED same position all16frames, frontleg highknee then extends into deepwide bentknee stance thenreturns. Body has no overall translation. Frames1-2neutral sworddown right leftempty;3drawrightelbowback bladeupperright;4rightarmraisesbladeabove/outsiderightshoulder, leftpalmopen forward;5ONE anticipation peak kneeup bladeupright OUTSIDE head silhouette;6frontfoot landswide blade startsdownward;7blade upperright45deg;8blade rightnearlyhorizontal with BENT elbow hilt close to chest;9blade lowright35deg hilt nearwaist;10blade lowright60deg rightwrist nearhip, deepkneebend;11followthrough rightarm across lowerbody leftarm behindbalances;12-14 recover lowerblade andreturnfrontfoot;15-16neutral. No straight-arm stabbing, no sword pointing out from two extended arms, no repeated backswing. Full sword always visible, not hidden behindhead. ALL figure INCLUDING sword within CENTRAL45% ofeach squarecell, hugeemptygaps/padding. True alpha transparency, NO background/shadows/fx/motiontrails/text/labels/cell lines. Clear unambiguous SINGLE sword and SINGLE gripping hand in all frames.",
+  "activeSourceFrames": [
+    0,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "poseReview": "Right hand grips one sword; left palm free. Hidden-blade and reversing anticipation poses omitted.",
+  "rootMotion": 0,
+  "pivot": "Explicit boot-only landmark annotations, blade excluded.",
+  "otherActions": "Existing idle/run/cast/hit reused unchanged and hashes verified.",
+  "productionReplaced": false
+}

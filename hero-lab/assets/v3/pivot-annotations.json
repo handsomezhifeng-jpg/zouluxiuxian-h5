@@ -1,0 +1,966 @@
+{
+  "c-state-04": {
+    "sourcePivot": [
+      197.403,
+      372.0004
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual visual landmark, independent of weapon and frame bounding box",
+    "measurement": "Boot-only manually bounded ROI, actual opaque sole centroid. Excludes sword and other foot."
+  },
+  "c-state-05": {
+    "sourcePivot": [
+      271.028,
+      373.0004
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual visual landmark, independent of weapon and frame bounding box",
+    "measurement": "Boot-only manually bounded ROI, actual opaque sole centroid. Excludes sword and other foot."
+  },
+  "c-state-06": {
+    "sourcePivot": [
+      162.9998,
+      368.8072
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual visual landmark, independent of weapon and frame bounding box",
+    "measurement": "Boot-only manually bounded ROI, actual opaque sole centroid. Excludes sword and other foot."
+  },
+  "c-state-07": {
+    "sourcePivot": [
+      146.5005,
+      372.8072
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual visual landmark, independent of weapon and frame bounding box",
+    "measurement": "Boot-only manually bounded ROI, actual opaque sole centroid. Excludes sword and other foot."
+  },
+  "e-attack-00": {
+    "sourcePivot": [
+      163.0,
+      267.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-01": {
+    "sourcePivot": [
+      158.0,
+      267.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-02": {
+    "sourcePivot": [
+      149.0,
+      267.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-03": {
+    "sourcePivot": [
+      141.5,
+      267.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-04": {
+    "sourcePivot": [
+      165.0,
+      278.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-05": {
+    "sourcePivot": [
+      120.5,
+      278.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-06": {
+    "sourcePivot": [
+      145.0,
+      278.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-07": {
+    "sourcePivot": [
+      138.0,
+      278.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-08": {
+    "sourcePivot": [
+      132.0,
+      243.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-09": {
+    "sourcePivot": [
+      109.5,
+      243.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-10": {
+    "sourcePivot": [
+      61.5,
+      243.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-12": {
+    "sourcePivot": [
+      160.5,
+      262.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-13": {
+    "sourcePivot": [
+      121.5,
+      263.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-14": {
+    "sourcePivot": [
+      125.5,
+      264.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "e-attack-15": {
+    "sourcePivot": [
+      128.0,
+      264.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-00": {
+    "sourcePivot": [
+      158.0,
+      268.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-01": {
+    "sourcePivot": [
+      137.0,
+      267.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-02": {
+    "sourcePivot": [
+      107.5,
+      267.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-03": {
+    "sourcePivot": [
+      113.0,
+      267.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-04": {
+    "sourcePivot": [
+      156.5,
+      246.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-05": {
+    "sourcePivot": [
+      159.5,
+      246.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-06": {
+    "sourcePivot": [
+      158.0,
+      246.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-07": {
+    "sourcePivot": [
+      119.5,
+      246.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-08": {
+    "sourcePivot": [
+      121.0,
+      241.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-09": {
+    "sourcePivot": [
+      64.5,
+      241.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-10": {
+    "sourcePivot": [
+      79.5,
+      241.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-11": {
+    "sourcePivot": [
+      79.5,
+      241.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-12": {
+    "sourcePivot": [
+      144.0,
+      247.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-13": {
+    "sourcePivot": [
+      110.0,
+      247.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-14": {
+    "sourcePivot": [
+      105.5,
+      248.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "f-attack-15": {
+    "sourcePivot": [
+      130.0,
+      249.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "visually verified on labelled contact sheet; candidate accepted and explicitly frozen"
+  },
+  "g-attack-00": {
+    "sourcePivot": [
+      146.2358,
+      291.4716
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-01": {
+    "sourcePivot": [
+      118.0,
+      291.0
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-02": {
+    "sourcePivot": [
+      132.7358,
+      291.0
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-03": {
+    "sourcePivot": [
+      159.0,
+      289.4716
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-05": {
+    "sourcePivot": [
+      101.7358,
+      265.0
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-06": {
+    "sourcePivot": [
+      80.0,
+      262.4716
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-07": {
+    "sourcePivot": [
+      62.0,
+      259.4716
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-09": {
+    "sourcePivot": [
+      17.1562,
+      227.4148
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-10": {
+    "sourcePivot": [
+      20.3551,
+      227.4148
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-11": {
+    "sourcePivot": [
+      39.0057,
+      231.8864
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-12": {
+    "sourcePivot": [
+      135.7358,
+      264.0
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "g-attack-14": {
+    "sourcePivot": [
+      127.7642,
+      264.4716
+    ],
+    "landmark": "rear boot sole contact point",
+    "method": "manual boot-only ROI, measured sole centroid; sword excluded"
+  },
+  "h-attack-00": {
+    "sourcePivot": [
+      148.0,
+      266.7017
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-01": {
+    "sourcePivot": [
+      157.8509,
+      268.0
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-02": {
+    "sourcePivot": [
+      156.7017,
+      269.0
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-03": {
+    "sourcePivot": [
+      175.0,
+      272.0
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-04": {
+    "sourcePivot": [
+      154.0,
+      241.7017
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-05": {
+    "sourcePivot": [
+      96.0526,
+      242.2983
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-06": {
+    "sourcePivot": [
+      74.5,
+      241.7017
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-07": {
+    "sourcePivot": [
+      68.4205,
+      240.2102
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-08": {
+    "sourcePivot": [
+      80.5,
+      225.7017
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-09": {
+    "sourcePivot": [
+      66.8509,
+      228.2983
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-10": {
+    "sourcePivot": [
+      66.5,
+      230.2983
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-11": {
+    "sourcePivot": [
+      84.8509,
+      230.0
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-12": {
+    "sourcePivot": [
+      161.5,
+      226.7017
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-13": {
+    "sourcePivot": [
+      125.2017,
+      229.0
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-14": {
+    "sourcePivot": [
+      113.0,
+      234.0
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "h-attack-15": {
+    "sourcePivot": [
+      133.2017,
+      232.7017
+    ],
+    "landmark": "planted rear boot sole",
+    "method": "manual boot-only ROI and visual audit, not sword/global lowest pixel"
+  },
+  "i-attack-01": {
+    "sourcePivot": [
+      113.5,
+      269.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-02": {
+    "sourcePivot": [
+      112.5,
+      267.733
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-04": {
+    "sourcePivot": [
+      158.0,
+      271.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-05": {
+    "sourcePivot": [
+      99.5,
+      253.733
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-06": {
+    "sourcePivot": [
+      87.8665,
+      243.733
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-08": {
+    "sourcePivot": [
+      146.8665,
+      225.733
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-09": {
+    "sourcePivot": [
+      74.6733,
+      223.9318
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-10": {
+    "sourcePivot": [
+      97.5085,
+      215.3977
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-11": {
+    "sourcePivot": [
+      110.6335,
+      230.733
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-13": {
+    "sourcePivot": [
+      127.5,
+      220.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "i-attack-15": {
+    "sourcePivot": [
+      121.0,
+      221.0
+    ],
+    "landmark": "rear boot sole center",
+    "method": "manual boot-only region, excludes sword; visually reviewed"
+  },
+  "j-attack-00": {
+    "sourcePivot": [
+      141.8196,
+      289.2784
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-03": {
+    "sourcePivot": [
+      126.8196,
+      283.0
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-04": {
+    "sourcePivot": [
+      165.5,
+      279.0
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-07": {
+    "sourcePivot": [
+      95.5,
+      269.6392
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-08": {
+    "sourcePivot": [
+      117.3196,
+      240.0
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-09": {
+    "sourcePivot": [
+      130.6946,
+      238.2784
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-10": {
+    "sourcePivot": [
+      101.3196,
+      236.6392
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-11": {
+    "sourcePivot": [
+      169.6804,
+      244.0
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-12": {
+    "sourcePivot": [
+      176.0,
+      233.6392
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-13": {
+    "sourcePivot": [
+      127.5,
+      233.0
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "j-attack-15": {
+    "sourcePivot": [
+      144.6804,
+      232.2784
+    ],
+    "landmark": "rear support boot sole",
+    "method": "manual boot-only region excludes blade, visual review"
+  },
+  "k-attack-00": {
+    "sourcePivot": [
+      139.4091,
+      262.8153
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-01": {
+    "sourcePivot": [
+      131.4929,
+      262.8153
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-02": {
+    "sourcePivot": [
+      156.7287,
+      262.8153
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-03": {
+    "sourcePivot": [
+      147.5,
+      259.8153
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-04": {
+    "sourcePivot": [
+      163.4517,
+      238.8153
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-06": {
+    "sourcePivot": [
+      81.6364,
+      236.8153
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-07": {
+    "sourcePivot": [
+      39.7955,
+      239.8153
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-08": {
+    "sourcePivot": [
+      144.3026,
+      235.6051
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-09": {
+    "sourcePivot": [
+      28.0,
+      228.2102
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-12": {
+    "sourcePivot": [
+      151.8026,
+      238.6051
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-13": {
+    "sourcePivot": [
+      134.8026,
+      235.6051
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-14": {
+    "sourcePivot": [
+      127.6733,
+      236.0256
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "k-attack-15": {
+    "sourcePivot": [
+      128.5142,
+      235.0256
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-01": {
+    "sourcePivot": [
+      177.5,
+      267.0
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-05": {
+    "sourcePivot": [
+      117.375,
+      273.75
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-06": {
+    "sourcePivot": [
+      104.875,
+      244.5
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-07": {
+    "sourcePivot": [
+      116.375,
+      244.25
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-09": {
+    "sourcePivot": [
+      161.5,
+      198.0
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-10": {
+    "sourcePivot": [
+      93.125,
+      191.75
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-11": {
+    "sourcePivot": [
+      120.0,
+      207.0
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-14": {
+    "sourcePivot": [
+      151.5,
+      221.5
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "l-attack-15": {
+    "sourcePivot": [
+      117.875,
+      226.5
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-00": {
+    "sourcePivot": [
+      140.9517,
+      288.3977
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-01": {
+    "sourcePivot": [
+      153.331,
+      289.3977
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-02": {
+    "sourcePivot": [
+      173.7163,
+      288.1989
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-03": {
+    "sourcePivot": [
+      164.2486,
+      289.1989
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-04": {
+    "sourcePivot": [
+      160.2997,
+      233.5994
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-05": {
+    "sourcePivot": [
+      130.0,
+      235.5994
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-07": {
+    "sourcePivot": [
+      107.0,
+      258.5994
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-08": {
+    "sourcePivot": [
+      153.7003,
+      270.0
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-09": {
+    "sourcePivot": [
+      132.5,
+      277.0
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-12": {
+    "sourcePivot": [
+      141.0,
+      222.5994
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-13": {
+    "sourcePivot": [
+      82.5,
+      221.5994
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-14": {
+    "sourcePivot": [
+      88.2003,
+      221.5994
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  },
+  "m-attack-15": {
+    "sourcePivot": [
+      103.0,
+      224.5994
+    ],
+    "landmark": "rear boot sole contact",
+    "method": "manually bounded boot-only ROI, reviewed on labelled contact sheet; blade excluded"
+  }
+}

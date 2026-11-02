@@ -1,0 +1,16 @@
+.equipment-change-overlay{position:absolute;inset:0;z-index:100;pointer-events:none;overflow:hidden;--feedback-unit:1px;isolation:isolate}
+.equipment-change-phase{position:absolute;top:30%;left:3%;width:94%;min-height:calc(240 * var(--feedback-unit));display:grid;place-items:center;box-sizing:border-box;padding:calc(40 * var(--feedback-unit)) calc(60 * var(--feedback-unit));animation:equipment-change-float 1500ms both;opacity:0}
+.equipment-change-phase:before{content:none}
+.equipment-change-lines{display:grid;gap:calc(5 * var(--feedback-unit));font:700 calc(43 * var(--feedback-unit))/1.35 KaiTi,STKaiti,serif;text-align:center;-webkit-text-stroke:.25px currentColor;text-shadow:0 1px 1px #fffdf3,0 0 2px #fffdf3}
+.equipment-change-lines .is-gain{color:#276735}.equipment-change-lines .is-loss{color:#9d332c}
+.equipment-change-attributes.is-many .equipment-change-lines{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:calc(26 * var(--feedback-unit));font-size:calc(34 * var(--feedback-unit))}
+.equipment-change-power{font:700 calc(56 * var(--feedback-unit))/1.35 KaiTi,STKaiti,serif;color:#276735;text-align:center;white-space:nowrap;-webkit-text-stroke:.25px currentColor;text-shadow:0 1px 1px #fffdf3,0 0 2px #fffdf3}
+.equipment-change-power.is-loss{color:#9d332c}
+.equipment-change-lines>div,.equipment-change-power>span{display:block;transform:skewX(-6deg);padding:0 .12em;background:linear-gradient(180deg,#205423 8%,#367c38 52%,#91b66e 100%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-text-stroke:.2px #295f2a66;text-shadow:none;filter:drop-shadow(0 1px 0 #fffaf0) drop-shadow(0 0 1px #fffaf0)}
+.equipment-change-lines>.is-loss,.equipment-change-power.is-loss>span{background-image:linear-gradient(180deg,#81251f 8%,#b53f32 52%,#d98a68 100%);-webkit-text-stroke-color:#8b302966}
+.equipment-change-power{text-shadow:none;-webkit-text-stroke:0}
+.equipment-change-attributes .equipment-change-lines>div{filter:drop-shadow(0 1px 4px #fff) drop-shadow(0 0 8px #fff)}
+.equipment-change-attributes{animation-name:equipment-attribute-fade}
+@keyframes equipment-attribute-fade{0%{opacity:0;transform:translateY(12px) scale(.94)}14%{opacity:1;transform:translateY(0) scale(1)}70%{opacity:1;transform:translateY(-8px) scale(1)}100%{opacity:0;transform:translateY(-24px) scale(1)}}
+@keyframes equipment-change-float{0%{opacity:0;transform:translateY(12px) scale(.94)}15%{opacity:1;transform:translateY(0) scale(1)}75%{opacity:1;transform:translateY(-8px) scale(1)}100%{opacity:0;transform:translateY(-24px) scale(1)}}
+@media(prefers-reduced-motion:reduce){@keyframes equipment-change-float{0%,100%{opacity:0}15%,75%{opacity:1}}@keyframes equipment-attribute-fade{0%,100%{opacity:0}14%,70%{opacity:1}}}

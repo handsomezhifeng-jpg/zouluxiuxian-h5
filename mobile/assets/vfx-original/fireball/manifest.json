@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "textures": {
+    "flame": {
+      "file": "../Fire.png",
+      "columns": 4,
+      "rows": 4,
+      "frames": 16,
+      "source": {
+        "bundle": "ec64d65be47486e7959c9b1bd37760f2",
+        "id": -7603715255712388323,
+        "name": "Fire",
+        "sha256": "7cb205c04a7dd2293ddeaf592d4cdca0b2cedacffdb7baa1b1bec65808d808cf"
+      }
+    },
+    "explosion": {
+      "file": "../Fx_Flame_MJ_001.png",
+      "columns": 4,
+      "rows": 4,
+      "frames": 16,
+      "source": {
+        "bundle": "6411d469001d27f2533f5f1f217f4d51",
+        "id": -5184690980169503314,
+        "name": "Fx_Flame_MJ_001",
+        "sha256": "f147ba87e3f6632147da9c9172a1d06616149e5d6eb02d5661c01d23640d8c9f"
+      }
+    },
+    "core": {
+      "file": "../Fx_Light_0001.png",
+      "blend": "lighter",
+      "tint": "#ffda89",
+      "source": {
+        "bundle": "836549749ee8800f6b972dc409d7fdf4",
+        "id": 7949691097045489204,
+        "name": "Fx_Light_0001",
+        "sha256": "1edc7336c8cf50cff3846e29865a2ebb9aa145baa301c7ac9ec26cf05fc7fcad"
+      }
+    },
+    "charge": {
+      "file": "../Fx_Light_0001.png",
+      "blend": "lighter",
+      "tint": "#ffcf70",
+      "source": {
+        "bundle": "836549749ee8800f6b972dc409d7fdf4",
+        "id": 7949691097045489204,
+        "name": "Fx_Light_0001",
+        "sha256": "1edc7336c8cf50cff3846e29865a2ebb9aa145baa301c7ac9ec26cf05fc7fcad"
+      }
+    },
+    "shockwave": {
+      "file": "../Fx_Guangquan_22.png",
+      "blend": "lighter",
+      "tint": "#ffd396",
+      "source": {
+        "bundle": "378f8c53585ca7365f115274862167fc",
+        "id": -4140108011927656857,
+        "name": "Fx_Guangquan_22",
+        "sha256": "33c22c275a3a18f3834e1bb40863256834a090463ca19a3ba19eee99a80c4aec"
+      }
+    },
+    "spark": {
+      "file": "../Sparks_012_tex.png",
+      "blend": "lighter",
+      "tint": "#ffd990",
+      "source": {
+        "bundle": "fc1e1b3fd67e128df1d1efa770eb6cfd",
+        "id": 5253340910580915669,
+        "name": "Sparks_012_tex",
+        "sha256": "a88d2cf983bedf1ed3db817cb6b43c980e78efb816b302b17988ecdc79f823c3"
+      }
+    }
+  },
+  "provenance": {
+    "source": "zjcs_M509085.apk / local YooAsset bundles",
+    "evidence": "analysis/rea-zjcs/vfx/integrated-textures-provenance.json",
+    "status": "original APK common texture extraction; Canvas layer reconstruction",
+    "skill": {
+      "name": "火球术",
+      "classId": 10028,
+      "entityId": 10800,
+      "prefabBundleHash": "7d62e4b390ccd033b5a5aa4ecd3cd5cb",
+      "prefabExistsInApk": false
+    },
+    "limits": "Exact fireball prefab is listed in manifest but absent from APK. Common flame/cauldron/ring/glow/spark textures are adapted; original Unity particle/shader playback is not reproduced. Hit 600 ms and flight 180 ms remain project calibration.",
+    "timingEvidence": {
+      "source": "analysis/rea-zjcs/vfx/fireball-10800-timing.json",
+      "rootActionDurationMs": 1100,
+      "rootLifetimeMs": 1300,
+      "childEntity10801TriggerMs": 330,
+      "finalHitMs": 600,
+      "finalHitStatus": "current project calibration; child entity trigger is not treated as a confirmed final hit"
+    }
+  }
+}

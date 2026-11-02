@@ -1,0 +1,854 @@
+{
+  "version": 1,
+  "atlas": "equipment-atlas.png",
+  "columns": 8,
+  "rows": 8,
+  "count": 64,
+  "progressionSource": "app/dj.json: realm names at levels 1,11,...,151",
+  "realms": [
+    {
+      "id": 0,
+      "realm": "炼气",
+      "minLevel": 1,
+      "design": "竹木素钢与素布，淡青纹饰，初入仙途。",
+      "items": [
+        {
+          "id": "sword-01",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "青竹剑",
+          "tier": 0,
+          "minLevel": 1,
+          "index": 0,
+          "column": 0,
+          "row": 0
+        },
+        {
+          "id": "robe-01",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "素云衣",
+          "tier": 0,
+          "minLevel": 1,
+          "index": 1,
+          "column": 1,
+          "row": 0
+        },
+        {
+          "id": "jade-01",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "凝气玉",
+          "tier": 0,
+          "minLevel": 1,
+          "index": 2,
+          "column": 2,
+          "row": 0
+        },
+        {
+          "id": "boots-01",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "轻布履",
+          "tier": 0,
+          "minLevel": 1,
+          "index": 3,
+          "column": 3,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "realm": "筑基",
+      "minLevel": 11,
+      "design": "青钢与细绢，碧玉护元，初显灵纹。",
+      "items": [
+        {
+          "id": "sword-02",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "碧泉剑",
+          "tier": 1,
+          "minLevel": 11,
+          "index": 4,
+          "column": 4,
+          "row": 0
+        },
+        {
+          "id": "robe-02",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "青岚法衣",
+          "tier": 1,
+          "minLevel": 11,
+          "index": 5,
+          "column": 5,
+          "row": 0
+        },
+        {
+          "id": "jade-02",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "守元佩",
+          "tier": 1,
+          "minLevel": 11,
+          "index": 6,
+          "column": 6,
+          "row": 0
+        },
+        {
+          "id": "boots-02",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "踏风履",
+          "tier": 1,
+          "minLevel": 11,
+          "index": 7,
+          "column": 7,
+          "row": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "realm": "金丹",
+      "minLevel": 21,
+      "design": "金色丹纹与镀金包边，凝练而明亮。",
+      "items": [
+        {
+          "id": "sword-03",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "流金剑",
+          "tier": 2,
+          "minLevel": 21,
+          "index": 8,
+          "column": 0,
+          "row": 1
+        },
+        {
+          "id": "robe-03",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "丹霞宝衣",
+          "tier": 2,
+          "minLevel": 21,
+          "index": 9,
+          "column": 1,
+          "row": 1
+        },
+        {
+          "id": "jade-03",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "金髓玉",
+          "tier": 2,
+          "minLevel": 21,
+          "index": 10,
+          "column": 2,
+          "row": 1
+        },
+        {
+          "id": "boots-03",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "逐霞靴",
+          "tier": 2,
+          "minLevel": 21,
+          "index": 11,
+          "column": 3,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "realm": "元婴",
+      "minLevel": 31,
+      "design": "紫银与灵丝，养魂纹样，轻灵出尘。",
+      "items": [
+        {
+          "id": "sword-04",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "紫霄剑",
+          "tier": 3,
+          "minLevel": 31,
+          "index": 12,
+          "column": 4,
+          "row": 1
+        },
+        {
+          "id": "robe-04",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "紫绶灵衣",
+          "tier": 3,
+          "minLevel": 31,
+          "index": 13,
+          "column": 5,
+          "row": 1
+        },
+        {
+          "id": "jade-04",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "养魂佩",
+          "tier": 3,
+          "minLevel": 31,
+          "index": 14,
+          "column": 6,
+          "row": 1
+        },
+        {
+          "id": "boots-04",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "凌霄靴",
+          "tier": 3,
+          "minLevel": 31,
+          "index": 15,
+          "column": 7,
+          "row": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "realm": "分神",
+      "minLevel": 41,
+      "design": "青碧神纹与双环玉饰，层次更清晰。",
+      "items": [
+        {
+          "id": "sword-05",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "照神剑",
+          "tier": 4,
+          "minLevel": 41,
+          "index": 16,
+          "column": 0,
+          "row": 2
+        },
+        {
+          "id": "robe-05",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "太清道衣",
+          "tier": 4,
+          "minLevel": 41,
+          "index": 17,
+          "column": 1,
+          "row": 2
+        },
+        {
+          "id": "jade-05",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "双仪玉",
+          "tier": 4,
+          "minLevel": 41,
+          "index": 18,
+          "column": 2,
+          "row": 2
+        },
+        {
+          "id": "boots-05",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "御神靴",
+          "tier": 4,
+          "minLevel": 41,
+          "index": 19,
+          "column": 3,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "realm": "合体",
+      "minLevel": 51,
+      "design": "金银交融，两仪结构，衣袍更厚重。",
+      "items": [
+        {
+          "id": "sword-06",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "两仪剑",
+          "tier": 5,
+          "minLevel": 51,
+          "index": 20,
+          "column": 4,
+          "row": 2
+        },
+        {
+          "id": "robe-06",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "乾坤法袍",
+          "tier": 5,
+          "minLevel": 51,
+          "index": 21,
+          "column": 5,
+          "row": 2
+        },
+        {
+          "id": "jade-06",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "合璧佩",
+          "tier": 5,
+          "minLevel": 51,
+          "index": 22,
+          "column": 6,
+          "row": 2
+        },
+        {
+          "id": "boots-06",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "踏岳靴",
+          "tier": 5,
+          "minLevel": 51,
+          "index": 23,
+          "column": 7,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "realm": "洞虚",
+      "minLevel": 61,
+      "design": "深青虚空晶质与镂空结构，锋芒内敛。",
+      "items": [
+        {
+          "id": "sword-07",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "断空剑",
+          "tier": 6,
+          "minLevel": 61,
+          "index": 24,
+          "column": 0,
+          "row": 3
+        },
+        {
+          "id": "robe-07",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "玄虚天衣",
+          "tier": 6,
+          "minLevel": 61,
+          "index": 25,
+          "column": 1,
+          "row": 3
+        },
+        {
+          "id": "jade-07",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "归墟玉",
+          "tier": 6,
+          "minLevel": 61,
+          "index": 26,
+          "column": 2,
+          "row": 3
+        },
+        {
+          "id": "boots-07",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "虚行靴",
+          "tier": 6,
+          "minLevel": 61,
+          "index": 27,
+          "column": 3,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "realm": "大乘",
+      "minLevel": 71,
+      "design": "白金云纹与通透灵玉，器形圆融。",
+      "items": [
+        {
+          "id": "sword-08",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "太玄剑",
+          "tier": 7,
+          "minLevel": 71,
+          "index": 28,
+          "column": 4,
+          "row": 3
+        },
+        {
+          "id": "robe-08",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "九霄云袍",
+          "tier": 7,
+          "minLevel": 71,
+          "index": 29,
+          "column": 5,
+          "row": 3
+        },
+        {
+          "id": "jade-08",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "无极佩",
+          "tier": 7,
+          "minLevel": 71,
+          "index": 30,
+          "column": 6,
+          "row": 3
+        },
+        {
+          "id": "boots-08",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "乘云靴",
+          "tier": 7,
+          "minLevel": 71,
+          "index": 31,
+          "column": 7,
+          "row": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "realm": "飞升",
+      "minLevel": 81,
+      "design": "羽翎纹与浅金飞翼，轻盈向上。",
+      "items": [
+        {
+          "id": "sword-09",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "凌天仙剑",
+          "tier": 8,
+          "minLevel": 81,
+          "index": 32,
+          "column": 0,
+          "row": 4
+        },
+        {
+          "id": "robe-09",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "飞羽仙衣",
+          "tier": 8,
+          "minLevel": 81,
+          "index": 33,
+          "column": 1,
+          "row": 4
+        },
+        {
+          "id": "jade-09",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "引仙玉",
+          "tier": 8,
+          "minLevel": 81,
+          "index": 34,
+          "column": 2,
+          "row": 4
+        },
+        {
+          "id": "boots-09",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "登仙履",
+          "tier": 8,
+          "minLevel": 81,
+          "index": 35,
+          "column": 3,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "realm": "散仙",
+      "minLevel": 91,
+      "design": "天青仙晶与飘逸云带，仙气初成。",
+      "items": [
+        {
+          "id": "sword-10",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "沧溟仙剑",
+          "tier": 9,
+          "minLevel": 91,
+          "index": 36,
+          "column": 4,
+          "row": 4
+        },
+        {
+          "id": "robe-10",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "流云仙袍",
+          "tier": 9,
+          "minLevel": 91,
+          "index": 37,
+          "column": 5,
+          "row": 4
+        },
+        {
+          "id": "jade-10",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "凝仙佩",
+          "tier": 9,
+          "minLevel": 91,
+          "index": 38,
+          "column": 6,
+          "row": 4
+        },
+        {
+          "id": "boots-10",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "游天靴",
+          "tier": 9,
+          "minLevel": 91,
+          "index": 39,
+          "column": 7,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "realm": "真仙",
+      "minLevel": 101,
+      "design": "纯净白金与星轨，形制端正。",
+      "items": [
+        {
+          "id": "sword-11",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "太乙仙剑",
+          "tier": 10,
+          "minLevel": 101,
+          "index": 40,
+          "column": 0,
+          "row": 5
+        },
+        {
+          "id": "robe-11",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "无尘仙衣",
+          "tier": 10,
+          "minLevel": 101,
+          "index": 41,
+          "column": 1,
+          "row": 5
+        },
+        {
+          "id": "jade-11",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "太清仙玉",
+          "tier": 10,
+          "minLevel": 101,
+          "index": 42,
+          "column": 2,
+          "row": 5
+        },
+        {
+          "id": "boots-11",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "踏星仙履",
+          "tier": 10,
+          "minLevel": 101,
+          "index": 43,
+          "column": 3,
+          "row": 5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "realm": "金仙",
+      "minLevel": 111,
+      "design": "仙金叠层与金玉镶嵌，辉光更盛。",
+      "items": [
+        {
+          "id": "sword-12",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "曜金仙剑",
+          "tier": 11,
+          "minLevel": 111,
+          "index": 44,
+          "column": 4,
+          "row": 5
+        },
+        {
+          "id": "robe-12",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "万华金袍",
+          "tier": 11,
+          "minLevel": 111,
+          "index": 45,
+          "column": 5,
+          "row": 5
+        },
+        {
+          "id": "jade-12",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "不朽金珏",
+          "tier": 11,
+          "minLevel": 111,
+          "index": 46,
+          "column": 6,
+          "row": 5
+        },
+        {
+          "id": "boots-12",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "流光金履",
+          "tier": 11,
+          "minLevel": 111,
+          "index": 47,
+          "column": 7,
+          "row": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "realm": "神君",
+      "minLevel": 121,
+      "design": "青金神纹与冠冕式结构，威仪初现。",
+      "items": [
+        {
+          "id": "sword-13",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "镇岳神剑",
+          "tier": 12,
+          "minLevel": 121,
+          "index": 48,
+          "column": 0,
+          "row": 6
+        },
+        {
+          "id": "robe-13",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "苍穹神袍",
+          "tier": 12,
+          "minLevel": 121,
+          "index": 49,
+          "column": 1,
+          "row": 6
+        },
+        {
+          "id": "jade-13",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "天衡神玉",
+          "tier": 12,
+          "minLevel": 121,
+          "index": 50,
+          "column": 2,
+          "row": 6
+        },
+        {
+          "id": "boots-13",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "御天神履",
+          "tier": 12,
+          "minLevel": 121,
+          "index": 51,
+          "column": 3,
+          "row": 6
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "realm": "神王",
+      "minLevel": 131,
+      "design": "深玉厚金与王印纹饰，稳重雄浑。",
+      "items": [
+        {
+          "id": "sword-14",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "乾元王剑",
+          "tier": 13,
+          "minLevel": 131,
+          "index": 52,
+          "column": 4,
+          "row": 6
+        },
+        {
+          "id": "robe-14",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "玄极王袍",
+          "tier": 13,
+          "minLevel": 131,
+          "index": 53,
+          "column": 5,
+          "row": 6
+        },
+        {
+          "id": "jade-14",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "王玺神珏",
+          "tier": 13,
+          "minLevel": 131,
+          "index": 54,
+          "column": 6,
+          "row": 6
+        },
+        {
+          "id": "boots-14",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "天阙王履",
+          "tier": 13,
+          "minLevel": 131,
+          "index": 55,
+          "column": 7,
+          "row": 6
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "realm": "神皇",
+      "minLevel": 141,
+      "design": "太阳金与象牙白，日轮纹，恢弘尊贵。",
+      "items": [
+        {
+          "id": "sword-15",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "日曜皇剑",
+          "tier": 14,
+          "minLevel": 141,
+          "index": 56,
+          "column": 0,
+          "row": 7
+        },
+        {
+          "id": "robe-15",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "九曜皇袍",
+          "tier": 14,
+          "minLevel": 141,
+          "index": 57,
+          "column": 1,
+          "row": 7
+        },
+        {
+          "id": "jade-15",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "羲皇神玺",
+          "tier": 14,
+          "minLevel": 141,
+          "index": 58,
+          "column": 2,
+          "row": 7
+        },
+        {
+          "id": "boots-15",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "巡天皇履",
+          "tier": 14,
+          "minLevel": 141,
+          "index": 59,
+          "column": 3,
+          "row": 7
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "realm": "破碎圣境",
+      "minLevel": 151,
+      "design": "白玉圣晶与微弱虹彩，复杂工艺归于纯净。",
+      "items": [
+        {
+          "id": "sword-16",
+          "slot": "sword",
+          "label": "灵剑",
+          "name": "开天圣剑",
+          "tier": 15,
+          "minLevel": 151,
+          "index": 60,
+          "column": 4,
+          "row": 7
+        },
+        {
+          "id": "robe-16",
+          "slot": "robe",
+          "label": "法衣",
+          "name": "太初圣衣",
+          "tier": 15,
+          "minLevel": 151,
+          "index": 61,
+          "column": 5,
+          "row": 7
+        },
+        {
+          "id": "jade-16",
+          "slot": "jade",
+          "label": "灵玉",
+          "name": "混元圣珏",
+          "tier": 15,
+          "minLevel": 151,
+          "index": 62,
+          "column": 6,
+          "row": 7
+        },
+        {
+          "id": "boots-16",
+          "slot": "boots",
+          "label": "步云履",
+          "name": "无界圣履",
+          "tier": 15,
+          "minLevel": 151,
+          "index": 63,
+          "column": 7,
+          "row": 7
+        }
+      ]
+    }
+  ],
+  "imageWidth": 1254,
+  "imageHeight": 1254,
+  "cellWidth": 156.75,
+  "cellHeight": 156.75,
+  "portraitSheets": [
+    "equipment-portrait-early-alpha-v3.png",
+    "equipment-portrait-late-alpha-v3.png"
+  ],
+  "portraitSheetColumns": 8,
+  "portraitSheetRows": 4,
+  "portraitCellAspect": "3:4",
+  "portraitAlpha": true
+}

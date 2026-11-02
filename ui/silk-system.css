@@ -1,0 +1,140 @@
+/* Shared warm silk system for all live pages and overlays. Keep game art and actions intact. */
+body[data-ui-theme="silk"]{--gold-light:#dfcda5;--silk-surface:#fbf7eeeF;--silk-edge:#cbb68b70;--silk-muted:#81745f;color-scheme:light}
+body[data-ui-theme="silk"] #screen.game-screen{background:#f8f2e7 url('assets/paper.png') repeat;color:var(--ink)}
+body[data-ui-theme="silk"] :is(.paper-card,.method-card,.dialogue-card,.menu-card,.moon-sheet){background:#fbf7ee url('assets/paper.png') repeat;border:1px solid var(--silk-edge);outline:0;border-radius:calc(8 * var(--u));box-shadow:0 4px 15px #80683c0c;color:var(--ink)}
+body[data-ui-theme="silk"] :is(.paper-card,.method-card){padding:calc(13 * var(--u))}
+body[data-ui-theme="silk"] :is(.section-heading h2,.paper-card h3,.dialogue-card h2,.menu-card h2,.method-title,.preview-heading){color:#443929;font-family:KaiTi,STKaiti,serif;text-shadow:none}
+body[data-ui-theme="silk"] .section-heading{border-color:var(--silk-edge);gap:calc(8 * var(--u))}
+body[data-ui-theme="silk"] :is(.muted,.eyebrow,.collection-meta,.method-meta,.equipment-type,.market-copy p,.detail-copy,.preview-notes,.combat-note,.connection-line){color:var(--silk-muted)}
+body[data-ui-theme="silk"] :is(.primary-button,.quiet-start){background:#eed6a1 url('assets/button-gold.png') center/100% 100% no-repeat;color:#67451d;border:0;outline:0;box-shadow:none;border-radius:0;min-height:calc(43 * var(--u));padding:calc(10 * var(--u)) calc(22 * var(--u));font-family:KaiTi,STKaiti,serif;font-weight:600;text-shadow:none}
+body[data-ui-theme="silk"] :is(.secondary-button,.icon-button){background:#faf5e9;border:1px solid #c8b58a8c;color:#655337;box-shadow:inset 0 0 0 2px #fff8;border-radius:calc(5 * var(--u))}
+body[data-ui-theme="silk"] :is(.primary-button,.secondary-button,.quiet-start):disabled{opacity:.42;filter:saturate(.4)}
+body[data-ui-theme="silk"] :is(button,input,select,a):focus-visible{outline:2px solid #9c8048;outline-offset:3px}
+body[data-ui-theme="silk"] :is(.chip,.method-badge,.setting-choice,.enemy-option,.region-option){background:#f3eddf;color:#71634d;border-color:#cbb88b66;box-shadow:none}
+body[data-ui-theme="silk"] :is(.chip.is-active,.setting-choice.is-active,.enemy-option.is-active,.enemy-option.is-selected,.region-option.is-active,.region-option.is-selected){background:#e4ece2;border-color:#97ad95;color:#41624b}
+body[data-ui-theme="silk"] :is(.page-tabs,.system-tabs){border-color:var(--silk-edge);background:transparent}
+body[data-ui-theme="silk"] :is(.page-tab,.system-tabs button){color:#8b7d65;background:none;border-color:transparent;font-family:KaiTi,STKaiti,serif}
+body[data-ui-theme="silk"] :is(.page-tab[aria-selected="true"],.page-tab.is-active,.system-tabs button.is-active){color:#8b6429;background:linear-gradient(transparent,#e8d7ae4d);border-color:#c0a36a}
+body[data-ui-theme="silk"] .page-tab[aria-selected="true"]::after{background:#b49354}
+body[data-ui-theme="silk"] :is(.stat,.collection-item,.equipment-slot,.market-item,.aptitude-row,.journey-stage,.ingredient-list>*,.construction-queue>*,.inheritance-list>div){background:#fffaf14d;border-color:#d4c6a95c;color:#4a4132;box-shadow:none;outline:0}
+body[data-ui-theme="silk"] :is(.stat strong,.collection-count,.market-price,.detail-metrics strong,.resource-row strong,.preview-result strong){color:#6a825f}
+body[data-ui-theme="silk"] :is(.stat>span,.collection-copy p,.equipment-slot small,.journey-stage p){color:#82745f}
+body[data-ui-theme="silk"] :is(.collection-emblem,.practice-symbol,.enemy-mark,.method-seal){background:radial-gradient(circle,#fbf7e9,#e9e0cb);border-color:#c7b48b;color:#928054;box-shadow:none;outline:0}
+body[data-ui-theme="silk"] :is(.progress-track,.method-level-track,.combat-meter){background:#e5ddce;border:1px solid #c9b99466;box-shadow:none;overflow:hidden}
+body[data-ui-theme="silk"] :is(.progress-track,.method-level-track,.combat-meter)>.progress-fill{background:#7f9d87 url('assets/progress-fill.png') center/auto 100%;box-shadow:none}
+body[data-ui-theme="silk"] :is(.detail-metrics,.sell-panel,.preview-summary,.preview-notes,.requirement-list,.combat-growth){background:#eee8d94d;color:#74654e;border-color:var(--silk-edge);box-shadow:none}
+body[data-ui-theme="silk"] :is(.combat-growth strong,.ready,.success,.next-gain){color:#527759}
+body[data-ui-theme="silk"] :is(.realm-warning,.danger,.error,.is-error,.is-failed){color:#a1654e}
+body[data-ui-theme="silk"] :is(input:not([type="range"]):not([type="checkbox"]),select,textarea){background:#fffbf3;color:#554733;border:1px solid #c6b590;border-radius:5px;box-shadow:inset 0 1px 3px #8f784b0a}
+body[data-ui-theme="silk"] input[type="range"],body[data-ui-theme="silk"] input[type="checkbox"]{accent-color:#7c9477}
+body[data-ui-theme="silk"] :is(.dialogue-overlay,.confirm-overlay,.moon-methods,.player-name-overlay){background:#49403069;backdrop-filter:blur(5px)}
+body[data-ui-theme="silk"] :is(.dialogue-card,.menu-card){border-top:2px solid #c2a369;box-shadow:0 16px 60px #4b3a2326}
+body[data-ui-theme="silk"] .game-screen>.quest-card{background:#fcf7ed;border:1px solid #cbb78a70;color:#5f513b;outline:0}
+body[data-ui-theme="silk"] .quest-card .quest-brief>summary{color:#665438;text-shadow:none}
+body[data-ui-theme="silk"] .quest-brief-copy{background:#fcf7ed;color:#554733;border-color:#cbb78a;box-shadow:0 8px 22px #755f3220}
+/* Shared compact player summary on the secondary pages. */
+body[data-ui-theme="silk"] .hero.jade-hero{background:#f6efe0 url('assets/paper.png');border:1px solid #ccb88a80;outline:0;border-radius:calc(8 * var(--u));box-shadow:none;color:#514635}
+body[data-ui-theme="silk"] .jade-activity{color:#8b7e67}
+body[data-ui-theme="silk"] .jade-stats i{color:#a48a54}
+body[data-ui-theme="silk"] .jade-stats>div{border-color:#d3c39e70}
+body[data-ui-theme="silk"] .cultivator-portrait{box-shadow:0 2px 7px #826b3a1a}
+body[data-ui-theme="silk"] .jade-health .progress-track{background:#e2d9c9;border-color:#cbb992;box-shadow:none}
+body[data-ui-theme="silk"] .hero-tribulation{background:#f5eddb;color:#8c6b37;border-color:#c6ad78;box-shadow:none}
+body[data-ui-theme="silk"] .hero-tribulation.is-ready{background:#ecdfbc;color:#8b6224;border-color:#bda05e;box-shadow:none}
+/* Realm: original live thunder and life meters above the light cultivation artwork. */
+body[data-ui-theme="silk"] #screen.game-screen>.thunder-realm{background:#faf4e8;color:#514635;font-family:KaiTi,STKaiti,serif}
+body[data-ui-theme="silk"] .thunder-realm .moon-profile{background:linear-gradient(#faf4e8,#faf4e8e6,transparent);border-color:#c8b58b55;color:#4e422f}
+body[data-ui-theme="silk"] .thunder-realm .moon-avatar{background:#eee5d5 url('assets/avatar.png') center/cover;border-color:#c5ae7b}
+body[data-ui-theme="silk"] .thunder-realm :is(.moon-strength,.moon-player small,.moon-life){color:#7b6b50}
+body[data-ui-theme="silk"] .thunder-realm .moon-scene{background:#f9f2e7 url('assets/cultivation-scene.png') center bottom/cover no-repeat}
+body[data-ui-theme="silk"] .thunder-weather{background:linear-gradient(#faf4e870,transparent 45%,#faf4e880)}
+body[data-ui-theme="silk"] .thunder-title{text-shadow:0 1px 5px #fff}
+body[data-ui-theme="silk"] .thunder-title :is(span,p){color:#7d745f}
+body[data-ui-theme="silk"] .thunder-title h2{color:#65502d}
+body[data-ui-theme="silk"] .thunder-controls{background:linear-gradient(transparent,#faf5eae6 22%,#faf5ea);color:#594b35}
+body[data-ui-theme="silk"] :is(.thunder-health,.thunder-rule){color:#6c604c}
+body[data-ui-theme="silk"] .thunder-seals i{border-color:#c5b38b;color:#9b8c73;background:#fbf6e8}
+body[data-ui-theme="silk"] .thunder-seals .is-done{background:#819b80;color:#fff;border-color:#9db499;box-shadow:none}
+body[data-ui-theme="silk"] .thunder-hp-track{background:#ded5c7}
+body[data-ui-theme="silk"] .thunder-hp-track i{background:linear-gradient(90deg,#78967d,#a2b49a)}
+body[data-ui-theme="silk"] .thunder-result{color:#8c7039}
+body[data-ui-theme="silk"] :is(.thunder-result.failed,.thunder-hit){color:#ac654e}
+body[data-ui-theme="silk"] .thunder-bolt{stroke:#fff9df;filter:drop-shadow(0 0 4px #b49a58) drop-shadow(0 0 14px #eac975)}
+body[data-ui-theme="silk"] .thunder-controls .moon-primary{background:#eed8a6 url('assets/button-gold.png') center/100% 100%;color:#705021;border:0;box-shadow:none;border-radius:0}
+body[data-ui-theme="silk"] .thunder-controls .moon-secondary{color:#77613c}
+body[data-ui-theme="silk"] .thunder-controls .moon-secondary::before{background:#bca675}
+/* Adventure: keep the animated fighters and monsters, soften the arena and HUD. */
+body[data-ui-theme="silk"] #screen.game-screen>.quiet-combat{background:#f8f1e4;color:#534833}
+body[data-ui-theme="silk"] .quiet-background{background:#f8f1e4 url('assets/cultivation-landscape-plate.png') center/cover no-repeat}
+body[data-ui-theme="silk"] .quiet-shade{background:linear-gradient(#fcf7ec88,transparent 40%,#f7f0e344)}
+body[data-ui-theme="silk"] .quiet-location{color:#78664c;text-shadow:none}
+body[data-ui-theme="silk"] .quiet-health{filter:none}
+body[data-ui-theme="silk"] .quiet-health>strong{color:#4e4535;text-shadow:0 1px 3px #fff}
+body[data-ui-theme="silk"] :is(.quiet-health .duel-hp,.duel-speed,.duel-speed b){color:#776a53;text-shadow:none}
+body[data-ui-theme="silk"] .quiet-health .progress-track{background:#e5d9ca;border-color:#c4ae8d}
+body[data-ui-theme="silk"] .quiet-health .progress-fill{background:linear-gradient(90deg,#9d6f5a,#bd9480)}
+body[data-ui-theme="silk"] .quiet-bottom{background:linear-gradient(transparent,#faf5e8ed 25%,#faf5e8)}
+body[data-ui-theme="silk"] .quiet-journal{text-shadow:none}
+body[data-ui-theme="silk"] :is(.quiet-journal h2,.quiet-log p,.turn-live-log,.turn-live-log p+p,.turn-summary){color:#76684f}
+body[data-ui-theme="silk"] .turn-order{background:#fcf8efd9;border-color:#cab99077;box-shadow:0 3px 12px #8c754b0a}
+body[data-ui-theme="silk"] .turn-order :is(small,span){color:#85765d}
+body[data-ui-theme="silk"] .turn-token{background:#e1e9dd;color:#4f7054;border-color:#a9b99b}
+body[data-ui-theme="silk"] .turn-token.enemy{background:#eee0d4;color:#93684f;border-color:#cbb39d}
+body[data-ui-theme="silk"] .turn-token.is-next{box-shadow:0 0 0 1px #b59a5f}
+body[data-ui-theme="silk"] .quiet-beast-seal{color:#798465}
+/* Landing and auxiliary menus reuse the same paper rather than the old jade panels. */
+body[data-ui-theme="silk"] .landing:not(:has(.xian-loading)){background:#f8f2e7 url('assets/cultivation-landscape-plate.png') center/cover;color:#5a4a32}
+body[data-ui-theme="silk"] :is(.landing-seal,.brand-seal){background:#f4ead5;color:#947244;border-color:#bea16b;outline-color:#d5c399}
+body[data-ui-theme="silk"] .landing .primary-button{background:#edd5a0 url('assets/button-gold.png') center/100% 100%;color:#735220;border:0}
+/* Final contrast and texture pass: seamless surfaces and readable live counters. */
+body[data-ui-theme="silk"] #screen.game-screen{background:linear-gradient(#faf5eced,#f8f2e7ef),url('assets/cultivation-landscape-plate.png') center/cover no-repeat}
+body[data-ui-theme="silk"] :is(.paper-card,.method-card,.dialogue-card,.menu-card,.moon-sheet){background:linear-gradient(140deg,#fffaf2f7,#f7f0e4f5)}
+body[data-ui-theme="silk"] .hero.jade-hero{background:linear-gradient(115deg,#f5ebd6,#fbf7ee);background-blend-mode:normal}
+body[data-ui-theme="silk"] .quest-inline-count{color:#86724f}
+body[data-ui-theme="silk"] .quest-inline-meter{background:#e3d9c6;border-color:#c4b38d}
+body[data-ui-theme="silk"] .quest-inline-meter>span{background:#91a58a}
+body[data-ui-theme="silk"] .thunder-realm .moon-scene{inset:calc(185 * var(--u)) 0 calc(115 * var(--u));background:#faf4e8 url('assets/cultivation-scene.png') center bottom/contain no-repeat}
+body[data-ui-theme="silk"] .thunder-title{top:calc(103 * var(--u))}
+body[data-ui-theme="silk"] .quiet-combat .stage-header{background:linear-gradient(#faf5e9e6,#faf5e977,transparent)}
+body[data-ui-theme="silk"] .stage-header strong{color:#655134}
+body[data-ui-theme="silk"] .stage-header span{color:#8b7b60}
+body[data-ui-theme="silk"] .stage-progress{background:#ded6c6}
+body[data-ui-theme="silk"] .stage-progress i{background:#8aa081}
+body[data-ui-theme="silk"] .quiet-bottom .stage-farm-stop{color:#8d754d}
+body[data-ui-theme="silk"] .battle-reward-play{background:radial-gradient(ellipse,#fff9e9e8,transparent 74%);color:#786646}
+body[data-ui-theme="silk"] .battle-reward-play>strong{color:#9c7532;text-shadow:0 1px 4px #fff}
+body[data-ui-theme="silk"] .battle-drop{text-shadow:0 1px 3px #fff}
+body[data-ui-theme="silk"] .battle-drop i{color:#b38d48}
+body[data-ui-theme="silk"] .battle-reward-play small{color:#99815c}
+body[data-ui-theme="silk"] #rebirthReviewOverlay[data-lifespan="true"]{background:#49403069}
+body[data-ui-theme="silk"] #rebirthReviewOverlay .lifespan-rebirth-card{background:#fcf7ed;color:#665134;border-color:#c5ab77}
+body[data-ui-theme="silk"] #rebirthReviewOverlay .lifespan-rebirth-card :is(h2,p,strong){color:#6c5837}
+body[data-ui-theme="silk"] #rebirthReviewOverlay .lifespan-rebirth-card button{background:#edd5a0 url('assets/button-gold.png') center/100% 100%;color:#735220}
+body[data-ui-theme="silk"] .thunder-realm .moon-scene{background:transparent url('assets/cultivation-scene.png') center/cover no-repeat;mask-image:linear-gradient(transparent,#000 20%,#000 82%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 20%,#000 82%,transparent)}
+body[data-ui-theme="silk"] .thunder-realm .moon-life small{color:#8b795b}
+body[data-ui-theme="silk"] .menu-card fieldset{border:1px solid #cfbd9677;border-radius:6px}
+body[data-ui-theme="silk"] .menu-card legend{color:#89714b}
+/* Crop the opaque source-crop corners to the ornamental silhouette, including
+   during brightness/press feedback, so no rectangular patch is exposed. */
+body[data-ui-theme="silk"] :is(.silk-practice .moon-primary,.primary-button,.quiet-start,.thunder-controls .moon-primary){clip-path:polygon(13% 0,87% 0,91% 3%,94% 13%,96% 29%,99% 44%,100% 50%,98% 62%,96% 75%,94% 89%,90% 97%,86% 100%,14% 100%,10% 97%,6% 89%,4% 75%,2% 62%,0 50%,1% 44%,4% 29%,6% 13%,9% 3%);-webkit-tap-highlight-color:transparent}
+body[data-ui-theme="silk"] :is(.silk-practice .moon-secondary,.silk-realm-row .moon-breakthrough){clip-path:polygon(13% 0,87% 0,92% 5%,95% 17%,97% 32%,100% 50%,97% 68%,95% 83%,92% 95%,87% 100%,13% 100%,8% 95%,5% 83%,3% 68%,0 50%,3% 32%,5% 17%,8% 5%);-webkit-tap-highlight-color:transparent}
+body[data-ui-theme="silk"] :is(.primary-button,.quiet-start):hover:not(:disabled){background:#eed6a1 url('assets/button-gold.png') center/100% 100% no-repeat;color:#67451d}
+body[data-ui-theme="silk"] :is(.silk-practice .moon-primary,.silk-practice .moon-secondary):focus-visible{outline:0;filter:brightness(1.08)}
+/* Global feedback sits ten viewport percentage points above the center. */
+body[data-ui-theme="silk"] #toast{top:40%;bottom:auto;left:50%;transform:translate(-50%,-50%);max-width:min(86vw,620px);text-align:center}
+
+/* Reuse the cultivation reference panel, its artwork and exact child coordinates on every route. */
+body[data-ui-theme="silk"] #screen.game-screen>.silk-profile{position:relative;flex:none;left:auto;right:auto;top:auto;box-sizing:border-box;width:calc(100% + 10 * var(--u));height:calc(211 * var(--silk-s));margin:calc(-5 * var(--u)) calc(-5 * var(--u)) 0;padding:0;z-index:4}
+body[data-ui-theme="silk"] #screen.game-screen:has(>.silk-profile):has(>.quiet-combat){gap:0;padding:0}
+body[data-ui-theme="silk"] #screen.game-screen:has(>.quiet-combat)>.silk-profile{width:100%;margin:0}
+body[data-ui-theme="silk"] .silk-profile .silk-avatar:focus-visible,body[data-ui-theme="silk"] .silk-profile .moon-life button:focus-visible{outline:2px solid #9c8048;outline-offset:2px}
+/* Keep the realm return action directly below the shared character panel. */
+body[data-ui-theme="silk"] .thunder-back{position:absolute;top:calc(211 * var(--silk-s) + 8 * var(--u));left:calc(20 * var(--u));z-index:5;min-height:calc(34 * var(--u));padding:0 calc(10 * var(--u));border:1px solid #c5b38b;border-radius:calc(5 * var(--u));background:#faf4e8e8;color:#77613c;font:calc(16 * var(--u)) KaiTi,STKaiti,serif;cursor:pointer}
+body[data-ui-theme="silk"] .thunder-back:focus-visible{outline:2px solid #9c8048;outline-offset:2px}
+body[data-ui-theme="silk"] .thunder-controls .moon-actions{justify-content:center}
+body[data-ui-theme="silk"] .thunder-controls .moon-actions:has(>.moon-primary:only-child){grid-template-columns:1fr}
+body[data-ui-theme="silk"] .thunder-controls .moon-primary:only-child{flex:none;width:60%;margin-inline:auto}
+
+/* Realm label sits in the existing fade above health without moving the health track. */
+body[data-ui-theme="silk"] .thunder-current-realm{position:absolute;top:calc(3 * var(--u));left:0;right:0;text-align:center;color:#665133;font:calc(19 * var(--u))/1.4 KaiTi,STKaiti,serif;letter-spacing:calc(1 * var(--u));text-shadow:0 1px 3px #fff9ee}
+body[data-ui-theme="silk"] .thunder-back{width:calc(88 * var(--u));height:calc(35 * var(--u));min-height:0;padding:0 calc(10 * var(--u));border:0;border-radius:0;background:transparent url('assets/button-ivory.png') center/100% 100% no-repeat;color:#78613a;font:calc(16 * var(--u))/1 KaiTi,STKaiti,serif;clip-path:polygon(13% 0,87% 0,94% 13%,100% 50%,94% 87%,87% 100%,13% 100%,6% 87%,0 50%,6% 13%)}

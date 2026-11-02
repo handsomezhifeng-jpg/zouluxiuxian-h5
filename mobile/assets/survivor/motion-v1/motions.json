@@ -1,0 +1,852 @@
+{
+  "hero": {
+    "cell": [
+      512,
+      512
+    ],
+    "referenceHeight": 300,
+    "sourceFacing": -1,
+    "clips": {
+      "walk": [
+        {
+          "src": "hero-0-0.png",
+          "pivot": [
+            275,
+            417
+          ],
+          "cropOrigin": [
+            -75,
+            -75
+          ],
+          "sourcePivot": [
+            200,
+            342
+          ]
+        },
+        {
+          "src": "hero-0-1.png",
+          "pivot": [
+            275,
+            416
+          ],
+          "cropOrigin": [
+            287,
+            -75
+          ],
+          "sourcePivot": [
+            562,
+            341
+          ]
+        },
+        {
+          "src": "hero-0-2.png",
+          "pivot": [
+            280,
+            418
+          ],
+          "cropOrigin": [
+            649,
+            -75
+          ],
+          "sourcePivot": [
+            929,
+            343
+          ]
+        },
+        {
+          "src": "hero-0-3.png",
+          "pivot": [
+            280,
+            416
+          ],
+          "cropOrigin": [
+            1011,
+            -75
+          ],
+          "sourcePivot": [
+            1291,
+            341
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "src": "hero-1-0.png",
+          "pivot": [
+            365,
+            411
+          ],
+          "cropOrigin": [
+            -75,
+            287
+          ],
+          "sourcePivot": [
+            290,
+            698
+          ]
+        },
+        {
+          "src": "hero-1-1.png",
+          "pivot": [
+            331,
+            421
+          ],
+          "cropOrigin": [
+            287,
+            287
+          ],
+          "sourcePivot": [
+            618,
+            708
+          ]
+        },
+        {
+          "src": "hero-1-2.png",
+          "pivot": [
+            374,
+            407
+          ],
+          "cropOrigin": [
+            649,
+            287
+          ],
+          "sourcePivot": [
+            1023,
+            694
+          ]
+        },
+        {
+          "src": "hero-1-3.png",
+          "pivot": [
+            348,
+            409
+          ],
+          "cropOrigin": [
+            1011,
+            287
+          ],
+          "sourcePivot": [
+            1359,
+            696
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "src": "hero-2-0.png",
+          "pivot": [
+            369,
+            383
+          ],
+          "cropOrigin": [
+            -75,
+            649
+          ],
+          "sourcePivot": [
+            294,
+            1032
+          ]
+        },
+        {
+          "src": "hero-2-1.png",
+          "pivot": [
+            377,
+            386
+          ],
+          "cropOrigin": [
+            287,
+            649
+          ],
+          "sourcePivot": [
+            664,
+            1035
+          ]
+        },
+        {
+          "src": "hero-2-2.png",
+          "pivot": [
+            343,
+            384
+          ],
+          "cropOrigin": [
+            649,
+            649
+          ],
+          "sourcePivot": [
+            992,
+            1033
+          ]
+        },
+        {
+          "src": "hero-2-3.png",
+          "pivot": [
+            354,
+            387
+          ],
+          "cropOrigin": [
+            1011,
+            649
+          ],
+          "sourcePivot": [
+            1365,
+            1036
+          ]
+        }
+      ],
+      "walkAttack": [
+        {
+          "src": "hero-walk-attack-0.png",
+          "pivot": [
+            275,
+            417
+          ],
+          "sourcePivot": [
+            290,
+            625
+          ],
+          "sourceScale": 0.62,
+          "cropOffset": [
+            95,
+            30
+          ]
+        },
+        {
+          "src": "hero-walk-attack-1.png",
+          "pivot": [
+            275,
+            417
+          ],
+          "sourcePivot": [
+            765,
+            620
+          ],
+          "sourceScale": 0.62,
+          "cropOffset": [
+            -199,
+            33
+          ]
+        },
+        {
+          "src": "hero-walk-attack-2.png",
+          "pivot": [
+            275,
+            417
+          ],
+          "sourcePivot": [
+            1375,
+            625
+          ],
+          "sourceScale": 0.62,
+          "cropOffset": [
+            -578,
+            30
+          ]
+        },
+        {
+          "src": "hero-walk-attack-3.png",
+          "pivot": [
+            275,
+            417
+          ],
+          "sourcePivot": [
+            1915,
+            624
+          ],
+          "sourceScale": 0.62,
+          "cropOffset": [
+            -912,
+            30
+          ]
+        }
+      ]
+    }
+  },
+  "blade": {
+    "cell": [
+      512,
+      512
+    ],
+    "referenceHeight": 300,
+    "sourceFacing": 1,
+    "clips": {
+      "walk": [
+        {
+          "src": "blade-0-0.png",
+          "pivot": [
+            205,
+            405
+          ],
+          "cropOrigin": [
+            -75,
+            -75
+          ],
+          "sourcePivot": [
+            130,
+            330
+          ]
+        },
+        {
+          "src": "blade-0-1.png",
+          "pivot": [
+            210,
+            407
+          ],
+          "cropOrigin": [
+            287,
+            -75
+          ],
+          "sourcePivot": [
+            497,
+            332
+          ]
+        },
+        {
+          "src": "blade-0-2.png",
+          "pivot": [
+            212,
+            410
+          ],
+          "cropOrigin": [
+            649,
+            -75
+          ],
+          "sourcePivot": [
+            861,
+            335
+          ]
+        },
+        {
+          "src": "blade-0-3.png",
+          "pivot": [
+            210,
+            410
+          ],
+          "cropOrigin": [
+            1011,
+            -75
+          ],
+          "sourcePivot": [
+            1221,
+            335
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "src": "blade-1-0.png",
+          "pivot": [
+            278,
+            403
+          ],
+          "cropOrigin": [
+            -75,
+            287
+          ],
+          "sourcePivot": [
+            203,
+            690
+          ]
+        },
+        {
+          "src": "blade-1-1.png",
+          "pivot": [
+            352,
+            406
+          ],
+          "cropOrigin": [
+            287,
+            287
+          ],
+          "sourcePivot": [
+            639,
+            693
+          ]
+        },
+        {
+          "src": "blade-1-2.png",
+          "pivot": [
+            303,
+            395
+          ],
+          "cropOrigin": [
+            649,
+            287
+          ],
+          "sourcePivot": [
+            952,
+            682
+          ]
+        },
+        {
+          "src": "blade-1-3.png",
+          "pivot": [
+            296,
+            406
+          ],
+          "cropOrigin": [
+            1011,
+            287
+          ],
+          "sourcePivot": [
+            1307,
+            693
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "src": "blade-2-0.png",
+          "pivot": [
+            278,
+            386
+          ],
+          "cropOrigin": [
+            -75,
+            649
+          ],
+          "sourcePivot": [
+            203,
+            1035
+          ]
+        },
+        {
+          "src": "blade-2-1.png",
+          "pivot": [
+            297,
+            384
+          ],
+          "cropOrigin": [
+            287,
+            649
+          ],
+          "sourcePivot": [
+            584,
+            1033
+          ]
+        },
+        {
+          "src": "blade-2-2.png",
+          "pivot": [
+            278,
+            386
+          ],
+          "cropOrigin": [
+            649,
+            649
+          ],
+          "sourcePivot": [
+            927,
+            1035
+          ]
+        },
+        {
+          "src": "blade-2-3.png",
+          "pivot": [
+            280,
+            386
+          ],
+          "cropOrigin": [
+            1011,
+            649
+          ],
+          "sourcePivot": [
+            1291,
+            1035
+          ]
+        }
+      ]
+    }
+  },
+  "caster": {
+    "cell": [
+      512,
+      512
+    ],
+    "referenceHeight": 300,
+    "sourceFacing": -1,
+    "clips": {
+      "walk": [
+        {
+          "src": "caster-0-0.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            -75,
+            -75
+          ],
+          "sourcePivot": [
+            175,
+            285
+          ]
+        },
+        {
+          "src": "caster-0-1.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            287,
+            -75
+          ],
+          "sourcePivot": [
+            537,
+            285
+          ]
+        },
+        {
+          "src": "caster-0-2.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            649,
+            -75
+          ],
+          "sourcePivot": [
+            899,
+            285
+          ]
+        },
+        {
+          "src": "caster-0-3.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            1011,
+            -75
+          ],
+          "sourcePivot": [
+            1261,
+            285
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "src": "caster-1-0.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            -75,
+            287
+          ],
+          "sourcePivot": [
+            175,
+            647
+          ]
+        },
+        {
+          "src": "caster-1-1.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            287,
+            287
+          ],
+          "sourcePivot": [
+            537,
+            647
+          ]
+        },
+        {
+          "src": "caster-1-2.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            649,
+            287
+          ],
+          "sourcePivot": [
+            899,
+            647
+          ]
+        },
+        {
+          "src": "caster-1-3.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            1011,
+            287
+          ],
+          "sourcePivot": [
+            1261,
+            647
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "src": "caster-2-0.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            -75,
+            649
+          ],
+          "sourcePivot": [
+            175,
+            1009
+          ]
+        },
+        {
+          "src": "caster-2-1.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            287,
+            649
+          ],
+          "sourcePivot": [
+            537,
+            1009
+          ]
+        },
+        {
+          "src": "caster-2-2.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            649,
+            649
+          ],
+          "sourcePivot": [
+            899,
+            1009
+          ]
+        },
+        {
+          "src": "caster-2-3.png",
+          "pivot": [
+            250,
+            360
+          ],
+          "cropOrigin": [
+            1011,
+            649
+          ],
+          "sourcePivot": [
+            1261,
+            1009
+          ]
+        }
+      ]
+    }
+  },
+  "golem": {
+    "cell": [
+      512,
+      512
+    ],
+    "referenceHeight": 300,
+    "sourceFacing": -1,
+    "clips": {
+      "walk": [
+        {
+          "src": "golem-0-0.png",
+          "pivot": [
+            275,
+            410
+          ],
+          "cropOrigin": [
+            -75,
+            -75
+          ],
+          "sourcePivot": [
+            200,
+            335
+          ]
+        },
+        {
+          "src": "golem-0-1.png",
+          "pivot": [
+            275,
+            407
+          ],
+          "cropOrigin": [
+            287,
+            -75
+          ],
+          "sourcePivot": [
+            562,
+            332
+          ]
+        },
+        {
+          "src": "golem-0-2.png",
+          "pivot": [
+            275,
+            408
+          ],
+          "cropOrigin": [
+            649,
+            -75
+          ],
+          "sourcePivot": [
+            924,
+            333
+          ]
+        },
+        {
+          "src": "golem-0-3.png",
+          "pivot": [
+            275,
+            410
+          ],
+          "cropOrigin": [
+            1010,
+            -75
+          ],
+          "sourcePivot": [
+            1285,
+            335
+          ]
+        }
+      ],
+      "attack": [
+        {
+          "src": "golem-1-0.png",
+          "pivot": [
+            288,
+            414
+          ],
+          "cropOrigin": [
+            -75,
+            287
+          ],
+          "sourcePivot": [
+            213,
+            701
+          ]
+        },
+        {
+          "src": "golem-1-1.png",
+          "pivot": [
+            181,
+            388
+          ],
+          "cropOrigin": [
+            287,
+            287
+          ],
+          "sourcePivot": [
+            468,
+            675
+          ]
+        },
+        {
+          "src": "golem-1-2.png",
+          "pivot": [
+            243,
+            425
+          ],
+          "cropOrigin": [
+            649,
+            287
+          ],
+          "sourcePivot": [
+            892,
+            712
+          ]
+        },
+        {
+          "src": "golem-1-3.png",
+          "pivot": [
+            289,
+            416
+          ],
+          "cropOrigin": [
+            1010,
+            287
+          ],
+          "sourcePivot": [
+            1299,
+            703
+          ]
+        }
+      ],
+      "hit": [
+        {
+          "src": "golem-2-0.png",
+          "pivot": [
+            287,
+            414
+          ],
+          "cropOrigin": [
+            -75,
+            650
+          ],
+          "sourcePivot": [
+            212,
+            1064
+          ]
+        },
+        {
+          "src": "golem-2-1.png",
+          "pivot": [
+            287,
+            417
+          ],
+          "cropOrigin": [
+            287,
+            650
+          ],
+          "sourcePivot": [
+            574,
+            1067
+          ]
+        },
+        {
+          "src": "golem-2-2.png",
+          "pivot": [
+            291,
+            414
+          ],
+          "cropOrigin": [
+            649,
+            650
+          ],
+          "sourcePivot": [
+            940,
+            1064
+          ]
+        },
+        {
+          "src": "golem-2-3.png",
+          "pivot": [
+            285,
+            416
+          ],
+          "cropOrigin": [
+            1010,
+            650
+          ],
+          "sourcePivot": [
+            1295,
+            1066
+          ]
+        }
+      ]
+    }
+  }
+}

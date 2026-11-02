@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "mobile/assets/cultivation-quiet-v3.png",
+  "basePrompt": "Use case: stylized-concept. Create a NEW transparent 4 columns x2 rows game sprite atlas, eight SMALL isolated fullbody figures with LARGE empty gaps, each inside central 60% of equal square cell including sword, all feet consistent baseline. Reference image is ONLY identity/clothing reference: black long hair high half-up ponytail with plain white hair tie, WHITE martial daoist outer robe, plain pale BLUE crossed inner collar and central blue skirt panel, broad DARK NAVY wrapped waist sash with ONE small silver clasp, DARK wrist guards and boots. Same male cultivator as reference, chibi 2.7 heads tall, readable at 80px. Simplify clothing to 3 large solid masses, just 2-3 broad folds per garment, no embroidery no gold no jewellery no tiny straps no patterned cloth, hair in 3 large clumps. Clear continuous thick dark navy OUTER OUTLINE around whole silhouette, lighter thin interior lines; restrained cel watercolor, pale blue shadow planes. Facing right three-quarter elevated game view. True transparent alpha, no ground no shadows no environment no text no effects, no fringe, no cropping or cell overlap. Eight poses in order: idle, RUN stride 1, RUN stride 2 (opposite legs with bent knees and strong arm swing, visible airborne running NOT walking), attack anticipation, attack contact, attack recovery, palm spellcast, hit recoil. Each pose has LARGE obvious changes in silhouette, torso angle and arms. Exact same character outfit throughout.",
+  "variants": {
+    "a": "Low crouching forward thrust, agile run.",
+    "b": "Overhead two-handed diagonal downward chop, strong run.",
+    "c": "Turning diagonal side slash, open-sleeve sword-finger spellcast."
+  },
+  "contactAssets": "A and C contact poses regenerated as isolated transparent images to prevent atlas overlap.",
+  "runtime": "Dark navy silhouette outline rendered in canvas; independent demo only.",
+  "files": [
+    "hero-a-v2.png",
+    "hero-b-v2.png",
+    "hero-c-v2.png",
+    "hero-a-contact-v2.png",
+    "hero-c-contact-v2.png"
+  ]
+}

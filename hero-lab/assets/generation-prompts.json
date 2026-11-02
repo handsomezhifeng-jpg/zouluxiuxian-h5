@@ -1,0 +1,12 @@
+{
+  "tool": "built-in image_gen",
+  "basePrompt": "Use case: stylized-concept. Production transparent sprite sheet for a Chinese cultivation tactical RPG. Clean ink-painted chibi male cultivator, 2.8 heads tall, elevated three-quarter view facing lower right, full body and weapon inside each cell. EXACT 4 columns x 2 rows evenly spaced grid, eight equal square cells, no dividers or text. Same character identity/outfit and size in every cell; feet at consistent baseline. Cell order: idle sword lowered, walking left foot forward, walking right foot forward, sword windup, sword slashing contact, sword recovery, spell casting left palm forward, hit recoil. Distinct genuine limb and garment poses, no duplicate poses. Quiet fine dark outlines, restrained watercolor shading, highly readable at 100px. No environment, no ground, no shadows, no effects, no typography. True transparent alpha, generous empty padding in each cell, no overlapping cells.",
+  "variants": {
+    "a": "Moon-white sword cultivator, ivory/blue-grey robes, black ponytail, slender jian.",
+    "b": "Dark teal wandering swordsman, charcoal short cape, tied sleeves, bronze clasp.",
+    "c": "Silver-haired grey-white cultivation swordsman, restrained light-gold belt, short sword. New 4x2 atlas with tiny fullbody figures and large transparent gaps."
+  },
+  "cleanup": "Preserve distinct poses, neutral transparent edges, no background, no text; repack with padding.",
+  "usage": "Independent hero-lab simulation only. No production hero replacement.",
+  "motion": "Eight pose states rendered as six animations with canvas displacement and lightweight hit effects; not a skeletal rig."
+}

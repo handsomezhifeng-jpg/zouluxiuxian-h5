@@ -1,0 +1,20 @@
+{
+  "mode": "Built-in image_gen edits; transparent cutouts for actors",
+  "records": [
+    {
+      "id": "fighter",
+      "source": "C:\\Users\\zhfzhang\\.codex\\generated_images\\01a13d6e-af4d-7c80-b8c7-9e21ca552240\\exec-1ce43232-d182-4984-acfe-ea7425a7a8ab.png",
+      "prompt": "Extract ONLY the exact white-robed male swordsman from the LEFT of the reference illustration as a standalone game sprite on a TRUE TRANSPARENT background. Preserve the confirmed handsome slightly Q adult face, six-heads-tall proportions, same black tied long hair, ivory pale gray-blue robes, same simple sword held pointing down toward RIGHT, same three-quarter side-facing RIGHT stance, same clean 2D painted anime style and cool light. Full body and all flowing cloth, hair, sword and feet fully included with margin. Remove wild boar, scenery, floor, fog, shadows and all background. Do not redesign the character. No text no UI. Single character, not sprite sheet. Transparency outside silhouette including spaces between limbs and sword."
+    },
+    {
+      "id": "boar",
+      "source": "C:\\Users\\zhfzhang\\.codex\\generated_images\\01a13d6e-af4d-7c80-b8c7-9e21ca552240\\exec-f6f5fff4-b348-4821-878f-aa334faea175.png",
+      "prompt": "Extract ONLY the exact wild boar from the RIGHT of the reference illustration as a standalone game sprite on a TRUE TRANSPARENT background. Preserve the confirmed charcoal gray/brown bristled fur, ivory tusks, red-brown eyes, compact muscular body, same head lowered three-quarter side-facing LEFT combat stance, same clean painted Chinese fantasy 2D game style and cool light. Full body, ALL four feet, tail, fur and tusks fully included with margin. Remove swordsman, scenery, floor, fog, shadows and all background. Do not redesign the beast. No text no UI. Single boar, not sprite sheet. True alpha transparency outside silhouette."
+    },
+    {
+      "id": "background",
+      "source": "C:\\Users\\zhfzhang\\.codex\\generated_images\\01a13d6e-af4d-7c80-b8c7-9e21ca552240\\exec-57e0f03e-76c0-48e5-891a-5729b2df4d4a.png",
+      "prompt": "Edit the reference image into a clean EMPTY environment background layer: REMOVE BOTH the entire swordsman on the LEFT and entire wild boar on the RIGHT, including every trace of sword, hair, cloth, feet, tails and their cast shadows. Seamlessly reconstruct the empty dark stone ground and weak mist behind them. Preserve the same portrait canvas, same muted dark desaturated navy/gray foggy soft mountains, same ground plane around y68 percent and darker empty top/bottom areas. Keep scenery extremely weak, low contrast, minimalist and uncluttered. NO characters NO animals NO people NO silhouettes of fighters NO weapons NO UI NO text. This is the exact environmental background layer for a restrained combat screen."
+    }
+  ]
+}

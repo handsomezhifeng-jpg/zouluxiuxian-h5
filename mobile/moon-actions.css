@@ -1,0 +1,14 @@
+/* Selected A / 月白玉签, reconstructed from exec-56a09954 reference.
+ * Actual buttons, not a screenshot: labels and existing train/stop/open handlers stay live.
+ * Scope is deliberately limited to the two cultivation actions.
+ */
+.moon-actions{display:grid;grid-template-columns:1.3fr 1fr;gap:calc(30 * var(--u));align-items:center}
+.moon-actions button{height:calc(43 * var(--u));min-height:40px;padding:0;border:0;font-family:KaiTi,"STKaiti","Microsoft YaHei",serif;font-size:calc(19 * var(--u));font-weight:400;line-height:1.2;text-shadow:none;position:relative;cursor:pointer;transition:filter .12s,transform .12s}
+.moon-actions .moon-primary{border-radius:999px;color:#142b41;background:linear-gradient(180deg,#e8eff7 0%,#dce6f0 49%,#c9d8e7 100%);box-shadow:inset 0 1px 0 #ffffffa6,0 1px 2px #071b3026;border:1px solid #e0eaf3b3}
+.moon-actions .moon-secondary{display:flex;align-items:center;justify-content:center;gap:calc(10 * var(--u));border-radius:0;background:transparent;color:#eff4fa;box-shadow:none;border:0;white-space:nowrap}
+.moon-actions .moon-secondary::before{content:"";position:absolute;left:0;right:0;bottom:calc(4 * var(--u));height:1px;background:#e3edf4df}
+.moon-actions .moon-secondary::after{content:"";position:static;inset:auto;display:block;width:calc(7 * var(--u));height:calc(7 * var(--u));border:0;border-top:calc(1.5 * var(--u)) solid currentColor;border-right:calc(1.5 * var(--u)) solid currentColor;border-radius:0;transform:rotate(45deg);pointer-events:none;flex-shrink:0}
+.moon-actions button:focus-visible{outline:2px solid #a2e0eb;outline-offset:4px}
+.moon-actions button:active:not(:disabled){transform:translateY(1px);filter:brightness(.91)}
+.moon-actions button:disabled{opacity:.45;cursor:default}
+@media(prefers-reduced-motion:reduce){.moon-actions button{transition:none}}

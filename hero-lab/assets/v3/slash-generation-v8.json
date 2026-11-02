@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "common": "Production animation atlas EXACT4columns x4rows =16 chronological frames. Same refined A2 male cultivator as reference: SMALL compact black bun and ONE narrow shoulder-length ponytail, simple white robe pale-blue collar and central panel, plain navy sash, black guards/boots, enlarged BROAD steel straight sword, clean thick navyoutline, 2.7head chibi. Identical outfit/body scale in everyframe, elevated 3/4 facingright. All poses grounded, no jumps. LEFT/REAR supporting boot must remain exactly SAME size/orientation and sole location in ALL16 cells. Body rotates/bends around that boot. Enlarged sword always fully visible within cell. Each character+sword CENTRAL50% ofcell, enormous transparent padding; no overlapping/cropping. True transparent alpha, no text, particles, ground, shadows, motiontrails or scenery. Exactly ONE strike from neutral to recovery, no second strike, no flips or repeated anticipations. Need continuous inbetween poses, not a pose catalogue.",
+  "designs": {
+    "e": "Single DIAGONAL DOWNWARD CHOP:1-2 neutral sword low;3-4 sword draws to rightshoulder while torso rotates;5-6 sword rises above head, knees bend;7 blade at top back;8-10 one clear forward-down diagonal cut (blade angles rotate progressively from high left through forward horizontal to low right);11-12 sword follows through toward low right/ground;13-15 straighten and lower sword smoothly;16 same as1. Sword never thrusts straight forward. Rear boot stays fixed.",
+    "f": "Single HORIZONTAL WAIST-HEIGHT SWEEP:1-2 neutral sword low;3-4 turntorso left and draw blade across belly toward left hip;5-6 twist farther left sword fully held behind, left rearboot fixed;7 torso begins unwind;8-10 sweeping blade in one WIDE horizontal arc from left to right at waist height, arms broad sideways, knees bent;11-12 finish with blade to far right elbow extended, chest rotates toward right;13-15 retract sword toward center and lower;16 neutral sameas1. Do not raise sword overhead, do not thrust or perform multiple strikes. Grounded lateral stance."
+  },
+  "activeFrames": {
+    "e": 15,
+    "f": 16
+  },
+  "excluded": "e attack source frame11: sword tip touches source image boundary; excluded from playback.",
+  "pivot": "Rear foot landmarks explicitly saved in pivot-annotations.json; independently measured boot sole positions in pivot-measurements-v8.json.",
+  "unchanged": "Run, idle, cast PNG hashes unchanged.",
+  "productionReplaced": false
+}

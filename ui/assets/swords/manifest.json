@@ -1,0 +1,194 @@
+[
+  {
+    "tier": 1,
+    "name": "青竹剑",
+    "file": "sword-01.png",
+    "source": "B-jade.png",
+    "crop": [
+      16,
+      104,
+      298,
+      317
+    ]
+  },
+  {
+    "tier": 2,
+    "name": "听泉剑",
+    "file": "sword-02.png",
+    "source": "B-jade.png",
+    "crop": [
+      330,
+      104,
+      612,
+      317
+    ]
+  },
+  {
+    "tier": 3,
+    "name": "凝霜剑",
+    "file": "sword-03.png",
+    "source": "B-jade.png",
+    "crop": [
+      643,
+      104,
+      926,
+      317
+    ]
+  },
+  {
+    "tier": 4,
+    "name": "照月剑",
+    "file": "sword-04.png",
+    "source": "B-jade.png",
+    "crop": [
+      956,
+      104,
+      1239,
+      317
+    ]
+  },
+  {
+    "tier": 5,
+    "name": "照影剑",
+    "file": "sword-05.png",
+    "source": "B-jade.png",
+    "crop": [
+      16,
+      391,
+      298,
+      604
+    ]
+  },
+  {
+    "tier": 6,
+    "name": "归一剑",
+    "file": "sword-06.png",
+    "source": "B-jade.png",
+    "crop": [
+      330,
+      391,
+      612,
+      604
+    ]
+  },
+  {
+    "tier": 7,
+    "name": "渡虚剑",
+    "file": "sword-07.png",
+    "source": "B-jade.png",
+    "crop": [
+      643,
+      391,
+      926,
+      604
+    ]
+  },
+  {
+    "tier": 8,
+    "name": "太清剑",
+    "file": "sword-08.png",
+    "source": "B-jade.png",
+    "crop": [
+      956,
+      391,
+      1239,
+      604
+    ]
+  },
+  {
+    "tier": 9,
+    "name": "凌霄剑",
+    "file": "sword-09.png",
+    "source": "B-jade.png",
+    "crop": [
+      16,
+      678,
+      298,
+      891
+    ]
+  },
+  {
+    "tier": 10,
+    "name": "云游剑",
+    "file": "sword-10.png",
+    "source": "B-jade.png",
+    "crop": [
+      330,
+      678,
+      612,
+      891
+    ]
+  },
+  {
+    "tier": 11,
+    "name": "承露剑",
+    "file": "sword-11.png",
+    "source": "B-jade.png",
+    "crop": [
+      643,
+      678,
+      926,
+      891
+    ]
+  },
+  {
+    "tier": 12,
+    "name": "曜金剑",
+    "file": "sword-12.png",
+    "source": "B-jade.png",
+    "crop": [
+      956,
+      678,
+      1239,
+      891
+    ]
+  },
+  {
+    "tier": 13,
+    "name": "镇岳剑",
+    "file": "sword-13.png",
+    "source": "B-jade.png",
+    "crop": [
+      16,
+      965,
+      298,
+      1178
+    ]
+  },
+  {
+    "tier": 14,
+    "name": "御极剑",
+    "file": "sword-14.png",
+    "source": "B-jade.png",
+    "crop": [
+      330,
+      965,
+      612,
+      1178
+    ]
+  },
+  {
+    "tier": 15,
+    "name": "太初剑",
+    "file": "sword-15.png",
+    "source": "B-jade.png",
+    "crop": [
+      643,
+      965,
+      926,
+      1178
+    ]
+  },
+  {
+    "tier": 16,
+    "name": "无相剑",
+    "file": "sword-16.png",
+    "source": "B-jade.png",
+    "crop": [
+      956,
+      965,
+      1239,
+      1178
+    ]
+  }
+]

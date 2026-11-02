@@ -1,0 +1,42 @@
+{
+  "size": 256,
+  "actors": {
+    "hero": {
+      "idle": "hero-idle.webp",
+      "attack": "hero-attack.webp",
+      "anchor": [
+        0.5,
+        0.953125
+      ],
+      "sourceColumn": 0
+    },
+    "blade": {
+      "idle": "blade-idle.webp",
+      "attack": "blade-attack.webp",
+      "anchor": [
+        0.5,
+        0.953125
+      ],
+      "sourceColumn": 1
+    },
+    "caster": {
+      "idle": "caster-idle.webp",
+      "attack": "caster-attack.webp",
+      "anchor": [
+        0.5,
+        0.953125
+      ],
+      "sourceColumn": 2
+    },
+    "golem": {
+      "idle": "golem-idle.webp",
+      "attack": "golem-attack.webp",
+      "anchor": [
+        0.5,
+        0.953125
+      ],
+      "sourceColumn": 3
+    }
+  },
+  "source": "Built-in image_gen; two poses per actor, code animation and effects"
+}

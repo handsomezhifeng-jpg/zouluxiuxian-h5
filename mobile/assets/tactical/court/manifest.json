@@ -1,0 +1,74 @@
+{
+  "reference": "User approved tactical reference 941x1672",
+  "plate": [
+    941,
+    1672
+  ],
+  "actors": {
+    "blade": {
+      "sourceBox": [
+        0.32,
+        0.01,
+        0.66,
+        0.19
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ]
+    },
+    "caster": {
+      "sourceBox": [
+        0.04,
+        0.33,
+        0.32,
+        0.49
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ]
+    },
+    "golem": {
+      "sourceBox": [
+        0.33,
+        0.51,
+        0.66,
+        0.67
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ]
+    },
+    "hero": {
+      "sourceBox": [
+        0.3,
+        0.78,
+        0.66,
+        0.99
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "anchor": [
+        0.5,
+        0.9375
+      ]
+    }
+  },
+  "mode": "built-in image_gen extraction then crop/pack; no full-screen screenshot used as fake gameplay"
+}

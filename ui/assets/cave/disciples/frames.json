@@ -1,0 +1,346 @@
+{
+  "cell": [
+    256,
+    256
+  ],
+  "fps": 7,
+  "semanticPivot": "leg midpoint for walking; supporting shoe sole for stationary actions",
+  "frames": [
+    {
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        145,
+        224
+      ],
+      "action": "walk-front",
+      "index": 0
+    },
+    {
+      "rect": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        151,
+        227
+      ],
+      "action": "walk-front",
+      "index": 1
+    },
+    {
+      "rect": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        151,
+        227
+      ],
+      "action": "walk-front",
+      "index": 2
+    },
+    {
+      "rect": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        148,
+        229
+      ],
+      "action": "walk-front",
+      "index": 3
+    },
+    {
+      "rect": [
+        1024,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        146,
+        224
+      ],
+      "action": "walk-front",
+      "index": 4
+    },
+    {
+      "rect": [
+        1280,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        151,
+        228
+      ],
+      "action": "walk-front",
+      "index": 5
+    },
+    {
+      "rect": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        145,
+        221
+      ],
+      "action": "walk-back",
+      "index": 0
+    },
+    {
+      "rect": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        149,
+        222
+      ],
+      "action": "walk-back",
+      "index": 1
+    },
+    {
+      "rect": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        150,
+        223
+      ],
+      "action": "walk-back",
+      "index": 2
+    },
+    {
+      "rect": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        151,
+        222
+      ],
+      "action": "walk-back",
+      "index": 3
+    },
+    {
+      "rect": [
+        1024,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        149,
+        219
+      ],
+      "action": "walk-back",
+      "index": 4
+    },
+    {
+      "rect": [
+        1280,
+        256,
+        256,
+        256
+      ],
+      "pivot": [
+        151,
+        222
+      ],
+      "action": "walk-back",
+      "index": 5
+    },
+    {
+      "rect": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        133,
+        225
+      ],
+      "action": "greet",
+      "index": 0
+    },
+    {
+      "rect": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        133,
+        226
+      ],
+      "action": "greet",
+      "index": 1
+    },
+    {
+      "rect": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        134,
+        226
+      ],
+      "action": "greet",
+      "index": 2
+    },
+    {
+      "rect": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        135,
+        225
+      ],
+      "action": "greet",
+      "index": 3
+    },
+    {
+      "rect": [
+        1024,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        134,
+        225
+      ],
+      "action": "greet",
+      "index": 4
+    },
+    {
+      "rect": [
+        1280,
+        512,
+        256,
+        256
+      ],
+      "pivot": [
+        134,
+        225
+      ],
+      "action": "greet",
+      "index": 5
+    },
+    {
+      "rect": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        133,
+        225
+      ],
+      "action": "work",
+      "index": 0
+    },
+    {
+      "rect": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        133,
+        225
+      ],
+      "action": "work",
+      "index": 1
+    },
+    {
+      "rect": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        134,
+        225
+      ],
+      "action": "work",
+      "index": 2
+    },
+    {
+      "rect": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        135,
+        225
+      ],
+      "action": "work",
+      "index": 3
+    },
+    {
+      "rect": [
+        1024,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        134,
+        225
+      ],
+      "action": "work",
+      "index": 4
+    },
+    {
+      "rect": [
+        1280,
+        768,
+        256,
+        256
+      ],
+      "pivot": [
+        134,
+        225
+      ],
+      "action": "work",
+      "index": 5
+    }
+  ]
+}
